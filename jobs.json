@@ -6,7 +6,8 @@
   "CRA Career Center": "https://careercenter.cra.org/jobs",
   "IEEE Job Site": "https://jobs.ieee.org",
   "ACM Career Center": "https://jobs.acm.org",
-  "University career sites (Workday, UC Recruit, UW Academic HR)": "https://ap.washington.edu/ahr/academic-jobs/"
+  "University career sites (Workday, UC Recruit, UW Academic HR)": "https://ap.washington.edu/ahr/academic-jobs/",
+  "Community submission": "https://ericianni.github.io/eecs-faculty-jobs/#submit"
  },
  "count": 696,
  "jobs": [
@@ -14116,5 +14117,7 @@
    "has_full_text": true,
    "region": "Southeast"
   }
- ]
+ ],
+ "scraped_count": 696,
+ "community_count": 0
 }
