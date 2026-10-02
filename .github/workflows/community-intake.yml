@@ -42,7 +42,10 @@ jobs:
           for attempt in 1 2 3; do
             git fetch -q origin main && git reset -q --hard origin/main
             python community.py intake
-            git add -A -- community_jobs.json community_processed.json community_rejections.log jobs.json 2>/dev/null || true
+            # add only files that exist: one missing pathspec (e.g. no rejections log yet) makes git add stage nothing
+            for f in community_jobs.json community_processed.json community_rejections.log jobs.json; do
+              if [ -e "$f" ]; then git add -- "$f"; fi
+            done
             if git diff --cached --quiet; then echo "No changes."; exit 0; fi
             git commit -q -m "Community intake: $(python -c 'import json;d=json.load(open("jobs.json"));print(d.get("community_count",0))') community listings live"
             if git push -q origin HEAD:main; then exit 0; fi
