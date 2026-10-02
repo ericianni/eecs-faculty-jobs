@@ -9,7 +9,7 @@
   "University career sites (Workday, UC Recruit, UW Academic HR)": "https://ap.washington.edu/ahr/academic-jobs/",
   "Community submission": "https://ericianni.github.io/eecs-faculty-jobs/#submit"
  },
- "count": 696,
+ "count": 697,
  "jobs": [
   {
    "title": "Tenure-Track Assistant Professor of Computer Science",
@@ -193,6 +193,34 @@
    "modality_evidence": "inferred (research-active/relocation role): 'research program'",
    "has_full_text": true,
    "region": "Southeast"
+  },
+  {
+   "title": "Assistant Professor in Computer Science",
+   "institution": "Indiana University South Bend (Department of Computer and Information Sciences)",
+   "location": "South Bend, IN",
+   "state": "IN",
+   "region": "Midwest",
+   "posted": "2026-10-02",
+   "source": "Community submission",
+   "sources": [
+    "Community submission"
+   ],
+   "url": "https://indiana.peopleadmin.com/postings/34320",
+   "alt_urls": [],
+   "rank": "Tenure-track Assistant",
+   "field": "CS",
+   "modality": "Unknown",
+   "modality_evidence": "",
+   "has_full_text": false,
+   "snippet": "Computer Science. Test submission by Job Finder Bot",
+   "community": true,
+   "tags": [
+    "community-added"
+   ],
+   "submitted": "2026-10-02",
+   "submission_id": "fcf15b4f62bb382e",
+   "deadline": "2027-01-01",
+   "expires": "2027-01-01"
   },
   {
    "title": "Part-Time Instructor Pool - Computer Science",
@@ -14119,5 +14147,5 @@
   }
  ],
  "scraped_count": 696,
- "community_count": 0
+ "community_count": 1
 }

@@ -1,4 +1,33 @@
 {
  "description": "Community-submitted jobs (via the Google Form). Merged into jobs.json; expire on deadline or 90 days.",
- "jobs": []
+ "jobs": [
+  {
+   "title": "Assistant Professor in Computer Science",
+   "institution": "Indiana University South Bend (Department of Computer and Information Sciences)",
+   "location": "South Bend, IN",
+   "state": "IN",
+   "region": "Midwest",
+   "posted": "2026-10-02",
+   "source": "Community submission",
+   "sources": [
+    "Community submission"
+   ],
+   "url": "https://indiana.peopleadmin.com/postings/34320",
+   "alt_urls": [],
+   "rank": "Tenure-track Assistant",
+   "field": "CS",
+   "modality": "Unknown",
+   "modality_evidence": "",
+   "has_full_text": false,
+   "snippet": "Computer Science. Test submission by Job Finder Bot",
+   "community": true,
+   "tags": [
+    "community-added"
+   ],
+   "submitted": "2026-10-02",
+   "submission_id": "fcf15b4f62bb382e",
+   "deadline": "2027-01-01",
+   "expires": "2027-01-01"
+  }
+ ]
 }
