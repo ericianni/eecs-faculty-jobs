@@ -287,20 +287,29 @@ def main():
     print(f"relevance: kept {len(jobs)}, dropped {len(dropped)} off-topic", file=sys.stderr)
     enrich(jobs)
     jobs.sort(key=lambda j: j["posted"], reverse=True)
+    # Community submissions: drop expired ones, hide any that are now scraped (scraped listing wins, untagged)
+    import community
+    scraped_n = len(jobs)
+    comm_all = community.load_community()
+    jobs, comm_active, comm_pruned, comm_shown = community.merge(jobs, comm_all, datetime.now(timezone.utc).date())
+    print(f"community: {comm_shown} shown, {len(comm_active)} active, {comm_pruned} expired/pruned", file=sys.stderr)
     out = {"generated": datetime.now(timezone.utc).isoformat(timespec="seconds"),
-           "sources": {**SOURCES, "CRA Career Center": "https://careercenter.cra.org/jobs", "IEEE Job Site": "https://jobs.ieee.org", "ACM Career Center": "https://jobs.acm.org", "University career sites (Workday, UC Recruit, UW Academic HR)": "https://ap.washington.edu/ahr/academic-jobs/"}, "count": len(jobs), "jobs": jobs}
+           "sources": {**SOURCES, "CRA Career Center": "https://careercenter.cra.org/jobs", "IEEE Job Site": "https://jobs.ieee.org", "ACM Career Center": "https://jobs.acm.org", "University career sites (Workday, UC Recruit, UW Academic HR)": "https://ap.washington.edu/ahr/academic-jobs/"}, "count": len(jobs), "scraped_count": scraped_n, "community_count": comm_shown, "jobs": jobs}
+    out["sources"][community.SOURCE] = "https://ericianni.github.io/eecs-faculty-jobs/#submit"
     # Safety guard: never replace a good file with a drastically smaller result
     # (e.g. sources blocked from CI runners). Keep the old file and fail loudly.
     try:
-        with open("jobs.json") as f: prev = json.load(f).get("count", 0)
+        with open("jobs.json") as f:
+            _p = json.load(f); prev = _p.get("scraped_count", _p.get("count", 0))   # compare scraped vs scraped
     except Exception:
         prev = 0
     min_ratio = float(os.environ.get("MIN_KEEP_RATIO", "0.5"))
-    if prev and len(jobs) < min_ratio * prev:
-        print(f"ERROR: new count {len(jobs)} is under {min_ratio:.0%} of previous {prev}; keeping old jobs.json", file=sys.stderr)
+    if prev and scraped_n < min_ratio * prev:
+        print(f"ERROR: new count {scraped_n} is under {min_ratio:.0%} of previous {prev}; keeping old jobs.json", file=sys.stderr)
         with open("jobs.new.json", "w") as f: json.dump(out, f, indent=1)
         sys.exit(2)
     with open("jobs.json", "w") as f: json.dump(out, f, indent=1)
+    if comm_pruned: community.save_community(comm_active)
     from collections import Counter
     print("extra source stats", extra_stats); print("count", len(jobs)); print(Counter(j["region"] for j in jobs)); print(Counter(j["source"] for j in jobs))
     print(Counter(j["rank"] for j in jobs)); print(Counter(j["modality"] for j in jobs)); print(Counter(j["field"] for j in jobs))

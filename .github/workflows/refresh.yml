@@ -9,7 +9,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: refresh
+  group: data-writes            # shared with community-intake.yml
   cancel-in-progress: false
 
 jobs:
@@ -46,7 +46,7 @@ jobs:
             echo "Fetch step outcome: ${{ steps.fetch.outcome }}"
             echo
             echo '```'
-            grep -E '^(count|relevance|extra source stats|Workday|UC Recruit|UW Academic|CRA|IEEE|ACM|ERROR)' fetch.log || true
+            grep -E '^(count|relevance|community|extra source stats|Workday|UC Recruit|UW Academic|CRA|IEEE|ACM|ERROR)' fetch.log || true
             echo '```'
             echo
             echo "### Warnings (failed requests) by host"
@@ -68,12 +68,26 @@ jobs:
 
       - name: Commit jobs.json if changed
         run: |
-          if git diff --quiet -- jobs.json; then
+          if git diff --quiet -- jobs.json community_jobs.json; then
             echo "No changes to jobs.json"
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add jobs.json
+          [ -f community_jobs.json ] && git add community_jobs.json
           git commit -m "Daily refresh: $(python -c 'import json;print(json.load(open("jobs.json"))["count"])') listings"
+          # A community submission may have been pushed while we ran: rebase, and on conflict keep our fresh
+          # scrape but re-merge the latest community_jobs.json from main.
+          if ! git pull --rebase -q origin main; then
+            git rebase --abort
+            git fetch -q origin main
+            git checkout -q origin/main -- community_jobs.json 2>/dev/null || true
+            cp jobs.json /tmp/jobs.ours.json
+            git reset -q --hard origin/main
+            cp /tmp/jobs.ours.json jobs.json
+            python community.py merge
+            git add jobs.json community_jobs.json
+            git commit -m "Daily refresh: $(python -c 'import json;print(json.load(open("jobs.json"))["count"])') listings"
+          fi
           git push

@@ -1,0 +1,51 @@
+name: Community job intake
+
+# Pulls new rows from the Google Form's published response CSV, validates them
+# (relevance, duplicates, link check, spam guards) and adds passing jobs to
+# community_jobs.json / jobs.json with a "community-added" tag.
+# SECURITY: CSV contents are untrusted. They are handled only by community.py (Python), and nothing
+# from the sheet is interpolated into run: scripts. The CSV URL comes from a repo secret or variable.
+on:
+  schedule:
+    - cron: '41 * * * *'      # hourly at :41
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: data-writes            # shared with refresh.yml so the two never commit at the same time
+  cancel-in-progress: false
+
+jobs:
+  intake:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      COMMUNITY_FORM_CSV_URL: ${{ secrets.COMMUNITY_FORM_CSV_URL || vars.COMMUNITY_FORM_CSV_URL }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Process new form responses
+        run: |
+          set -euo pipefail
+          if [ -z "${COMMUNITY_FORM_CSV_URL}" ]; then
+            echo "::notice::COMMUNITY_FORM_CSV_URL is not set (repo secret or variable); skipping."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          for attempt in 1 2 3; do
+            git fetch -q origin main && git reset -q --hard origin/main
+            python community.py intake
+            git add -A -- community_jobs.json community_processed.json community_rejections.log jobs.json 2>/dev/null || true
+            if git diff --cached --quiet; then echo "No changes."; exit 0; fi
+            git commit -q -m "Community intake: $(python -c 'import json;d=json.load(open("jobs.json"));print(d.get("community_count",0))') community listings live"
+            if git push -q origin HEAD:main; then exit 0; fi
+            echo "push raced with another update; retrying ($attempt)"; sleep $((attempt * 10))
+          done
+          echo "::error::could not push after 3 attempts"; exit 1

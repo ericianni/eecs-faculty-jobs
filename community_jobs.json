@@ -1,0 +1,4 @@
+{
+ "description": "Community-submitted jobs (via the Google Form). Merged into jobs.json; expire on deadline or 90 days.",
+ "jobs": []
+}
