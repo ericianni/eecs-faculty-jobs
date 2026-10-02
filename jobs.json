@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-02T19:51:50+00:00",
+ "generated": "2026-10-02T20:20:45+00:00",
  "sources": {
   "Chronicle of Higher Education Jobs": "https://jobs.chronicle.com/jobsrss/",
   "Inside Higher Ed Careers": "https://careers.insidehighered.com/jobsrss/",
@@ -8,8 +8,31 @@
   "ACM Career Center": "https://jobs.acm.org",
   "University career sites (Workday, UC Recruit, UW Academic HR)": "https://ap.washington.edu/ahr/academic-jobs/"
  },
- "count": 702,
+ "count": 696,
  "jobs": [
+  {
+   "title": "Tenure-Track Assistant Professor of Computer Science",
+   "institution": "Haverford College",
+   "location": "Haverford, Pennsylvania, United States",
+   "state": "PA",
+   "posted": "2026-10-02",
+   "source": "Chronicle of Higher Education Jobs",
+   "sources": [
+    "Chronicle of Higher Education Jobs",
+    "CRA Career Center"
+   ],
+   "url": "https://jobs.chronicle.com/job/38046403/tenure-track-assistant-professor-of-computer-science/",
+   "alt_urls": [
+    "https://careercenter.cra.org/job/tenure-track-assistant-professor-of-computer-science-haverford-pennsylvania-2372"
+   ],
+   "rank": "Tenure-track Assistant",
+   "field": "CS",
+   "modality": "On-campus",
+   "snippet": "Haverford College: Haverford College invites applications for a Tenure-Track Assistant Professor of Computer Science to begin Fall 2027. Haverford College invites...",
+   "modality_evidence": "inferred (research-active/relocation role): 'research program'",
+   "has_full_text": true,
+   "region": "Northeast/Mid-Atlantic"
+  },
   {
    "title": "Assistant/Associate/Full Professor of Electrical Engineering",
    "institution": "Illinois State University",
@@ -91,24 +114,84 @@
    "region": "West"
   },
   {
-   "title": "Instructional Faculty Positions (Open Rank)",
-   "institution": "The University of Texas at Austin",
-   "location": "Austin, TX, US",
-   "state": "TX",
+   "title": "Assistant Professor - Computer Science",
+   "institution": "Troy University",
+   "location": "Trumbull, Alabama, United States",
+   "state": "AL",
    "posted": "2026-10-02",
-   "source": "ACM Career Center",
+   "source": "CRA Career Center",
    "sources": [
-    "ACM Career Center"
+    "CRA Career Center"
    ],
-   "url": "https://jobs.acm.org/job/instructional-faculty-positions-open-rank/86247307/",
+   "url": "https://careercenter.cra.org/job/assistant-professor-computer-science-trumbull-alabama-2478",
    "alt_urls": [],
-   "rank": "Associate/Full/Tenured",
+   "rank": "Tenure-track Assistant",
    "field": "CS",
-   "snippet": " The Department of Computer Science of the University of Texas at Austin is recruiting for full-time, professional track faculty (Lecturer, Assistant Professor of Instruction, Associate Professor of Instruction, Professor of Instruction) positions. We encourage applications from candidates who will ",
-   "modality": "On-campus",
-   "modality_evidence": "description: 'in-person'",
+   "snippet": " TROY UNIVERSITY is a comprehensive public institution serving more than 14,000 students worldwide at three campuses in Alabama, multiple sites throughout the United States, multiple international locations, and through an extensive online learning program. Troy University is currently accepting app",
+   "modality": "Unknown",
+   "modality_evidence": "no modality cues in full description",
    "has_full_text": true,
-   "region": "Southwest"
+   "region": "Southeast"
+  },
+  {
+   "title": "Professor of Practice",
+   "institution": "Tulane University",
+   "location": "New Orleans, Louisiana, United States",
+   "state": "LA",
+   "posted": "2026-10-02",
+   "source": "CRA Career Center",
+   "sources": [
+    "CRA Career Center"
+   ],
+   "url": "https://careercenter.cra.org/job/professor-of-practice-new-orleans-louisiana-2479",
+   "alt_urls": [],
+   "rank": "Instructor/Lecturer/NTT",
+   "field": "CS",
+   "snippet": " The Department of Computer Science at Tulane University invites applications for a Professor of Practice position starting Fall 2027. We seek candidates to expand expertise in computer systems and programming languages, including cybersecurity, databases, distributed systems, compilers, and operati",
+   "modality": "Unknown",
+   "modality_evidence": "no modality cues in full description",
+   "has_full_text": true,
+   "region": "Southeast"
+  },
+  {
+   "title": "Assistant Professor - AI for Biology - Electrical Engineering & Computer Sciences and Center for Computational Biology",
+   "institution": "University of California Berkeley",
+   "location": "Berkeley, California, United States",
+   "state": "CA",
+   "posted": "2026-10-02",
+   "source": "CRA Career Center",
+   "sources": [
+    "CRA Career Center"
+   ],
+   "url": "https://careercenter.cra.org/job/assistant-professor-ai-for-biology-electrical-engineering-computer-sciences-and-center-for-computational-biology-berkeley-california-2480",
+   "alt_urls": [],
+   "rank": "Tenure-track Assistant",
+   "field": "EE",
+   "snippet": " Assistant Professor - AI for Biology - Electrical Engineering & Computer Sciences and Center for Computational Biology The Department of Electrical Engineering & Computer Sciences (EECS) and the Center for Computational Biology (CCB) at UC Berkeley invite applications for one approved tenure-track ",
+   "modality": "Unknown",
+   "modality_evidence": "no modality cues in full description",
+   "has_full_text": true,
+   "region": "West"
+  },
+  {
+   "title": "Assistant/Associate Professor in Artificial Intelligence, Tenure-Track or Tenured",
+   "institution": "University of Louisville",
+   "location": "Louisville, Kentucky, United States",
+   "state": "KY",
+   "posted": "2026-10-02",
+   "source": "CRA Career Center",
+   "sources": [
+    "CRA Career Center"
+   ],
+   "url": "https://careercenter.cra.org/job/assistant-associate-professor-in-artificial-intelligence-tenure-track-or-tenured-louisville-kentucky-2481",
+   "alt_urls": [],
+   "rank": "Tenure-track Assistant",
+   "field": "CS",
+   "snippet": " The Department of Computer Science and Engineering (CSE) in the J.B. Speed School of Engineering at the University of Louisville invites applications for a full-time faculty position in artificial intelligence beginning Fall 2027. The position may be filled at the tenure-track Assistant or Associat",
+   "modality": "On-campus",
+   "modality_evidence": "inferred (research-active/relocation role): 'research program'",
+   "has_full_text": true,
+   "region": "Southeast"
   },
   {
    "title": "Part-Time Instructor Pool - Computer Science",
@@ -442,10 +525,12 @@
    "source": "Chronicle of Higher Education Jobs",
    "sources": [
     "Chronicle of Higher Education Jobs",
+    "Inside Higher Ed Careers",
     "UW Academic HR"
    ],
    "url": "https://jobs.chronicle.com/job/38046527/assistant-teaching-professor-in-electrical-engineering-engineering-and-mathematics/",
    "alt_urls": [
+    "https://careers.insidehighered.com/job/3558261/assistant-teaching-professor-in-electrical-engineering-engineering-and-mathematics/",
     "https://ap.washington.edu/ahr/position-details/?job_id=192383"
    ],
    "rank": "Instructor/Lecturer/NTT",
@@ -598,26 +683,6 @@
    "modality_evidence": "no modality cues in full description",
    "has_full_text": true,
    "region": "International/Other"
-  },
-  {
-   "title": "Professor/Assoc Professor in Human-Centered Embodied AI",
-   "institution": "University of Michigan College of Engineering - Robotics",
-   "location": "Ann Arbor, MI, US",
-   "state": "MI",
-   "posted": "2026-09-30",
-   "source": "IEEE Job Site",
-   "sources": [
-    "IEEE Job Site"
-   ],
-   "url": "https://jobs.ieee.org/job/professorassoc-professor-in-human-centered-embodied-ai/86183020/",
-   "alt_urls": [],
-   "rank": "Tenure-track Assistant",
-   "field": "CS",
-   "snippet": " The Robotics Department in the College of Engineering at the University of Michigan, Ann Arbor invites applications for one senior (tenure-track or tenured) faculty position in Human-Centered Artificial Intelligence, offered through the University of Michigan Faculty Expansion Program. The successf",
-   "modality": "On-campus",
-   "modality_evidence": "inferred (research-active/relocation role): 'research program'",
-   "has_full_text": true,
-   "region": "Midwest"
   },
   {
    "title": "Assistant/Associate Professor of Computer Science (Tenure-Track)",
@@ -1106,26 +1171,6 @@
    "region": "Northeast/Mid-Atlantic"
   },
   {
-   "title": "ASSISTANT PROFESSOR",
-   "institution": "Electrical and Computer Engineering",
-   "location": "Rolla, MO, US",
-   "state": "MO",
-   "posted": "2026-09-28",
-   "source": "IEEE Job Site",
-   "sources": [
-    "IEEE Job Site"
-   ],
-   "url": "https://jobs.ieee.org/job/assistant-professor/86181198/",
-   "alt_urls": [],
-   "rank": "Tenure-track Assistant",
-   "field": "Computer Eng",
-   "snippet": " The Department of Electrical and Computer Engineering at Missouri University of Science and Technology (Missouri S&T) in Rolla, Missouri, invites applications for a tenure-track Assistant Professor position in Computer Engineering. Areas of interest include Computer Architecture, Artificial Intelli",
-   "modality": "On-campus",
-   "modality_evidence": "inferred (research-active/relocation role): 'research program'",
-   "has_full_text": true,
-   "region": "Midwest"
-  },
-  {
    "title": "Assistant Professor, Computer Engineering",
    "institution": "Lamar University",
    "location": "Beaumont, TX, TX",
@@ -1164,26 +1209,6 @@
    "modality_evidence": "no modality cues in full description",
    "has_full_text": true,
    "region": "Midwest"
-  },
-  {
-   "title": "CSE @ TAMU Faculty Positions",
-   "institution": "CSE @ TAMU",
-   "location": "College Station, TX, US",
-   "state": "TX",
-   "posted": "2026-09-26",
-   "source": "ACM Career Center",
-   "sources": [
-    "ACM Career Center"
-   ],
-   "url": "https://jobs.acm.org/job/cse-tamu-faculty-positions/86164569/",
-   "alt_urls": [],
-   "rank": "Tenure-track Assistant",
-   "field": "CS",
-   "snippet": " The Department of Computer Science and Engineering, College of Engineering at Texas A&M University, invites applications for ten full-time, tenure-track or tenure review upon hire, at all levels (Assistant, Associate, and Full Professor) with a nine-month academic appointment, and the possibility o",
-   "modality": "On-campus",
-   "modality_evidence": "inferred (research-active/relocation role): 'research program'",
-   "has_full_text": true,
-   "region": "Southwest"
   },
   {
    "title": "Full-time Electrical Engineering or Engineering Physics Faculty",
@@ -1978,29 +2003,6 @@
    "region": "International/Other"
   },
   {
-   "title": "Endowed Research Assistant Professor Positions at the Toyota Technological Institute at Chicago (TTIC)",
-   "institution": "Toyota Technological Institute at Chicago (TTI-C)",
-   "location": "Chicago, IL, US",
-   "state": "IL",
-   "posted": "2026-09-23",
-   "source": "IEEE Job Site",
-   "sources": [
-    "IEEE Job Site",
-    "ACM Career Center"
-   ],
-   "url": "https://jobs.ieee.org/job/endowed-research-assistant-professor-positions-at-the-toyota-technological-institute-at-chicago-ttic/86118840/",
-   "alt_urls": [
-    "https://jobs.acm.org/job/endowed-research-assistant-professor-positions-at-the-toyota-technological-institute-at-chicago-ttic/86118840/"
-   ],
-   "rank": "Tenure-track Assistant",
-   "field": "CS",
-   "snippet": " The RAP position is a three-year position, with a salary and discretionary research budget paid from TTIC\u2019s endowment. RAPs pursue independent research agendas, usually (but optionally) in collaboration with other TTIC faculty and students. We welcome applications from many areas of computer scienc",
-   "modality": "Unknown",
-   "modality_evidence": "no modality cues in full description",
-   "has_full_text": true,
-   "region": "Midwest"
-  },
-  {
    "title": "Assistant, Associate, Full Professor (Tenured/Tenure-Track) in Computer Science",
    "institution": "University of Texas at Austin",
    "location": "Texas, United States",
@@ -2221,26 +2223,6 @@
    "region": "Northeast/Mid-Atlantic"
   },
   {
-   "title": "SMU Physics Professor & Department Chair",
-   "institution": "Southern Methodist Univ",
-   "location": "Dallas, TX, US",
-   "state": "TX",
-   "posted": "2026-09-22",
-   "source": "IEEE Job Site",
-   "sources": [
-    "IEEE Job Site"
-   ],
-   "url": "https://jobs.ieee.org/job/smu-physics-professor-department-chair/86046002/",
-   "alt_urls": [],
-   "rank": "Associate/Full/Tenured",
-   "field": "Other",
-   "snippet": " The Department of Physics at Southern Methodist University invites applications for a tenured senior faculty member to serve as department chair beginning August 1st, 2027. We seek an accomplished experimental physicist with an internationally recognized research program and a record of scientific ",
-   "modality": "On-campus",
-   "modality_evidence": "inferred (research-active/relocation role): 'research program'",
-   "has_full_text": true,
-   "region": "Southwest"
-  },
-  {
    "title": "Professors of the Practice in Computer Science with a Focus on Artificial Intelligence",
    "institution": "Computer Science",
    "location": "Providence, Rhode Island",
@@ -2319,26 +2301,6 @@
    "modality_evidence": "no modality cues in full description",
    "has_full_text": true,
    "region": "Midwest"
-  },
-  {
-   "title": "Faculty Positions in Artificial Intelligence Thrust, HKUST(GZ)",
-   "institution": "The Hong Kong University of Science and Technology (Guangzhou)",
-   "location": "Guangzhou, CN",
-   "state": "Other/Unknown",
-   "posted": "2026-09-21",
-   "source": "ACM Career Center",
-   "sources": [
-    "ACM Career Center"
-   ],
-   "url": "https://jobs.acm.org/job/faculty-positions-in-artificial-intelligence-thrust-hkustgz/84143313/",
-   "alt_urls": [],
-   "rank": "Instructor/Lecturer/NTT",
-   "field": "CS",
-   "snippet": " About HKUST(GZ) Formally established in June 2022, the Hong Kong University of Science and Technology (Guangzhou) (HKUST(GZ)) is a cooperatively-run university between the Chinese mainland and the Hong Kong Special Administrative Region. In response to the increasingly complex challenges faced by t",
-   "modality": "Unknown",
-   "modality_evidence": "no modality cues in full description",
-   "has_full_text": true,
-   "region": "International/Other"
   },
   {
    "title": "Assistant Professor - Computer Science",
@@ -2461,26 +2423,6 @@
    "region": "Southwest"
   },
   {
-   "title": "Join Us! Open Rank Faculty Position - School of Science and Engineering",
-   "institution": "The Chinese University of Hong Kong, Shenzhen",
-   "location": "Shenzhen,  , CN",
-   "state": "Other/Unknown",
-   "posted": "2026-09-20",
-   "source": "IEEE Job Site",
-   "sources": [
-    "IEEE Job Site"
-   ],
-   "url": "https://jobs.ieee.org/job/join-us-open-rank-faculty-position-school-of-science-and-engineering/79094373/",
-   "alt_urls": [],
-   "rank": "Associate/Full/Tenured",
-   "field": "Computer Eng",
-   "snippet": " About Open Rank Faculty Position: School of Science and Engineering Deadline: Open until filled The School of Science and Engineering (SSE) at the Chinese University of Hong Kong, Shenzhen (CUHK-Shenzhen) sincerely invites applications for Tenure/Teaching/Research Stream faculty positions at the Pr",
-   "modality": "Unknown",
-   "modality_evidence": "no modality cues in full description",
-   "has_full_text": true,
-   "region": "International/Other"
-  },
-  {
    "title": "Assistant/Associate Professor (Career-Track) Faculty Position in Electrical Engineering",
    "institution": "Washington State University",
    "location": "Bremerton, Washington State",
@@ -2489,13 +2431,11 @@
    "source": "Chronicle of Higher Education Jobs",
    "sources": [
     "Chronicle of Higher Education Jobs",
-    "Washington State University (Workday)",
-    "IEEE Job Site"
+    "Washington State University (Workday)"
    ],
    "url": "https://jobs.chronicle.com/job/38041157/assistant-associate-professor-career-track-faculty-position-in-electrical-engineering/",
    "alt_urls": [
-    "https://wsu.wd5.myworkdayjobs.com/en-US/WSU_Jobs/job/ELECTRICAL-ENGINEERING-BUILDING-BREMERTON/Assistant-Associate-Professor--Career-Track--Faculty-Position-in-Electrical-Engineering_R-15377",
-    "https://jobs.ieee.org/job/assistantassociate-professor-career-track-faculty-position-in-electrical-engineering/86045844/"
+    "https://wsu.wd5.myworkdayjobs.com/en-US/WSU_Jobs/job/ELECTRICAL-ENGINEERING-BUILDING-BREMERTON/Assistant-Associate-Professor--Career-Track--Faculty-Position-in-Electrical-Engineering_R-15377"
    ],
    "rank": "Instructor/Lecturer/NTT",
    "field": "EE",
@@ -2753,13 +2693,10 @@
    "posted": "2026-09-18",
    "source": "CRA Career Center",
    "sources": [
-    "CRA Career Center",
-    "IEEE Job Site"
+    "CRA Career Center"
    ],
    "url": "https://careercenter.cra.org/job/department-chair-robotics-ann-arbor-michigan-2440",
-   "alt_urls": [
-    "https://jobs.ieee.org/job/department-chair-robotics/86044858/"
-   ],
+   "alt_urls": [],
    "rank": "Associate/Full/Tenured",
    "field": "CS",
    "snippet": " The Robotics Department in the College of Engineering at the University of Michigan, Ann Arbor invites applications and nominations for the position of Department Chair. The successful candidate for Department Chair will be a leading world-class scholar with a distinguished track record in robotics",
@@ -3745,46 +3682,6 @@
    "region": "West"
   },
   {
-   "title": "Assistant Professor Positions Available",
-   "institution": "Texas A&M University",
-   "location": "College Station, TX, US",
-   "state": "TX",
-   "posted": "2026-09-15",
-   "source": "IEEE Job Site",
-   "sources": [
-    "IEEE Job Site"
-   ],
-   "url": "https://jobs.ieee.org/job/assistant-professor-positions-available/85995093/",
-   "alt_urls": [],
-   "rank": "Tenure-track Assistant",
-   "field": "CS",
-   "snippet": " The Department of Statistics and Data Science in the College of Arts & Sciences at Texas A&M University invites applications for two tenure-track Assistant Professor positions with an anticipated start date of August 2027. Both positions will be full-time, 9-month appointments. A PhD/DSc degree in ",
-   "modality": "Unknown",
-   "modality_evidence": "no modality cues in full description",
-   "has_full_text": true,
-   "region": "Southwest"
-  },
-  {
-   "title": "Tier 2 Canada Research Chair & Mitchell Funded Tenure-Track or Tenured Faculty Positions in Supercomputing/ High Performance Computing",
-   "institution": "Queen's University",
-   "location": "Kingston, ON, CA",
-   "state": "CA",
-   "posted": "2026-09-15",
-   "source": "IEEE Job Site",
-   "sources": [
-    "IEEE Job Site"
-   ],
-   "url": "https://jobs.ieee.org/job/tier-2-canada-research-chair-mitchell-funded-tenure-track-or-tenured-faculty-positions-in-supercomputing-high-performance-computing/85995045/",
-   "alt_urls": [],
-   "rank": "Associate/Full/Tenured",
-   "field": "CS",
-   "snippet": " Tenure-Track/Tenured Faculty Positions in Supercomputing/ High-Performance Computing Department of Electrical and Computer Engineering Stephen J.R. Smith Faculty of Engineering and Applied Science Queen\u2019s University at Kingston, Canada September 2026 Queen's University is situated on traditional An",
-   "modality": "On-campus",
-   "modality_evidence": "inferred (research-active/relocation role): 'research program'",
-   "has_full_text": true,
-   "region": "West"
-  },
-  {
    "title": "CSE @ TAMU Multiple Faculty Positions",
    "institution": "Department of Computer Science and Engineering",
    "location": "College Station, Texas",
@@ -4066,46 +3963,6 @@
    "modality_evidence": "no modality cues in full description",
    "has_full_text": true,
    "region": "Midwest"
-  },
-  {
-   "title": "Electrical and Computer Department Chair",
-   "institution": "VCU College of Engineering",
-   "location": "VA, US",
-   "state": "VA",
-   "posted": "2026-09-14",
-   "source": "IEEE Job Site",
-   "sources": [
-    "IEEE Job Site"
-   ],
-   "url": "https://jobs.ieee.org/job/electrical-and-computer-department-chair/85982028/",
-   "alt_urls": [],
-   "rank": "Associate/Full/Tenured",
-   "field": "Computer Eng",
-   "snippet": " The Opportunity The Department of Electrical and Computer Engineering (ECE) in the Virginia Commonwealth University (VCU) College of Engineering invites applications for the position of Department Chair, with an anticipated start in Fall 2027. The Chair will provide strategic leadership for a growi",
-   "modality": "Unknown",
-   "modality_evidence": "no modality cues in full description",
-   "has_full_text": true,
-   "region": "Southeast"
-  },
-  {
-   "title": "CSE @ TAMU Faculty Positions",
-   "institution": "Texas A&M University - Computer Science and Engineering",
-   "location": "College Station, TX, US",
-   "state": "TX",
-   "posted": "2026-09-13",
-   "source": "IEEE Job Site",
-   "sources": [
-    "IEEE Job Site"
-   ],
-   "url": "https://jobs.ieee.org/job/cse-tamu-faculty-positions/85973785/",
-   "alt_urls": [],
-   "rank": "Tenure-track Assistant",
-   "field": "CS",
-   "snippet": " The Department of Computer Science and Engineering, College of Engineering at Texas A&M University, invites applications for ten full-time, tenure-track or tenure review upon hire, at all levels (Assistant, Associate, and Full Professor) with a nine-month academic appointment, and the possibility o",
-   "modality": "On-campus",
-   "modality_evidence": "inferred (research-active/relocation role): 'research program'",
-   "has_full_text": true,
-   "region": "Southwest"
   },
   {
    "title": "Adjunct Faculty, Computer and Information Technology",
@@ -4404,13 +4261,10 @@
    "posted": "2026-09-11",
    "source": "CRA Career Center",
    "sources": [
-    "CRA Career Center",
-    "IEEE Job Site"
+    "CRA Career Center"
    ],
    "url": "https://careercenter.cra.org/job/assistant-professor-quantum-information-science-houston-texas-2419",
-   "alt_urls": [
-    "https://jobs.ieee.org/job/assistant-professor-quantum-information-science/85938630/"
-   ],
+   "alt_urls": [],
    "rank": "Tenure-track Assistant",
    "field": "Computer Eng",
    "snippet": " Presidential Frontier Faculty Position in Quantum Information Science The Department of Computer Science at the University of Houston (www.cs.uh.edu) invites applications for a tenure-track faculty position at the Assistant Professor level in Quantum Information Science, as part of the university's",
@@ -4427,13 +4281,10 @@
    "posted": "2026-09-11",
    "source": "CRA Career Center",
    "sources": [
-    "CRA Career Center",
-    "IEEE Job Site"
+    "CRA Career Center"
    ],
    "url": "https://careercenter.cra.org/job/assistant-professor-human-centered-robotics-and-assistive-systems-houston-texas-2420",
-   "alt_urls": [
-    "https://jobs.ieee.org/job/assistant-professor-human-centered-robotics-and-assistive-systems/85938816/"
-   ],
+   "alt_urls": [],
    "rank": "Tenure-track Assistant",
    "field": "CS",
    "snippet": " The Department of Computer Science at the University of Houston ( www.cs.uh.edu ) invites applications for a tenure-track faculty position at the Assistant Professor level in Human-Centered Robotics and Assistive Systems, as part of the university's Presidential Frontier Faculty (PFF) program. Cand",
@@ -4780,7 +4631,7 @@
    "rank": "Adjunct",
    "field": "CS",
    "modality": "On-campus",
-   "snippet": "California State University, Fullerton: Computer Science - Part-Time Lecturer Pool Department of Computer SciencePart-Time Lecturer Pool POSITION The Department of Computer Science at...",
+   "snippet": "California State University, Fullerton: Computer Science - Part-Time Lecturer Pool Department of Computer SciencePart-Time Lecturer Pool POSITION The Department of Computer Science at",
    "modality_evidence": "description: 'reside within'",
    "has_full_text": true,
    "region": "West"
@@ -7615,6 +7466,26 @@
    "region": "Pacific Northwest"
   },
   {
+   "title": "Computer Science - Associate Professor - 530200",
+   "institution": "The University of Alabama",
+   "location": "Tuscaloosa",
+   "state": "AL",
+   "posted": "2026-08-08",
+   "source": "Inside Higher Ed Careers",
+   "sources": [
+    "Inside Higher Ed Careers"
+   ],
+   "url": "https://careers.insidehighered.com/job/3537709/computer-science-associate-professor-530200/",
+   "alt_urls": [],
+   "rank": "Associate/Full/Tenured",
+   "field": "CS",
+   "modality": "On-campus",
+   "snippet": "Apply nowJob no: 530200 Work type: Regular Full-time (Benefits eligible) Location: Tuscaloosa Categories: Tenure/Tenure-Track Faculty Department/Organ",
+   "modality_evidence": "description: 'on campus'",
+   "has_full_text": true,
+   "region": "Southeast"
+  },
+  {
    "title": "Computer Science - Renewable Contract Teaching Assistant Professor - 530198",
    "institution": "The University of Alabama",
    "location": "Tuscaloosa",
@@ -8347,26 +8218,6 @@
    "region": "West"
   },
   {
-   "title": "Tenure-Track Assistant Professor of Computer Science",
-   "institution": "Haverford College",
-   "location": "Haverford, Pennsylvania, United States",
-   "state": "PA",
-   "posted": "2026-07-28",
-   "source": "CRA Career Center",
-   "sources": [
-    "CRA Career Center"
-   ],
-   "url": "https://careercenter.cra.org/job/tenure-track-assistant-professor-of-computer-science-haverford-pennsylvania-2372",
-   "alt_urls": [],
-   "rank": "Tenure-track Assistant",
-   "field": "CS",
-   "snippet": " Haverford College invites applications for a tenure-track position as Assistant Professor in the Department of Computer Science, starting in Fall semester 2027. The area of scholarly expertise is open, with the successful candidate demonstrating evidence of research productivity, vision, and long-t",
-   "modality": "Unknown",
-   "modality_evidence": "no modality cues in full description",
-   "has_full_text": true,
-   "region": "Northeast/Mid-Atlantic"
-  },
-  {
    "title": "Cybersecurity (CSS) Affiliate Instructor",
    "institution": "Metropolitan State University of Denver",
    "location": "Denver, Colorado",
@@ -8786,26 +8637,6 @@
    "snippet": " APPLICATION INSTRUCTIONS: CURRENT PENN STATE EMPLOYEE (faculty, staff, technical service, or student), please login to Workday to complete the internal application process . Please do not apply here, apply internally through Workday. CURRENT PENN STATE STUDENT (not employed previously at the univer",
    "modality": "Unknown",
    "modality_evidence": "no modality cues in full description",
-   "has_full_text": true,
-   "region": "Northeast/Mid-Atlantic"
-  },
-  {
-   "title": "Assistant Teaching Professor",
-   "institution": "Tufts University",
-   "location": "Medford, MA, US",
-   "state": "MA",
-   "posted": "2026-07-16",
-   "source": "ACM Career Center",
-   "sources": [
-    "ACM Career Center"
-   ],
-   "url": "https://jobs.acm.org/job/assistant-teaching-professor/85157390/",
-   "alt_urls": [],
-   "rank": "Instructor/Lecturer/NTT",
-   "field": "Computer Eng",
-   "snippet": " Assistant Teaching Professor Tufts University: School of Engineering: Electrical and Computer Engineering Location Medford, MA Open Date July 13, 2026 Description The Department of Electrical and Computer Engineering (engineering.tufts.edu/ece) at Tufts University ( www.tufts.edu/ ) seeks candidate",
-   "modality": "On-campus",
-   "modality_evidence": "inferred (research-active/relocation role): 'research program'",
    "has_full_text": true,
    "region": "Northeast/Mid-Atlantic"
   },
@@ -10696,6 +10527,26 @@
    "region": "Southeast"
   },
   {
+   "title": "Research Assistant Professor - Magnetism and Swarm Robotics  - (495609 )",
+   "institution": "University of Houston",
+   "location": "Houston, Texas, United States",
+   "state": "TX",
+   "posted": "2026-03-04",
+   "source": "Chronicle of Higher Education Jobs",
+   "sources": [
+    "Chronicle of Higher Education Jobs"
+   ],
+   "url": "https://jobs.chronicle.com/job/37958564/research-assistant-professor-magnetism-and-swarm-robotics-495609-/",
+   "alt_urls": [],
+   "rank": "Tenure-track Assistant",
+   "field": "CS",
+   "modality": "On-campus",
+   "snippet": "University of Houston: Department: Electrical EngineeringSalary: Commensurate with experience Description: The Department of Electrical and Computer Engineering (ECE) at",
+   "modality_evidence": "inferred (research-active/relocation role): 'Research Laboratory'",
+   "has_full_text": true,
+   "region": "Southwest"
+  },
+  {
    "title": "Lecturer - Data Science - School of Information",
    "institution": "UC Berkeley",
    "location": "Berkeley, CA",
@@ -10993,6 +10844,26 @@
    "alt_urls": [
     "https://careers.insidehighered.com/job/3488972/adjunct-faculty-computer-information-technology/"
    ],
+   "rank": "Adjunct",
+   "field": "CS",
+   "modality": "Unknown",
+   "snippet": "Lone Star College: Commitment to Mission This job carries with it the obligation to uphold the Mission of Lone Star College (LSC) in carrying out the duties of",
+   "modality_evidence": "no modality cues in full description",
+   "has_full_text": true,
+   "region": "Southwest"
+  },
+  {
+   "title": "Adjunct Faculty, Computer Information Technology-Microsoft System Admin & Azure",
+   "institution": "Lone Star College",
+   "location": "Tomball, Texas, United States",
+   "state": "TX",
+   "posted": "2026-02-18",
+   "source": "Chronicle of Higher Education Jobs",
+   "sources": [
+    "Chronicle of Higher Education Jobs"
+   ],
+   "url": "https://jobs.chronicle.com/job/37953056/adjunct-faculty-computer-information-technology-microsoft-system-admin-and-azure/",
+   "alt_urls": [],
    "rank": "Adjunct",
    "field": "CS",
    "modality": "Unknown",
