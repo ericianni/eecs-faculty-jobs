@@ -280,6 +280,11 @@ def main():
             if j["source"] not in dup["sources"]: dup["sources"].append(j["source"]); dup["alt_urls"].append(j["url"])
             continue
         seen[key] = j; jobs.append(j)
+    # EECS relevance filter (all sources): drop off-topic fields such as astrophysics, chemistry,
+    # mechanical engineering, health information technology; keep OSU-EECS-area borderline cases.
+    import relevance
+    jobs, dropped = relevance.filter_jobs(jobs, log=lambda m: print(m, file=sys.stderr))
+    print(f"relevance: kept {len(jobs)}, dropped {len(dropped)} off-topic", file=sys.stderr)
     enrich(jobs)
     jobs.sort(key=lambda j: j["posted"], reverse=True)
     out = {"generated": datetime.now(timezone.utc).isoformat(timespec="seconds"),

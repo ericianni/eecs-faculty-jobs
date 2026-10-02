@@ -46,12 +46,17 @@ jobs:
             echo "Fetch step outcome: ${{ steps.fetch.outcome }}"
             echo
             echo '```'
-            grep -E '^(count|extra source stats|Workday|UC Recruit|UW Academic|CRA|IEEE|ACM|ERROR)' fetch.log || true
+            grep -E '^(count|relevance|extra source stats|Workday|UC Recruit|UW Academic|CRA|IEEE|ACM|ERROR)' fetch.log || true
             echo '```'
             echo
             echo "### Warnings (failed requests) by host"
             echo '```'
             grep '^WARN' fetch.log | grep -oE 'https?://[^/ ]+|WARN [a-zA-Z ]+[^:]*' | sort | uniq -c | sort -rn | head -40 || true
+            echo '```'
+            echo
+            echo "### Dropped as off-topic (relevance filter)"
+            echo '```'
+            grep '^RELEVANCE' fetch.log | head -80 || true
             echo '```'
           } >> "$GITHUB_STEP_SUMMARY"
 

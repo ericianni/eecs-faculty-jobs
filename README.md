@@ -12,6 +12,9 @@ A small static site that helps EE / CS / Computer Engineering faculty (tenure-tr
 - `index.html` is a single vanilla HTML/CSS/JS page that loads `jobs.json`: sortable table, search, rank/field/modality/region/location filters, Remote/Online toggle, and "Search elsewhere" links (Indeed, HigherEdJobs, LinkedIn, Chronicle, Inside Higher Ed).
 - URL params: `?remote=1`, `?field=CS`, `?region=Pacific%20Northwest`, `?q=...`.
 
+## Relevance filter
+`relevance.py` runs on every listing (all sources) before enrichment. Include terms are grouped by Oregon State EECS degree programs and research areas (AI, CS, Cybersecurity, ECE, Materials Science, Robotics, Semiconductors; Communications & Signal Processing, Graphics & Visualization, CS Education, Data Science & Engineering, Electronic Materials & Devices, Energy Systems, Health Engineering, Integrated Electronics, Networking & Computer Systems, Programming Languages, SE & HCI, Theory). Listings in clearly non-EECS fields (astrophysics, chemistry, pharmacy, health information technology, ...) are dropped; science/engineering neighbours (math, statistics, physics, biology, mechanical/civil engineering, ...) are dropped unless the title also names an EECS area (e.g. "Robotics in Mechanical Engineering", "Statistics and Data Science" stay). Dry run: `python3 check_relevance.py`; tests: `python3 -m unittest test_relevance`.
+
 ## Daily refresh
 `.github/workflows/refresh.yml` runs every day at 13:17 UTC (~6:17 AM Pacific) and on demand (Actions → "Refresh job listings" → Run workflow). It commits `jobs.json` only if it changed. Failed sources are logged and skipped; if the new listing count is under 50% of the previous one, the old `jobs.json` is kept and the run fails.
 
