@@ -1,0 +1,74 @@
+name: Refresh job listings
+
+on:
+  schedule:
+    - cron: '17 13 * * *'   # ~6:17 AM Pacific (PDT); 5:17 AM during PST
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 50
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Restore HTTP cache
+        uses: actions/cache@v4
+        with:
+          path: cache
+          key: http-cache-${{ github.run_id }}
+          restore-keys: http-cache-
+
+      - name: Fetch and tag listings
+        id: fetch
+        run: |
+          set -o pipefail
+          python fetch_jobs.py 2>&1 | tee fetch.log
+        continue-on-error: true
+
+      - name: Summarize
+        if: always()
+        run: |
+          {
+            echo "## Refresh summary"
+            echo
+            echo "Fetch step outcome: ${{ steps.fetch.outcome }}"
+            echo
+            echo '```'
+            grep -E '^(count|extra source stats|Workday|UC Recruit|UW Academic|CRA|IEEE|ACM|ERROR)' fetch.log || true
+            echo '```'
+            echo
+            echo "### Warnings (failed requests) by host"
+            echo '```'
+            grep '^WARN' fetch.log | grep -oE 'https?://[^/ ]+|WARN [a-zA-Z ]+[^:]*' | sort | uniq -c | sort -rn | head -40 || true
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Fail loudly if fetch failed (old jobs.json kept)
+        if: steps.fetch.outcome != 'success'
+        run: |
+          echo "::error::fetch_jobs.py failed or result was too small; jobs.json was NOT updated. See fetch.log in the step above."
+          exit 1
+
+      - name: Commit jobs.json if changed
+        run: |
+          if git diff --quiet -- jobs.json; then
+            echo "No changes to jobs.json"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add jobs.json
+          git commit -m "Daily refresh: $(python -c 'import json;print(json.load(open("jobs.json"))["count"])') listings"
+          git push

@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>EECS Faculty Job Finder</title>
+<style>
+:root{--bg:#fff;--ink:#1d2433;--muted:#5b6476;--accent:#d73f09;--line:#e5e8ee;--zebra:#f8f9fb;--hover:#fff4ee}
+*{box-sizing:border-box}
+html,body{height:100%}
+body{margin:0;font:13px/1.35 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;color:var(--ink);background:var(--bg);display:flex;flex-direction:column}
+header{background:#111;color:#fff;padding:8px 14px;display:flex;align-items:baseline;gap:12px;flex-wrap:wrap}
+header h1{margin:0;font-size:16px}
+header h1 span{color:var(--accent)}
+header p{margin:0;color:#aeb3bd;font-size:12px}
+.toolbar{display:flex;gap:6px;align-items:center;flex-wrap:wrap;padding:7px 14px;border-bottom:1px solid var(--line);background:#fafbfc}
+.toolbar input,.toolbar select{height:28px;padding:0 8px;border:1px solid #d5d9e0;border-radius:6px;font-size:12.5px;background:#fff}
+.toolbar input{flex:1 1 220px;min-width:160px}
+.toolbar select{flex:0 1 auto;max-width:190px}
+.toolbar input:focus,.toolbar select:focus{outline:2px solid var(--accent);border-color:transparent}
+.btn{height:28px;border:1px solid #d5d9e0;background:#fff;border-radius:6px;padding:0 10px;cursor:pointer;font-size:12.5px;white-space:nowrap}
+.btn.on{background:#11683a;border-color:#11683a;color:#fff}
+.count{margin-left:auto;color:var(--muted);font-size:12px;white-space:nowrap}
+.ext{display:flex;gap:6px;align-items:center;flex-wrap:wrap;padding:5px 14px;border-bottom:1px solid var(--line);background:#fafbfc;font-size:12px}
+.ext .lbl{color:var(--muted);margin-right:2px}
+.ext a{display:inline-flex;align-items:center;height:24px;padding:0 9px;border:1px solid #d5d9e0;border-radius:6px;background:#fff;color:#0b4f9c;text-decoration:none;font-size:12px;white-space:nowrap}
+.ext a:hover{border-color:var(--accent);color:var(--accent)}
+.ext .kw{color:var(--muted);font-size:11.5px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;max-width:420px}
+.tablewrap{flex:1;overflow:auto}
+table{width:100%;border-collapse:collapse;min-width:1050px}
+thead th{position:sticky;top:0;z-index:2;background:#eef1f5;text-align:left;font-weight:600;font-size:11.5px;text-transform:uppercase;letter-spacing:.03em;color:#3a4252;padding:6px 8px;border-bottom:1px solid #d5d9e0;cursor:pointer;user-select:none;white-space:nowrap}
+thead th:hover{background:#e3e7ee}
+thead th .ind{display:inline-block;width:10px;color:var(--accent);margin-left:3px}
+th.x,td.x{width:22px;padding-right:0;cursor:default}
+tbody td{padding:4px 8px;border-bottom:1px solid var(--line);vertical-align:top}
+tbody tr.job.z{background:var(--zebra)}
+tbody tr.job:hover{background:var(--hover)}
+td.posted{white-space:nowrap;color:var(--muted);font-variant-numeric:tabular-nums}
+td.title a{color:#0b4f9c;text-decoration:none;font-weight:500}
+td.title a:hover{text-decoration:underline}
+td.inst{max-width:240px}
+td.loc{max-width:200px;color:#3a4252}
+td.loc .st{display:inline-block;font-weight:600;font-size:11px;color:var(--muted);margin-right:4px}
+td.field{white-space:nowrap}
+td.src a{text-decoration:none}td.src a:hover{text-decoration:underline}
+td.src{white-space:nowrap;color:var(--muted);font-size:12px}
+.pill{display:inline-block;border-radius:999px;padding:1px 7px;font-size:11px;white-space:nowrap;background:#eef1f6;color:#3a4252}
+.r-Adjunct{background:#f1ecfb;color:#5b3aa0}
+.r-Tenure-track{background:#fdece4;color:#9a2e05}
+.r-Associate{background:#fbe6ea;color:#9b1c3a}
+.r-Instructor{background:#e6f0fb;color:#1b5a9e}
+.m-Remote{background:#e3f6ea;color:#11683a;font-weight:600}
+.m-On-campus{background:#fff4d6;color:#7a5a00}
+.m-Unknown{background:transparent;color:#9aa1ae;padding-left:0}
+.exp{border:0;background:none;cursor:pointer;color:var(--muted);font-size:11px;padding:0;width:16px}
+tr.detail td{background:#fffaf6;color:#3a4252;font-size:12.5px;padding:6px 8px 8px 38px;border-bottom:1px solid var(--line)}
+tr.detail a{color:#0b4f9c}
+.empty{padding:30px;text-align:center;color:var(--muted)}
+footer{padding:5px 14px;font-size:11px;color:var(--muted);border-top:1px solid var(--line)}
+footer a{color:var(--muted)}
+/* Mobile: stacked rows */
+@media (max-width:760px){
+  header p{display:none}
+  .toolbar select{flex:1 1 45%;max-width:none}
+  .count{margin-left:0}
+  table{min-width:0}
+  thead{display:none}
+  tbody tr.job{display:flex;flex-wrap:wrap;align-items:center;gap:3px 8px;padding:7px 10px 7px 28px;position:relative;border-bottom:1px solid var(--line)}
+  tbody tr.job td{border:0;padding:0;max-width:none}
+  td.x{position:absolute;left:8px;top:8px}
+  td.posted,td.title,td.inst,td.loc{flex:1 1 100%}
+  td.posted{font-size:11.5px}
+  td.title{font-size:14px}
+  td.inst{font-weight:600}
+  tr.detail{display:block}tr.detail td{display:block;padding-left:30px}
+}
+</style>
+</head>
+<body>
+<header>
+  <h1>EECS <span>Faculty Job</span> Finder</h1>
+  <p>EE / CS / Computer Engineering teaching &amp; faculty openings from public job feeds — on-campus and remote. Prototype for OSU EECS colleagues.</p>
+</header>
+<div class="toolbar">
+  <input id="q" type="search" placeholder="Search title, institution, location, snippet…">
+  <select id="rank"><option value="">All ranks</option></select>
+  <select id="field"><option value="">All fields</option></select>
+  <select id="modality"><option value="">Any modality</option></select>
+  <select id="region"><option value="">All regions</option></select>
+  <select id="state"><option value="">All locations</option></select>
+  <button class="btn" id="remoteBtn" title="Show only Remote/Online listings">Remote/Online only</button>
+  <button class="btn" id="expandAll">Expand all</button>
+  <button class="btn" id="reset">Reset</button>
+  <span class="count" id="count"></span>
+</div>
+<div class="ext" id="ext">
+  <span class="lbl">Search elsewhere:</span>
+  <a id="x-indeed" target="_blank" rel="noopener">Indeed ↗</a>
+  <a id="x-hej" target="_blank" rel="noopener">HigherEdJobs ↗</a>
+  <a id="x-linkedin" target="_blank" rel="noopener">LinkedIn Jobs ↗</a>
+  <a id="x-chronicle" target="_blank" rel="noopener">Chronicle ↗</a>
+  <a id="x-ihe" target="_blank" rel="noopener">Inside Higher Ed ↗</a>
+  <span class="kw" id="x-kw"></span>
+</div>
+<div class="tablewrap">
+<table>
+  <thead><tr>
+    <th class="x" title="Expand row"></th>
+    <th data-k="posted">Posted<span class="ind"></span></th>
+    <th data-k="title">Title<span class="ind"></span></th>
+    <th data-k="institution">Institution<span class="ind"></span></th>
+    <th data-k="location">Location / State<span class="ind"></span></th>
+    <th data-k="rank">Rank<span class="ind"></span></th>
+    <th data-k="field">Field<span class="ind"></span></th>
+    <th data-k="modality">Modality<span class="ind"></span></th>
+    <th data-k="source">Source<span class="ind"></span></th>
+  </tr></thead>
+  <tbody id="rows"></tbody>
+</table>
+</div>
+<footer id="foot"></footer>
+<script>
+const $=id=>document.getElementById(id);
+const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const SHORT={"Chronicle of Higher Education Jobs":"Chronicle","Inside Higher Ed Careers":"InsideHigherEd"};
+let JOBS=[],sortK="posted",sortDir=-1,open=new Set(),allOpen=false;
+const FILTERS=["q","rank","field","modality","region","state"];
+const REGION_ORDER=["Pacific Northwest","West","Southwest","Midwest","Southeast","Northeast/Mid-Atlantic","Remote","International/Other"];
+const REGION_STATES={"Pacific Northwest":"WA OR ID AK","West":"CA NV UT CO WY MT HI","Southwest":"AZ NM TX OK","Midwest":"ND SD NE KS MN IA MO WI IL IN MI OH","Southeast":"AR LA MS AL GA FL SC NC TN KY VA WV","Northeast/Mid-Atlantic":"ME NH VT MA RI CT NY NJ PA DE MD DC"};
+function regionOf(st){if(st==="Remote")return "Remote";for(const [r,s] of Object.entries(REGION_STATES))if(s.split(" ").includes(st))return r;return "International/Other"}
+function fill(sel,vals){[...new Set(vals)].filter(Boolean).sort().forEach(v=>{const o=document.createElement("option");o.value=o.textContent=v;sel.appendChild(o)})}
+const cls=(p,v)=>p+"-"+String(v).split(/[\/ ]/)[0];
+function sortVal(j,k){return k==="source"?j.sources.map(s=>SHORT[s]||s).join("+"):k==="location"?(j.state+" "+j.location):(j[k]||"")}
+function render(){
+  if(typeof updateExternal==="function")updateExternal();
+  const q=$("q").value.toLowerCase().trim().split(/\s+/).filter(Boolean),r=$("rank").value,f=$("field").value,m=$("modality").value,s=$("state").value,g=$("region").value;
+  let out=JOBS.filter(j=>(!r||j.rank===r)&&(!f||j.field===f)&&(!m||j.modality===m)&&(!s||j.state===s)&&(!g||j.region===g)&&
+    q.every(t=>(j.title+" "+j.institution+" "+j.location+" "+j.snippet).toLowerCase().includes(t)));
+  out.sort((a,b)=>{const c=sortVal(a,sortK).toLowerCase().localeCompare(sortVal(b,sortK).toLowerCase());return (c||b.posted.localeCompare(a.posted)*-sortDir)*sortDir});
+  document.querySelectorAll("thead th[data-k]").forEach(th=>{const on=th.dataset.k===sortK;th.querySelector(".ind").textContent=on?(sortDir>0?"▲":"▼"):"";th.setAttribute("aria-sort",on?(sortDir>0?"ascending":"descending"):"none")});
+  $("remoteBtn").classList.toggle("on",m==="Remote/Online");
+  $("count").textContent=`${out.length} of ${JOBS.length} listings`;
+  $("rows").innerHTML=out.length?out.map((j,i)=>{const id=j.url,isOpen=allOpen||open.has(id);return `
+   <tr class="job${i%2?" z":""}" data-id="${esc(id)}">
+    <td class="x"><button class="exp" aria-label="Show details">${isOpen?"▾":"▸"}</button></td>
+    <td class="posted">${esc(j.posted)}</td>
+    <td class="title"><a href="${esc(j.url)}" target="_blank" rel="noopener">${esc(j.title)}</a></td>
+    <td class="inst">${esc(j.institution)}</td>
+    <td class="loc"><span class="st">${esc(j.state==="Other/Unknown"?"":j.state)}</span>${esc(j.location)}</td>
+    <td class="rank"><span class="pill ${cls("r",j.rank)}">${esc(j.rank)}</span></td>
+    <td class="field">${esc(j.field)}</td>
+    <td class="mod"><span class="pill ${cls("m",j.modality)}">${esc(j.modality)}</span></td>
+    <td class="src">${j.sources.map((s,k)=>`<a href="${esc(k?j.alt_urls[k-1]:j.url)}" target="_blank" rel="noopener" style="color:inherit">${esc(SHORT[s]||s)}</a>`).join(" + ")}</td>
+   </tr>${isOpen?`<tr class="detail"><td colspan="9">${esc(j.snippet||"(no snippet in feed)")}${j.modality_evidence?` <span style="color:#7a8190">· Modality basis: ${esc(j.modality_evidence)}</span>`:""} <a href="${esc(j.url)}" target="_blank" rel="noopener">Open posting ↗</a></td></tr>`:""}`}).join("")
+   :`<tr><td colspan="9" class="empty">No listings match these filters.</td></tr>`;
+}
+fetch("jobs.json").then(r=>r.json()).then(d=>{
+  JOBS=d.jobs;JOBS.forEach(j=>{if(!j.region)j.region=regionOf(j.state)});
+  fill($("rank"),JOBS.map(j=>j.rank));fill($("field"),JOBS.map(j=>j.field));
+  fill($("modality"),["Remote/Online","On-campus","Unknown"]);fill($("state"),JOBS.map(j=>j.state));
+  REGION_ORDER.forEach(r=>{const n=JOBS.filter(j=>j.region===r).length;if(n){const o=document.createElement("option");o.value=r;o.textContent=`${r} (${n})`;$("region").appendChild(o)}});
+  $("foot").innerHTML=`Data refreshed ${new Date(d.generated).toLocaleString()} from ${Object.entries(d.sources).map(([k,v])=>`<a href="${v}">${k}</a>`).join(", ")}. Rank/field/modality are keyword-based guesses — verify on the original posting.`;
+  const P=new URLSearchParams(location.search);
+  if(P.get("remote")==="1")$("modality").value="Remote/Online";
+  if(P.get("q"))$("q").value=P.get("q");
+  if(P.get("field"))$("field").value=P.get("field");
+  if(P.get("region"))$("region").value=P.get("region");
+  render();
+});
+FILTERS.forEach(id=>$(id).addEventListener("input",render));
+// ---- External search links (built from current filters) ----
+const STATE_NAMES={AL:"Alabama",AK:"Alaska",AZ:"Arizona",AR:"Arkansas",CA:"California",CO:"Colorado",CT:"Connecticut",DE:"Delaware",DC:"District of Columbia",FL:"Florida",GA:"Georgia",HI:"Hawaii",ID:"Idaho",IL:"Illinois",IN:"Indiana",IA:"Iowa",KS:"Kansas",KY:"Kentucky",LA:"Louisiana",ME:"Maine",MD:"Maryland",MA:"Massachusetts",MI:"Michigan",MN:"Minnesota",MS:"Mississippi",MO:"Missouri",MT:"Montana",NE:"Nebraska",NV:"Nevada",NH:"New Hampshire",NJ:"New Jersey",NM:"New Mexico",NY:"New York",NC:"North Carolina",ND:"North Dakota",OH:"Ohio",OK:"Oklahoma",OR:"Oregon",PA:"Pennsylvania",RI:"Rhode Island",SC:"South Carolina",SD:"South Dakota",TN:"Tennessee",TX:"Texas",UT:"Utah",VT:"Vermont",VA:"Virginia",WA:"Washington",WV:"West Virginia",WI:"Wisconsin",WY:"Wyoming"};
+const RANK_KW={"Adjunct":"adjunct","Instructor/Lecturer/NTT":"lecturer","Tenure-track Assistant":"tenure-track assistant professor","Associate/Full/Tenured":"associate professor","Other":""};
+const FIELD_KW={"CS":"computer science","EE":"electrical engineering","Computer Eng":"computer engineering","Other":""};
+const WFH_LOCATION_ID="20752010"; // Chronicle / Inside Higher Ed "Working from home"
+function updateExternal(){
+  const q=$("q").value.trim(),r=$("rank").value,f=$("field").value,st=$("state").value;
+  const remote=$("modality").value==="Remote/Online"||st==="Remote"||$("region").value==="Remote";
+  const stateName=STATE_NAMES[st]||"";
+  let field=FIELD_KW[f]??"";
+  if(!q&&!field)field="computer science";
+  const rank=r?RANK_KW[r]:"";
+  const kw=[q,field,rank||(/faculty|professor|lecturer|instructor|adjunct/i.test(q)?"":"faculty")].filter(Boolean).join(" ").replace(/\s+/g," ").trim();
+  const enc=encodeURIComponent;
+  // Indeed: remote attribute filter (sc=0kf:attr(DSQF7);) + l=<state>
+  let indeed=`https://www.indeed.com/jobs?q=${enc(kw)}`;
+  if(stateName)indeed+=`&l=${enc(stateName)}`;
+  if(remote)indeed+=`&sc=${enc("0kf:attr(DSQF7);")}`;
+  // HigherEdJobs: Remote=2 = Online/Remote; no state parameter by name
+  let hej=`https://www.higheredjobs.com/search/advanced_action.cfm?Keyword=${enc(kw)}&SortBy=1`+(remote?"&Remote=2":"");
+  // LinkedIn: f_WT=2 = Remote workplace type
+  let li=`https://www.linkedin.com/jobs/search/?keywords=${enc(kw)}&location=${enc(stateName?stateName+", United States":"United States")}`+(remote?"&f_WT=2":"");
+  // Chronicle / IHE (Madgex): LocationId for Working from home, radialtown for a state
+  const madgex=base=>{let u=`${base}/searchjobs/?keywords=${enc(kw)}`;if(remote)u+=`&LocationId=${WFH_LOCATION_ID}`;else if(stateName)u+=`&location=${enc(stateName)}&radialtown=${enc(stateName)}`;return u};
+  $("x-indeed").href=indeed;$("x-hej").href=hej;$("x-linkedin").href=li;
+  $("x-chronicle").href=madgex("https://jobs.chronicle.com");$("x-ihe").href=madgex("https://careers.insidehighered.com");
+  $("x-kw").textContent=`“${kw}”${remote?" · remote":""}${stateName&&!remote?" · "+stateName:stateName?" · "+stateName+" (Indeed/LinkedIn)":""}`;
+}
+FILTERS.forEach(id=>$(id).addEventListener("input",updateExternal));
+
+document.querySelectorAll("thead th[data-k]").forEach(th=>th.onclick=()=>{const k=th.dataset.k;if(k===sortK)sortDir=-sortDir;else{sortK=k;sortDir=k==="posted"?-1:1}render()});
+$("rows").addEventListener("click",e=>{const b=e.target.closest(".exp");if(!b)return;const id=b.closest("tr").dataset.id;open.has(id)?open.delete(id):open.add(id);render()});
+$("remoteBtn").onclick=()=>{$("modality").value=$("modality").value==="Remote/Online"?"":"Remote/Online";render()};
+$("expandAll").onclick=()=>{allOpen=!allOpen;if(!allOpen)open.clear();$("expandAll").textContent=allOpen?"Collapse all":"Expand all";render()};
+$("reset").onclick=()=>{FILTERS.forEach(id=>$(id).value="");sortK="posted";sortDir=-1;render()};
+</script>
+</body>
+</html>
