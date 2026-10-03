@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-02T20:20:45+00:00",
+ "generated": "2026-10-03T17:21:32+00:00",
  "sources": {
   "Chronicle of Higher Education Jobs": "https://jobs.chronicle.com/jobsrss/",
   "Inside Higher Ed Careers": "https://careers.insidehighered.com/jobsrss/",
@@ -9,8 +9,133 @@
   "University career sites (Workday, UC Recruit, UW Academic HR)": "https://ap.washington.edu/ahr/academic-jobs/",
   "Community submission": "https://ericianni.github.io/eecs-faculty-jobs/#submit"
  },
- "count": 697,
+ "count": 655,
+ "scraped_count": 654,
+ "community_count": 1,
  "jobs": [
+  {
+   "title": "Instructor in Computer Science (Part-Time Pool)",
+   "institution": "Ventura County Community College System Office",
+   "location": "California, United States",
+   "state": "CA",
+   "posted": "2026-10-03",
+   "source": "Chronicle of Higher Education Jobs",
+   "sources": [
+    "Chronicle of Higher Education Jobs"
+   ],
+   "url": "https://jobs.chronicle.com/job/38047055/instructor-in-computer-science-part-time-pool-/",
+   "alt_urls": [],
+   "rank": "Adjunct",
+   "field": "CS",
+   "modality": "Unknown",
+   "snippet": "Ventura County Community College System Office: Instructor in Computer Science (Part-Time Pool) Ventura County Community College District Salary: Job Type: Part-Time Faculty Job Number:",
+   "modality_evidence": "no modality cues in full description",
+   "has_full_text": true,
+   "region": "West"
+  },
+  {
+   "title": "Tenure-Track/Tenured Faculty Position in Electrical Engineering",
+   "institution": "Washington State University",
+   "location": "Pullman, Washington State",
+   "state": "WA",
+   "posted": "2026-10-03",
+   "source": "Chronicle of Higher Education Jobs",
+   "sources": [
+    "Chronicle of Higher Education Jobs",
+    "Washington State University (Workday)"
+   ],
+   "url": "https://jobs.chronicle.com/job/38046668/tenure-track-tenured-faculty-position-in-electrical-engineering/",
+   "alt_urls": [
+    "https://wsu.wd5.myworkdayjobs.com/en-US/WSU_Jobs/job/Pullman-WA/Tenure-Track-Tenured-Faculty-Position-in-Electrical-Engineering_R-15485"
+   ],
+   "rank": "Associate/Full/Tenured",
+   "field": "EE",
+   "modality": "On-campus",
+   "snippet": "Washington State University: Washington State University\u00a0 Tenure-Track/Tenured Faculty Position in Electrical Engineering\u00a0 \u00a0 The School of Electrical Engineering and Computer S...",
+   "modality_evidence": "description: 'on Campus'",
+   "has_full_text": true,
+   "region": "Pacific Northwest"
+  },
+  {
+   "title": "Assistant/Associate Professor (Career-Track) Faculty Positions in Computer Science and Artificial In",
+   "institution": "Washington State University",
+   "location": "Pullman, Washington State",
+   "state": "WA",
+   "posted": "2026-10-03",
+   "source": "Chronicle of Higher Education Jobs",
+   "sources": [
+    "Chronicle of Higher Education Jobs"
+   ],
+   "url": "https://jobs.chronicle.com/job/38046806/assistant-associate-professor-career-track-faculty-positions-in-computer-science-and-artificial-in/",
+   "alt_urls": [],
+   "rank": "Instructor/Lecturer/NTT",
+   "field": "CS",
+   "modality": "Unknown",
+   "snippet": "Washington State University: Washington State University\u00a0 Assistant/Associate Professor (Career-Track) Faculty Positions in Computer Science and Artificial Intelligence\u00a0 The Sc...",
+   "modality_evidence": "no modality cues in full description",
+   "has_full_text": true,
+   "region": "Pacific Northwest"
+  },
+  {
+   "title": "Instructor in Computer Science (Part-Time Pool)",
+   "institution": "Ventura County Community College District",
+   "location": "Ventura",
+   "state": "CA",
+   "posted": "2026-10-03",
+   "source": "Inside Higher Ed Careers",
+   "sources": [
+    "Inside Higher Ed Careers"
+   ],
+   "url": "https://careers.insidehighered.com/job/3558654/instructor-in-computer-science-part-time-pool-/",
+   "alt_urls": [],
+   "rank": "Adjunct",
+   "field": "CS",
+   "modality": "Unknown",
+   "snippet": "Instructor in Computer Science (Part-Time Pool)    Ventura County Community College District     Salary:     Job Type: Part-Time Faculty    Job Nu",
+   "modality_evidence": "no modality cues in full description",
+   "has_full_text": true,
+   "region": "West"
+  },
+  {
+   "title": "Assistant Professor of Computer Science (Artificial Intelligence)",
+   "institution": "Texas A",
+   "location": "Texas, United States",
+   "state": "TX",
+   "posted": "2026-10-02",
+   "source": "Chronicle of Higher Education Jobs",
+   "sources": [
+    "Chronicle of Higher Education Jobs"
+   ],
+   "url": "https://jobs.chronicle.com/job/38046781/assistant-professor-of-computer-science-artificial-intelligence-/",
+   "alt_urls": [],
+   "rank": "Tenure-track Assistant",
+   "field": "CS",
+   "modality": "On-campus",
+   "snippet": "Texas A: Assistant Professor of Computer Science (Artificial Intelligence) Job Title Assistant Professor of Computer Science (Artificial Intelligence)",
+   "modality_evidence": "inferred (research-active/relocation role): 'research program'",
+   "has_full_text": true,
+   "region": "Southwest"
+  },
+  {
+   "title": "Assistant Professor of Computer Science (Mobile Device Forensics)",
+   "institution": "Texas A",
+   "location": "Texas, United States",
+   "state": "TX",
+   "posted": "2026-10-02",
+   "source": "Chronicle of Higher Education Jobs",
+   "sources": [
+    "Chronicle of Higher Education Jobs"
+   ],
+   "url": "https://jobs.chronicle.com/job/38046774/assistant-professor-of-computer-science-mobile-device-forensics-/",
+   "alt_urls": [],
+   "rank": "Tenure-track Assistant",
+   "field": "CS",
+   "modality": "On-campus",
+   "snippet": "Texas A: Assistant Professor of Computer Science (Mobile Device Forensics) Job Title Assistant Professor of Computer Science (Mobile Device Forensics)",
+   "modality_evidence": "inferred (research-active/relocation role): 'research program'",
+   "has_full_text": true,
+   "region": "Southwest"
+  },
   {
    "title": "Tenure-Track Assistant Professor of Computer Science",
    "institution": "Haverford College",
@@ -53,6 +178,46 @@
    "modality_evidence": "no modality cues in full description",
    "has_full_text": true,
    "region": "Midwest"
+  },
+  {
+   "title": "Computer Science Instructor - One Year Full Time Temporary",
+   "institution": "Kern Community College District",
+   "location": "California, United States",
+   "state": "CA",
+   "posted": "2026-10-02",
+   "source": "Chronicle of Higher Education Jobs",
+   "sources": [
+    "Chronicle of Higher Education Jobs"
+   ],
+   "url": "https://jobs.chronicle.com/job/38046893/computer-science-instructor-one-year-full-time-temporary/",
+   "alt_urls": [],
+   "rank": "Instructor/Lecturer/NTT",
+   "field": "CS",
+   "modality": "On-campus",
+   "snippet": "Kern Community College District: Computer Science Instructor - One Year Full Time Temporary Kern Community College District Salary: $89,080.98 - $116,884.82 Annually Job",
+   "modality_evidence": "description: 'in-person'",
+   "has_full_text": true,
+   "region": "West"
+  },
+  {
+   "title": "Assistant Professor of Petroleum Engineering (Artificial Intelligence)",
+   "institution": "Texas A",
+   "location": "Texas, United States",
+   "state": "TX",
+   "posted": "2026-10-02",
+   "source": "Chronicle of Higher Education Jobs",
+   "sources": [
+    "Chronicle of Higher Education Jobs"
+   ],
+   "url": "https://jobs.chronicle.com/job/38046780/assistant-professor-of-petroleum-engineering-artificial-intelligence-/",
+   "alt_urls": [],
+   "rank": "Tenure-track Assistant",
+   "field": "CS",
+   "modality": "On-campus",
+   "snippet": "Texas A: Assistant Professor of Petroleum Engineering (Artificial Intelligence) Job Title Assistant Professor of Petroleum Engineering (Artificial",
+   "modality_evidence": "inferred (research-active/relocation role): 'research program'",
+   "has_full_text": true,
+   "region": "Southwest"
   },
   {
    "title": "Open Rank Faculty - Electrical & Computer Engineering (Tenured/Tenure Track/Lecturer)",
@@ -757,46 +922,6 @@
    "region": "Southeast"
   },
   {
-   "title": "Assistant Professor - School of Information - Youth Information Ecosystems, Critical Technology",
-   "institution": "San Jose State University",
-   "location": "San Jose, California, United States",
-   "state": "CA",
-   "posted": "2026-09-29",
-   "source": "Chronicle of Higher Education Jobs",
-   "sources": [
-    "Chronicle of Higher Education Jobs"
-   ],
-   "url": "https://jobs.chronicle.com/job/38045621/assistant-professor-school-of-information-youth-information-ecosystems-critical-technology/",
-   "alt_urls": [],
-   "rank": "Tenure-track Assistant",
-   "field": "Other",
-   "modality": "On-campus",
-   "snippet": "San Jose State University: Position Rank and Title: Assistant Professor - Youth Information Ecosystems, Critical Technology Studies, and AI Literacy School/Department",
-   "modality_evidence": "description: 'on-campus'",
-   "has_full_text": true,
-   "region": "West"
-  },
-  {
-   "title": "Assistant Professor - School of Information - Cultural Heritage Informatics, AI/Digital",
-   "institution": "San Jose State University",
-   "location": "San Jose, California, United States",
-   "state": "CA",
-   "posted": "2026-09-29",
-   "source": "Chronicle of Higher Education Jobs",
-   "sources": [
-    "Chronicle of Higher Education Jobs"
-   ],
-   "url": "https://jobs.chronicle.com/job/38045720/assistant-professor-school-of-information-cultural-heritage-informatics-ai-digital/",
-   "alt_urls": [],
-   "rank": "Tenure-track Assistant",
-   "field": "CS",
-   "modality": "On-campus",
-   "snippet": "San Jose State University: Position Rank and Title: Assistant Professor - Cultural Heritage Informatics, AI/Digital Transformation, and Critical Technology Studies",
-   "modality_evidence": "description: 'on-campus'",
-   "has_full_text": true,
-   "region": "West"
-  },
-  {
    "title": "Professor (all ranks) in Quantum Computing and Information Sciences",
    "institution": "Arizona State University",
    "location": "Tempe, Arizona",
@@ -855,26 +980,6 @@
    "modality_evidence": "description: 'in person'",
    "has_full_text": true,
    "region": "West"
-  },
-  {
-   "title": "Tenure-Track/Tenured Faculty Position in Electrical Engineering",
-   "institution": "Washington State University",
-   "location": "Pullman, WA",
-   "state": "WA",
-   "posted": "2026-09-29",
-   "source": "Washington State University (Workday)",
-   "sources": [
-    "Washington State University (Workday)"
-   ],
-   "url": "https://wsu.wd5.myworkdayjobs.com/en-US/WSU_Jobs/job/Pullman-WA/Tenure-Track-Tenured-Faculty-Position-in-Electrical-Engineering_R-15485",
-   "alt_urls": [],
-   "rank": "Associate/Full/Tenured",
-   "field": "EE",
-   "snippet": " Online applications must be received before 11:59pm on: November 1, 2026 If a date is not listed above, review the Applicant Instructions below for more details. Available Title(s): 270-NN_FACULTY - Assistant Professor, 280-NN_FACULTY - Associate Professor Business Title: Tenure-Track/Tenured Facul",
-   "modality": "On-campus",
-   "modality_evidence": "description: 'on Campus'",
-   "has_full_text": true,
-   "region": "Pacific Northwest"
   },
   {
    "title": "Assistant / Associate Professor \u2013 Electronic, Functional, and Quantum Materials \u2013 Electrical Engineering & Computer Sciences and Materials Science & Engineering",
@@ -1056,26 +1161,6 @@
    "modality": "Unknown",
    "snippet": "genevacollege: Geneva College\u00a0invites applications for tenure track faculty position in the Department of Computer Science & Cybersecurity. \u00a0 The position begins...",
    "modality_evidence": "no modality cues in full description",
-   "has_full_text": true,
-   "region": "Northeast/Mid-Atlantic"
-  },
-  {
-   "title": "Adjunct Instructor- Part Time (Health Information Technology)",
-   "institution": "SUNY Broome Community College",
-   "location": "New York, United States",
-   "state": "NY",
-   "posted": "2026-09-28",
-   "source": "Chronicle of Higher Education Jobs",
-   "sources": [
-    "Chronicle of Higher Education Jobs"
-   ],
-   "url": "https://jobs.chronicle.com/job/38044289/adjunct-instructor-part-time-health-information-technology-/",
-   "alt_urls": [],
-   "rank": "Adjunct",
-   "field": "CS",
-   "modality": "Remote/Online",
-   "snippet": "SUNY Broome Community College: Company Description: Please <a href=\"https://sunybroome.edu/about/\" target= \"_blank\">click here to learn more about SUNY Broome. Job...",
-   "modality_evidence": "description: 'fully online'",
    "has_full_text": true,
    "region": "Northeast/Mid-Atlantic"
   },
@@ -1686,26 +1771,6 @@
    "region": "International/Other"
   },
   {
-   "title": "Assistant / Associate / Full Professor",
-   "institution": "Johns Hopkins University",
-   "location": "Washington, District of Columbia, United States",
-   "state": "DC",
-   "posted": "2026-09-24",
-   "source": "CRA Career Center",
-   "sources": [
-    "CRA Career Center"
-   ],
-   "url": "https://careercenter.cra.org/job/assistant-associate-full-professor-washington-district-of-columbia-2452",
-   "alt_urls": [],
-   "rank": "Tenure-track Assistant",
-   "field": "Other",
-   "snippet": " Johns Hopkins University\u2019s School of Government and Policy seeks to recruit multiple tenured and tenure-track faculty. We have a particular interest in faculty conducting research on: Cities and Communities Frontier AI Political Philosophy and Theory Public-Sector Innovation and Management Regulati",
-   "modality": "Unknown",
-   "modality_evidence": "no modality cues in full description",
-   "has_full_text": true,
-   "region": "Northeast/Mid-Atlantic"
-  },
-  {
    "title": "Assistant Professor of Computer Science",
    "institution": "University of North Carolina at Greensboro",
    "location": "Greensboro, North Carolina",
@@ -1810,26 +1875,6 @@
    "modality_evidence": "description: 'face-to-face'",
    "has_full_text": true,
    "region": "Southwest"
-  },
-  {
-   "title": "Lecturer, Construction Engineering NTT",
-   "institution": "University of the Pacific",
-   "location": "California, United States",
-   "state": "CA",
-   "posted": "2026-09-23",
-   "source": "Chronicle of Higher Education Jobs",
-   "sources": [
-    "Chronicle of Higher Education Jobs"
-   ],
-   "url": "https://jobs.chronicle.com/job/38042833/lecturer-construction-engineering-ntt/",
-   "alt_urls": [],
-   "rank": "Instructor/Lecturer/NTT",
-   "field": "Other",
-   "modality": "On-campus",
-   "snippet": "University of the Pacific: Lecturer, Construction Engineering NTT Primary Purpose and Essential Functions: The School of Engineering and Computer Science at the...",
-   "modality_evidence": "description: 'in-person'",
-   "has_full_text": true,
-   "region": "West"
   },
   {
    "title": "Assistant Teaching Professor - Computer Science",
@@ -2052,26 +2097,6 @@
    "region": "Southwest"
   },
   {
-   "title": "Tenure Track Assistant Professor in Computer Science - Bioinformatics",
-   "institution": "San Jose State University",
-   "location": "San Jose, California, United States",
-   "state": "CA",
-   "posted": "2026-09-22",
-   "source": "Chronicle of Higher Education Jobs",
-   "sources": [
-    "Chronicle of Higher Education Jobs"
-   ],
-   "url": "https://jobs.chronicle.com/job/38042571/tenure-track-assistant-professor-in-computer-science-bioinformatics/",
-   "alt_urls": [],
-   "rank": "Tenure-track Assistant",
-   "field": "CS",
-   "modality": "On-campus",
-   "snippet": "San Jose State University: Position Rank and Title: Assistant Professor School/Department Name: Department of Computer Science Compensation: Commensurate with",
-   "modality_evidence": "description: 'in-person'",
-   "has_full_text": true,
-   "region": "West"
-  },
-  {
    "title": "Assistant Professor in Electrical or Computer Engineering",
    "institution": "Penn State Behrend",
    "location": "State College, Pennsylvania",
@@ -2150,6 +2175,26 @@
    "modality_evidence": "description: 'on campus'",
    "has_full_text": true,
    "region": "Midwest"
+  },
+  {
+   "title": "Tenure Track Assistant Professor in Computer Science - Bioinformatics",
+   "institution": "San Jose State University",
+   "location": "San Jose, California, United States",
+   "state": "CA",
+   "posted": "2026-09-22",
+   "source": "Chronicle of Higher Education Jobs",
+   "sources": [
+    "Chronicle of Higher Education Jobs"
+   ],
+   "url": "https://jobs.chronicle.com/job/38042571/tenure-track-assistant-professor-in-computer-science-bioinformatics/",
+   "alt_urls": [],
+   "rank": "Tenure-track Assistant",
+   "field": "CS",
+   "modality": "On-campus",
+   "snippet": "San Jose State University: Position Rank and Title: Assistant Professor School/Department Name: Department of Computer Science Compensation: Commensurate with",
+   "modality_evidence": "description: 'in-person'",
+   "has_full_text": true,
+   "region": "West"
   },
   {
    "title": "Assistant Professor, Electrical Engineering",
@@ -2312,26 +2357,6 @@
    "region": "Southwest"
   },
   {
-   "title": "Associate/Full Professor In Social Work, Ai",
-   "institution": "University of Wisconsin - Milwaukee",
-   "location": "Wisconsin, United States",
-   "state": "WI",
-   "posted": "2026-09-21",
-   "source": "Chronicle of Higher Education Jobs",
-   "sources": [
-    "Chronicle of Higher Education Jobs"
-   ],
-   "url": "https://jobs.chronicle.com/job/38041828/associate-full-professor-in-social-work-ai/",
-   "alt_urls": [],
-   "rank": "Associate/Full/Tenured",
-   "field": "CS",
-   "modality": "Unknown",
-   "snippet": "University of Wisconsin - Milwaukee: Associate/Full Professor In Social Work, Ai & Data Science Cluster Milwaukee, WI JR10015029 Current Employees: If you are currently employed...",
-   "modality_evidence": "no modality cues in full description",
-   "has_full_text": true,
-   "region": "Midwest"
-  },
-  {
    "title": "Assistant Professor - Computer Science",
    "institution": "The University of North Georgia",
    "location": "UNG-Dahlonega, GA",
@@ -2430,26 +2455,6 @@
    "modality_evidence": "no modality cues in full description",
    "has_full_text": true,
    "region": "Southeast"
-  },
-  {
-   "title": "Instructor, Health Information Technology - Adjunct (Pool)",
-   "institution": "Houston City College",
-   "location": "Houston, Texas, John B Coleman Building",
-   "state": "TX",
-   "posted": "2026-09-20",
-   "source": "Inside Higher Ed Careers",
-   "sources": [
-    "Inside Higher Ed Careers"
-   ],
-   "url": "https://careers.insidehighered.com/job/3553564/instructor-health-information-technology-adjunct-pool-/",
-   "alt_urls": [],
-   "rank": "Adjunct",
-   "field": "CS",
-   "modality": "Unknown",
-   "snippet": "Instructor, Health Information Technology - Adjunct (Pool)\ud83d\udd0dHouston, Texas, John B Coleman BuildingNew\ud83d\udcc1Adjunct\ud83d\udcc5\ue724\ue738\ue70a260025B Requisition #\ud83d\udcc5\ue724\ue738\ue70a1 day ag",
-   "modality_evidence": "no modality cues in full description",
-   "has_full_text": true,
-   "region": "Southwest"
   },
   {
    "title": "Assistant/Associate Professor (Career-Track) Faculty Position in Electrical Engineering",
@@ -2924,26 +2929,6 @@
    "region": "West"
   },
   {
-   "title": "Assistant Professor, Tenure-Track, Biomedical Engineering: Biomaterials or Biomechanics",
-   "institution": "Baylor University",
-   "location": "76798",
-   "state": "TX",
-   "posted": "2026-09-17",
-   "source": "Inside Higher Ed Careers",
-   "sources": [
-    "Inside Higher Ed Careers"
-   ],
-   "url": "https://careers.insidehighered.com/job/3552415/assistant-professor-tenure-track-biomedical-engineering-biomaterials-or-biomechanics/",
-   "alt_urls": [],
-   "rank": "Tenure-track Assistant",
-   "field": "Other",
-   "modality": "On-campus",
-   "snippet": "Assistant Professor, Tenure-Track, Biomedical Engineering: Biomaterials or Biomechanics  Electrical and Computer Engineering    Location: Waco, Te",
-   "modality_evidence": "inferred (research-active/relocation role): 'research program'",
-   "has_full_text": true,
-   "region": "Southwest"
-  },
-  {
    "title": "Research Faculty - 12 Month Salaried (Open Rank) - Bioinformatics and Proteomics Software Devel...",
    "institution": "Florida State University",
    "location": "Tallahassee, FL",
@@ -3122,26 +3107,6 @@
    "field": "CS",
    "modality": "Unknown",
    "snippet": "University of Pennsylvania: Assistant Professor of Statistics and Data Science (Tenure-Track) 2026 - 2027 Location: Philadelphia, PA Open Date: Sep 14,...",
-   "modality_evidence": "no modality cues in full description",
-   "has_full_text": true,
-   "region": "Northeast/Mid-Atlantic"
-  },
-  {
-   "title": "Assistant Professor / Associate Professor of Journalism in Data Science and Quantitative Methods",
-   "institution": "American University",
-   "location": "Washington D.C.",
-   "state": "DC",
-   "posted": "2026-09-16",
-   "source": "Chronicle of Higher Education Jobs",
-   "sources": [
-    "Chronicle of Higher Education Jobs"
-   ],
-   "url": "https://jobs.chronicle.com/job/38039151/assistant-professor-associate-professor-of-journalism-in-data-science-and-quantitative-methods/",
-   "alt_urls": [],
-   "rank": "Tenure-track Assistant",
-   "field": "CS",
-   "modality": "Unknown",
-   "snippet": "American University: We welcome applications from candidates engaged in high-quality scholarship in areas including data science and quantitative methods.",
    "modality_evidence": "no modality cues in full description",
    "has_full_text": true,
    "region": "Northeast/Mid-Atlantic"
@@ -3569,13 +3534,10 @@
    "posted": "2026-09-15",
    "source": "Chronicle of Higher Education Jobs",
    "sources": [
-    "Chronicle of Higher Education Jobs",
-    "Inside Higher Ed Careers"
+    "Chronicle of Higher Education Jobs"
    ],
    "url": "https://jobs.chronicle.com/job/38039419/instructional-faculty-ft-cybersecurity-cloud-computing-and-networking/",
-   "alt_urls": [
-    "https://careers.insidehighered.com/job/3549778/instructional-faculty-ft-cybersecurity-cloud-computing-and-networking/"
-   ],
+   "alt_urls": [],
    "rank": "Other",
    "field": "CS",
    "modality": "On-campus",
@@ -3894,26 +3856,6 @@
    "region": "Southeast"
   },
   {
-   "title": "Part - Time Instructor, Health Information Technology - FY 2027",
-   "institution": "College of Southern Nevada",
-   "location": "Nevada, United States",
-   "state": "NV",
-   "posted": "2026-09-14",
-   "source": "Chronicle of Higher Education Jobs",
-   "sources": [
-    "Chronicle of Higher Education Jobs"
-   ],
-   "url": "https://jobs.chronicle.com/job/38038048/part-time-instructor-health-information-technology-fy-2027/",
-   "alt_urls": [],
-   "rank": "Instructor/Lecturer/NTT",
-   "field": "CS",
-   "modality": "On-campus",
-   "snippet": "College of Southern Nevada: Part - Time Instructor, Health Information Technology - FY 2027 Job Description Responsibilities of a Part-Time Health Information...",
-   "modality_evidence": "description: 'on-campus'",
-   "has_full_text": true,
-   "region": "West"
-  },
-  {
    "title": "Assistant Professor - Division of Biomedical AI, Cellular, Molecular and Genetic Medicine",
    "institution": "Virginia Commonwealth University",
    "location": "Richmond, Virginia, United States",
@@ -3932,26 +3874,6 @@
    "modality_evidence": "inferred (research-active/relocation role): 'research program'",
    "has_full_text": true,
    "region": "Southeast"
-  },
-  {
-   "title": "Assistant Professor - Philosophy of Science / Philosophy of AI - Department of Philosophy",
-   "institution": "UC Berkeley",
-   "location": "Berkeley, CA",
-   "state": "CA",
-   "posted": "2026-09-14",
-   "source": "UC Recruit",
-   "sources": [
-    "UC Recruit"
-   ],
-   "url": "https://aprecruit.berkeley.edu/JPF05502",
-   "alt_urls": [],
-   "rank": "Tenure-track Assistant",
-   "field": "CS",
-   "snippet": "Position overview Position title: Assistant Professor Salary range: The current salary range for this position is $84,100-$132,900 (9-month academic year salary), however, off-scale salary and other components of pay, which would yield compensation that is higher than this range, are offered to meet",
-   "modality": "On-campus",
-   "modality_evidence": "inferred (research-active/relocation role): 'relocation'",
-   "has_full_text": true,
-   "region": "West"
   },
   {
    "title": "ASSISTANT OR ASSOCIATE TEACHING PROFESSOR and Professor",
@@ -4134,29 +4056,6 @@
    "region": "Midwest"
   },
   {
-   "title": "Part Time Instructor Pool - Computer Science",
-   "institution": "Grossmont/Cuyamaca Community College District",
-   "location": "California, United States",
-   "state": "CA",
-   "posted": "2026-09-11",
-   "source": "Chronicle of Higher Education Jobs",
-   "sources": [
-    "Chronicle of Higher Education Jobs",
-    "Inside Higher Ed Careers"
-   ],
-   "url": "https://jobs.chronicle.com/job/38036879/part-time-instructor-pool-computer-science/",
-   "alt_urls": [
-    "https://careers.insidehighered.com/job/3524297/part-time-instructor-pool-computer-science/"
-   ],
-   "rank": "Adjunct",
-   "field": "CS",
-   "modality": "Unknown",
-   "snippet": "Grossmont/Cuyamaca Community College District: Part Time Instructor Pool - Computer Science R-00645 San Diego County - Grossmont CollegeSan Diego County - Cuyamaca College Transforming lives...",
-   "modality_evidence": "no modality cues in full description",
-   "has_full_text": true,
-   "region": "West"
-  },
-  {
    "title": "Non-Tenure/Professional Track Faculty in Electrical and Computer Engineering",
    "institution": "University of Texas at Austin",
    "location": "Texas, United States",
@@ -4236,6 +4135,29 @@
    "modality": "On-campus",
    "snippet": "Santa Barbara City College: Part-Time Instructor Pool - Computer Information Technologies Salary: $82.33 - $115.20 Hourly Job Type: Job Number: 12-2021-PP22 Closing:...",
    "modality_evidence": "description: 'in person'",
+   "has_full_text": true,
+   "region": "West"
+  },
+  {
+   "title": "Part Time Instructor Pool - Computer Science",
+   "institution": "Grossmont/Cuyamaca Community College District",
+   "location": "California, United States",
+   "state": "CA",
+   "posted": "2026-09-11",
+   "source": "Chronicle of Higher Education Jobs",
+   "sources": [
+    "Chronicle of Higher Education Jobs",
+    "Inside Higher Ed Careers"
+   ],
+   "url": "https://jobs.chronicle.com/job/38036879/part-time-instructor-pool-computer-science/",
+   "alt_urls": [
+    "https://careers.insidehighered.com/job/3524297/part-time-instructor-pool-computer-science/"
+   ],
+   "rank": "Adjunct",
+   "field": "CS",
+   "modality": "Unknown",
+   "snippet": "Grossmont/Cuyamaca Community College District: Part Time Instructor Pool - Computer Science R-00645 San Diego County - Grossmont CollegeSan Diego County - Cuyamaca College Transforming lives...",
+   "modality_evidence": "no modality cues in full description",
    "has_full_text": true,
    "region": "West"
   },
@@ -4357,7 +4279,7 @@
    "rank": "Tenure-track Assistant",
    "field": "CS",
    "modality": "On-campus",
-   "snippet": "Cal Poly Pomona: Computer Science, Assistant Professor Job No: 559402 Work Type: Instructional Faculty \u2013 Tenured/Tenure-Track Location: Pomona Categories: Unit...",
+   "snippet": "Cal Poly Pomona: Computer Science, Assistant Professor Job No: 559402 Work Type: Instructional Faculty \u2013 Tenured/Tenure-Track Location: Pomona Categories: Unit",
    "modality_evidence": "description: 'On-site'",
    "has_full_text": true,
    "region": "West"
@@ -4440,7 +4362,7 @@
    "rank": "Tenure-track Assistant",
    "field": "CS",
    "modality": "On-campus",
-   "snippet": "Cal Poly Pomona: Computer Information Systems, Assistant Professor Job No: 558301 Work Type: Instructional Faculty \u2013 Tenured/Tenure-Track Location:...",
+   "snippet": "Cal Poly Pomona: Computer Information Systems, Assistant Professor Job No: 558301 Work Type: Instructional Faculty \u2013 Tenured/Tenure-Track Location: Pomona",
    "modality_evidence": "description: 'On-site'",
    "has_full_text": true,
    "region": "West"
@@ -4889,26 +4811,6 @@
    "region": "Southeast"
   },
   {
-   "title": "Teaching Faculty in Data Science",
-   "institution": "University of Tennessee, Knoxville",
-   "location": "Knoxville, Tennessee, United States",
-   "state": "TN",
-   "posted": "2026-09-07",
-   "source": "Chronicle of Higher Education Jobs",
-   "sources": [
-    "Chronicle of Higher Education Jobs"
-   ],
-   "url": "https://jobs.chronicle.com/job/38034129/teaching-faculty-in-data-science/",
-   "alt_urls": [],
-   "rank": "Instructor/Lecturer/NTT",
-   "field": "CS",
-   "modality": "On-campus",
-   "snippet": "University of Tennessee, Knoxville: Description The College of Emerging and Collaborative Studies (CECS) at the <a href= \"http://www.utk.edu/\">University of Tennessee, Knoxville's",
-   "modality_evidence": "description: 'on campus'",
-   "has_full_text": true,
-   "region": "Southeast"
-  },
-  {
    "title": "Teaching Faculty in Applied Artificial Intelligence",
    "institution": "University of Tennessee, Knoxville",
    "location": "Knoxville, Tennessee, United States",
@@ -4925,6 +4827,26 @@
    "modality": "On-campus",
    "snippet": "University of Tennessee, Knoxville: Description The College of Emerging and Collaborative Studies (CECS) at the <a href= \"http://www.utk.edu/\">University of Tennessee, Knoxville's",
    "modality_evidence": "description: 'face-to-face'",
+   "has_full_text": true,
+   "region": "Southeast"
+  },
+  {
+   "title": "Teaching Faculty in Data Science",
+   "institution": "University of Tennessee, Knoxville",
+   "location": "Knoxville, Tennessee, United States",
+   "state": "TN",
+   "posted": "2026-09-07",
+   "source": "Chronicle of Higher Education Jobs",
+   "sources": [
+    "Chronicle of Higher Education Jobs"
+   ],
+   "url": "https://jobs.chronicle.com/job/38034129/teaching-faculty-in-data-science/",
+   "alt_urls": [],
+   "rank": "Instructor/Lecturer/NTT",
+   "field": "CS",
+   "modality": "On-campus",
+   "snippet": "University of Tennessee, Knoxville: Description The College of Emerging and Collaborative Studies (CECS) at the <a href= \"http://www.utk.edu/\">University of Tennessee, Knoxville's",
+   "modality_evidence": "description: 'on campus'",
    "has_full_text": true,
    "region": "Southeast"
   },
@@ -4967,26 +4889,6 @@
    "modality_evidence": "description: 'on campus'",
    "has_full_text": true,
    "region": "Southeast"
-  },
-  {
-   "title": "Open Rank Professor of Teaching in Statistics",
-   "institution": "UC Irvine",
-   "location": "Irvine, CA",
-   "state": "CA",
-   "posted": "2026-09-07",
-   "source": "UC Recruit",
-   "sources": [
-    "UC Recruit"
-   ],
-   "url": "https://recruit.ap.uci.edu/JPF10337",
-   "alt_urls": [],
-   "rank": "Associate/Full/Tenured",
-   "field": "CS",
-   "snippet": "Position overview Salary range: The salary range for this position is $111,400-$241,400. The posted UC salary scales set the minimum pay determined by rank and/or step at appointment. See Table(s) [ Academic Salary Scales \u2013 UC Irvine Academic Personnel ]. \u201cOff-scale salaries\u201d and other components of",
-   "modality": "Unknown",
-   "modality_evidence": "no modality cues in full description",
-   "has_full_text": true,
-   "region": "West"
   },
   {
    "title": "Tenure-Track Faculty Positions in Computer Engineering - Assistant Professor - Fall 2027, 2",
@@ -5269,46 +5171,6 @@
    "region": "West"
   },
   {
-   "title": "Tenure-Track Professor in Statistics",
-   "institution": "Harvard University, Department of Statistics, Faculty of Arts and Sciences",
-   "location": "Cambridge, Massachusetts, United States",
-   "state": "MA",
-   "posted": "2026-09-03",
-   "source": "CRA Career Center",
-   "sources": [
-    "CRA Career Center"
-   ],
-   "url": "https://careercenter.cra.org/job/tenure-track-professor-in-statistics-cambridge-massachusetts-2411",
-   "alt_urls": [],
-   "rank": "Tenure-track Assistant",
-   "field": "Other",
-   "snippet": " The Department of Statistics in the Faculty of Arts and Sciences (FAS) of Harvard University seeks to appoint a tenure-track professor in Statistics in the area of statistics and AI, with an expected start date of July 1, 2027. We seek outstanding candidates whose research advances the interface of",
-   "modality": "Unknown",
-   "modality_evidence": "no modality cues in full description",
-   "has_full_text": true,
-   "region": "Northeast/Mid-Atlantic"
-  },
-  {
-   "title": "Tenured Professor in Statistics, Harvard",
-   "institution": "Harvard University, Department of Statistics, Faculty of Arts and Sciences",
-   "location": "Cambridge, Massachusetts, United States",
-   "state": "MA",
-   "posted": "2026-09-03",
-   "source": "CRA Career Center",
-   "sources": [
-    "CRA Career Center"
-   ],
-   "url": "https://careercenter.cra.org/job/tenured-professor-in-statistics-harvard-cambridge-massachusetts-2412",
-   "alt_urls": [],
-   "rank": "Associate/Full/Tenured",
-   "field": "Other",
-   "snippet": " The Department of Statistics in the Faculty of Arts and Sciences (FAS) of Harvard University seeks to appoint a tenured full professor in Statistics in the area of statistics and AI. We seek outstanding candidates whose research advances the interface of statistics and AI, from foundational and met",
-   "modality": "Unknown",
-   "modality_evidence": "no modality cues in full description",
-   "has_full_text": true,
-   "region": "Northeast/Mid-Atlantic"
-  },
-  {
    "title": "Tenure-Track Faculty Positions in Computer Engineering",
    "institution": "FAMU-FSU College of Engineering",
    "location": "Tallahassee, Florida",
@@ -5429,26 +5291,6 @@
    "region": "Southeast"
   },
   {
-   "title": "Open Rank Professor, 9 Month Salaried (Multiple Positions in Computer Engineering -Department o...",
-   "institution": "Florida State University",
-   "location": "Tallahassee, FL",
-   "state": "FL",
-   "posted": "2026-09-02",
-   "source": "Inside Higher Ed Careers",
-   "sources": [
-    "Inside Higher Ed Careers"
-   ],
-   "url": "https://careers.insidehighered.com/job/3546744/open-rank-professor-9-month-salaried-multiple-positions-in-computer-engineering-department-o-/",
-   "alt_urls": [],
-   "rank": "Associate/Full/Tenured",
-   "field": "Computer Eng",
-   "modality": "On-campus",
-   "snippet": "Job Title: Open Rank Professor, 9 Month Salaried (Multiple Positions in Computer Engineering -Department of Electrical & Computer Engineering FAMU-FSU",
-   "modality_evidence": "inferred (research-active/relocation role): 'research program'",
-   "has_full_text": true,
-   "region": "Southeast"
-  },
-  {
    "title": "Tenure-Track Assistant Professor Positions in Electrical Engineering, Fall 2027, 2 Positions Av...",
    "institution": "The University of Tennessee, Knoxville",
    "location": "Knoxville, TN, United States",
@@ -5469,44 +5311,24 @@
    "region": "Southeast"
   },
   {
-   "title": "CCSE - Associate Professor in Computer Science - Integrated Preparatory Cycle & Engineering Prog",
-   "institution": "MOHAMMED VI POLYTECHNIC UNIVERSITY",
-   "location": "Benguerir, Morocco (MA)",
-   "state": "Other/Unknown",
+   "title": "Open Rank Professor, 9 Month Salaried (Multiple Positions in Computer Engineering -Department o...",
+   "institution": "Florida State University",
+   "location": "Tallahassee, FL",
+   "state": "FL",
    "posted": "2026-09-02",
    "source": "Inside Higher Ed Careers",
    "sources": [
     "Inside Higher Ed Careers"
    ],
-   "url": "https://careers.insidehighered.com/job/3546615/ccse-associate-professor-in-computer-science-integrated-preparatory-cycle-and-engineering-prog/",
+   "url": "https://careers.insidehighered.com/job/3546744/open-rank-professor-9-month-salaried-multiple-positions-in-computer-engineering-department-o-/",
    "alt_urls": [],
    "rank": "Associate/Full/Tenured",
-   "field": "CS",
-   "modality": "Unknown",
-   "snippet": "The College is building a faculty whose first mission is teaching, and whose research is carried out within its eight R&D entities ...",
-   "modality_evidence": "no modality cues in full description",
+   "field": "Computer Eng",
+   "modality": "On-campus",
+   "snippet": "Job Title: Open Rank Professor, 9 Month Salaried (Multiple Positions in Computer Engineering -Department of Electrical & Computer Engineering FAMU-FSU",
+   "modality_evidence": "inferred (research-active/relocation role): 'research program'",
    "has_full_text": true,
-   "region": "International/Other"
-  },
-  {
-   "title": "CCSE - Adjunct Lecturer in Data Science and Artificial Intelligence",
-   "institution": "MOHAMMED VI POLYTECHNIC UNIVERSITY",
-   "location": "Benguerir, Morocco (MA)",
-   "state": "Other/Unknown",
-   "posted": "2026-09-02",
-   "source": "Inside Higher Ed Careers",
-   "sources": [
-    "Inside Higher Ed Careers"
-   ],
-   "url": "https://careers.insidehighered.com/job/3546623/ccse-adjunct-lecturer-in-data-science-and-artificial-intelligence/",
-   "alt_urls": [],
-   "rank": "Adjunct",
-   "field": "CS",
-   "modality": "Unknown",
-   "snippet": "The College is building a faculty whose first mission is teaching, and whose research is carried out within its eight R&D entities ...",
-   "modality_evidence": "no modality cues in full description",
-   "has_full_text": true,
-   "region": "International/Other"
+   "region": "Southeast"
   },
   {
    "title": "Open Rank Faculty Position in Computer Science: Systems",
@@ -5939,26 +5761,6 @@
    "modality_evidence": "description: 'on-campus'",
    "has_full_text": true,
    "region": "International/Other"
-  },
-  {
-   "title": "Mathematics- Adjunct Professor",
-   "institution": "Mt. San Antonio College",
-   "location": "Walnut, CA",
-   "state": "CA",
-   "posted": "2026-08-28",
-   "source": "Inside Higher Ed Careers",
-   "sources": [
-    "Inside Higher Ed Careers"
-   ],
-   "url": "https://careers.insidehighered.com/job/3545562/mathematics-adjunct-professor/",
-   "alt_urls": [],
-   "rank": "Adjunct",
-   "field": "Other",
-   "modality": "Unknown",
-   "snippet": "Position Title:Adjunct Professor- MathematicsPosting Number:A-POST-000017Division:Natural SciencesDepartment:Mathematics & Computer ScienceMission & V",
-   "modality_evidence": "no modality cues in full description",
-   "has_full_text": true,
-   "region": "West"
   },
   {
    "title": "Assistant Professor of Computer Science",
@@ -6873,26 +6675,6 @@
    "region": "West"
   },
   {
-   "title": "Tenured/Tenure-Track Faculty Position(s) in Business Analytics",
-   "institution": "University of Iowa",
-   "location": "Iowa City, Iowa, United States",
-   "state": "IA",
-   "posted": "2026-08-18",
-   "source": "CRA Career Center",
-   "sources": [
-    "CRA Career Center"
-   ],
-   "url": "https://careercenter.cra.org/job/tenured-tenure-track-faculty-position-s-in-business-analytics-iowa-city-iowa-2389",
-   "alt_urls": [],
-   "rank": "Associate/Full/Tenured",
-   "field": "CS",
-   "snippet": " The award-winning Department of Business Analytics within the Tippie College of Business at the University of Iowa invites applications for one or more Tenured/Tenure-Track Faculty Position(s) at the level of Assistant, Associate, or Full Professor starting Fall 2027. We are excited to consider fac",
-   "modality": "Unknown",
-   "modality_evidence": "no modality cues in full description",
-   "has_full_text": true,
-   "region": "Midwest"
-  },
-  {
    "title": "Assistant Professor of Computer Science",
    "institution": "St. Olaf College",
    "location": "Northfield, Minnesota, United States",
@@ -7051,26 +6833,6 @@
    "modality_evidence": "description: 'on-campus'",
    "has_full_text": true,
    "region": "International/Other"
-  },
-  {
-   "title": "Assistant Professor of Mechanical Engineering",
-   "institution": "California State University, Fullerton",
-   "location": "California, United States",
-   "state": "CA",
-   "posted": "2026-08-14",
-   "source": "Chronicle of Higher Education Jobs",
-   "sources": [
-    "Chronicle of Higher Education Jobs"
-   ],
-   "url": "https://jobs.chronicle.com/job/38026191/assistant-professor-of-mechanical-engineering/",
-   "alt_urls": [],
-   "rank": "Tenure-track Assistant",
-   "field": "Other",
-   "modality": "On-campus",
-   "snippet": "California State University, Fullerton: Assistant Professor of Mechanical Engineering Department of Mechanical Engineering College of Engineering and Computer Science Assistant...",
-   "modality_evidence": "description: 'reside within'",
-   "has_full_text": true,
-   "region": "West"
   },
   {
    "title": "Part - Time Instructor, JUMPSTART - Computing and Information Technology - FY 2027",
@@ -7305,29 +7067,6 @@
    "region": "Southwest"
   },
   {
-   "title": "Health Information Technology Instructor - Part-time Adjunct Pool",
-   "institution": "Kern Community College District",
-   "location": "California, United States",
-   "state": "CA",
-   "posted": "2026-08-12",
-   "source": "Chronicle of Higher Education Jobs",
-   "sources": [
-    "Chronicle of Higher Education Jobs",
-    "Inside Higher Ed Careers"
-   ],
-   "url": "https://jobs.chronicle.com/job/38024714/health-information-technology-instructor-part-time-adjunct-pool/",
-   "alt_urls": [
-    "https://careers.insidehighered.com/job/3539133/health-information-technology-instructor-part-time-adjunct-pool/"
-   ],
-   "rank": "Adjunct",
-   "field": "CS",
-   "modality": "On-campus",
-   "snippet": "Kern Community College District: Health Information Technology Instructor - Part-time Adjunct Pool Kern Community College District Salary: $67.00 Hourly Job Type: Temporary...",
-   "modality_evidence": "description: 'face-to-face'",
-   "has_full_text": true,
-   "region": "West"
-  },
-  {
    "title": "Research Faculty I,12 month Salaried (Quantum Scientific Computing-FAMU\u2013FSU College of Engine...",
    "institution": "Florida State University",
    "location": "Tallahassee, FL",
@@ -7348,26 +7087,6 @@
    "region": "Southeast"
   },
   {
-   "title": "Faculty Positions in Operations, Information and Technology",
-   "institution": "Stanford University Graduate School Of Business",
-   "location": "Stanford, California, United States",
-   "state": "CA",
-   "posted": "2026-08-12",
-   "source": "CRA Career Center",
-   "sources": [
-    "CRA Career Center"
-   ],
-   "url": "https://careercenter.cra.org/job/faculty-positions-in-operations-information-and-technology-stanford-california-2385",
-   "alt_urls": [],
-   "rank": "Instructor/Lecturer/NTT",
-   "field": "CS",
-   "snippet": " STANFORD UNIVERSITY GRADUATE SCHOOL OF BUSINESS Faculty Positions in Operations, Information and Technology The Operations, Information and Technology (OIT) area at the Graduate School of Business, Stanford University, is seeking qualified applicants for full-time, tenure-track positions at the ass",
-   "modality": "Unknown",
-   "modality_evidence": "no modality cues in full description",
-   "has_full_text": true,
-   "region": "West"
-  },
-  {
    "title": "Associate Professor/Assistant Professor, Division of Artificial Intelligence",
    "institution": "Lingnan University",
    "location": "Tuen Mun, Hong Kong",
@@ -7386,26 +7105,6 @@
    "modality_evidence": "no modality cues in full description",
    "has_full_text": true,
    "region": "International/Other"
-  },
-  {
-   "title": "Faculty Position in Industrial Engineering & Management Sciences",
-   "institution": "Northwestern University",
-   "location": "Evanston, Illinois, United States",
-   "state": "IL",
-   "posted": "2026-08-11",
-   "source": "CRA Career Center",
-   "sources": [
-    "CRA Career Center"
-   ],
-   "url": "https://careercenter.cra.org/job/faculty-position-in-industrial-engineering-management-sciences-evanston-illinois-2382",
-   "alt_urls": [],
-   "rank": "Tenure-track Assistant",
-   "field": "Other",
-   "snippet": " We invite applications for two full-time faculty positions in IEMS at Northwestern University: one tenure-track position at the level of assistant professor and one at open-rank. We encourage applications from candidates with research and teaching interests in optimization; artificial intelligence,",
-   "modality": "Unknown",
-   "modality_evidence": "no modality cues in full description",
-   "has_full_text": true,
-   "region": "Midwest"
   },
   {
    "title": "Lecturer - Electrical and Computer Engineering (UH Katy Campus)  - (496612 )",
@@ -7493,26 +7192,6 @@
    "modality_evidence": "inferred (research-active/relocation role): 'research program'",
    "has_full_text": true,
    "region": "Pacific Northwest"
-  },
-  {
-   "title": "Computer Science - Associate Professor - 530200",
-   "institution": "The University of Alabama",
-   "location": "Tuscaloosa",
-   "state": "AL",
-   "posted": "2026-08-08",
-   "source": "Inside Higher Ed Careers",
-   "sources": [
-    "Inside Higher Ed Careers"
-   ],
-   "url": "https://careers.insidehighered.com/job/3537709/computer-science-associate-professor-530200/",
-   "alt_urls": [],
-   "rank": "Associate/Full/Tenured",
-   "field": "CS",
-   "modality": "On-campus",
-   "snippet": "Apply nowJob no: 530200 Work type: Regular Full-time (Benefits eligible) Location: Tuscaloosa Categories: Tenure/Tenure-Track Faculty Department/Organ",
-   "modality_evidence": "description: 'on campus'",
-   "has_full_text": true,
-   "region": "Southeast"
   },
   {
    "title": "Computer Science - Renewable Contract Teaching Assistant Professor - 530198",
@@ -7659,26 +7338,6 @@
    "modality_evidence": "inferred (research-active/relocation role): 'research laboratory'",
    "has_full_text": true,
    "region": "West"
-  },
-  {
-   "title": "Temp Faculty: Computer Science & Information Systems Instructor (Fall 2026)",
-   "institution": "Metropolitan Community College-Kansas City",
-   "location": "Maple Woods, MO, MO",
-   "state": "MO",
-   "posted": "2026-08-06",
-   "source": "Inside Higher Ed Careers",
-   "sources": [
-    "Inside Higher Ed Careers"
-   ],
-   "url": "https://careers.insidehighered.com/job/3536601/temp-faculty-computer-science-and-information-systems-instructor-fall-2026-/",
-   "alt_urls": [],
-   "rank": "Instructor/Lecturer/NTT",
-   "field": "CS",
-   "modality": "Unknown",
-   "snippet": "About MCCMetropolitan Community College is the oldest public institution of higher learning in Kansas City, Missouri, founded in 1915 as the Kansas Ci",
-   "modality_evidence": "no modality cues in full description",
-   "has_full_text": true,
-   "region": "Midwest"
   },
   {
    "title": "Computer Science and Information Systems Instructor",
@@ -7841,66 +7500,6 @@
    "region": "West"
   },
   {
-   "title": "Assistant Professor, Psychology \u2013 Quantitative, Computational, and Data Science",
-   "institution": "UC Irvine",
-   "location": "Irvine, CA",
-   "state": "CA",
-   "posted": "2026-08-05",
-   "source": "UC Recruit",
-   "sources": [
-    "UC Recruit"
-   ],
-   "url": "https://recruit.ap.uci.edu/JPF10334",
-   "alt_urls": [],
-   "rank": "Tenure-track Assistant",
-   "field": "CS",
-   "snippet": "Position overview Salary range: The salary range for this position is $80,800- $104,700. The posted UC salary scales set the minimum pay determined by rank and/or step at appointment. See Professor and Professor of Teaching Series \u2013 Academic Year Regular Scales . \u201cOff-scale salaries\u201d and other compo",
-   "modality": "Unknown",
-   "modality_evidence": "no modality cues in full description",
-   "has_full_text": true,
-   "region": "West"
-  },
-  {
-   "title": "Assistant Professor (Computer Science) PRODiG+Community College",
-   "institution": "SUNY Broome Community College",
-   "location": "New York, United States",
-   "state": "NY",
-   "posted": "2026-08-04",
-   "source": "Chronicle of Higher Education Jobs",
-   "sources": [
-    "Chronicle of Higher Education Jobs"
-   ],
-   "url": "https://jobs.chronicle.com/job/38021932/assistant-professor-computer-science-prodig-community-college/",
-   "alt_urls": [],
-   "rank": "Tenure-track Assistant",
-   "field": "CS",
-   "modality": "On-campus",
-   "snippet": "SUNY Broome Community College: Company Description: Please <a href=\"https://sunybroome.edu/about/\" target= \"_blank\">click here to learn more about SUNY Broome. Job...",
-   "modality_evidence": "description: 'in-person'",
-   "has_full_text": true,
-   "region": "Northeast/Mid-Atlantic"
-  },
-  {
-   "title": "Professor of Africana and Digital and Computational Studies",
-   "institution": "Bates College",
-   "location": "Lewiston, Maine, United States",
-   "state": "ME",
-   "posted": "2026-08-04",
-   "source": "CRA Career Center",
-   "sources": [
-    "CRA Career Center"
-   ],
-   "url": "https://careercenter.cra.org/job/professor-of-africana-and-digital-and-computational-studies-lewiston-maine-2377",
-   "alt_urls": [],
-   "rank": "Associate/Full/Tenured",
-   "field": "Other",
-   "snippet": " The Program in Africana at Bates College , in conjunction with the Program in Digital & Computational Studies , invites applications for an open rank tenure-line position in the data sciences that spans Africana Studies and Digital & Computational Studies, to begin in July 2027. Candidates must hav",
-   "modality": "Unknown",
-   "modality_evidence": "no modality cues in full description",
-   "has_full_text": true,
-   "region": "Northeast/Mid-Atlantic"
-  },
-  {
    "title": "Workforce Skills Instructor, Cybersecurity",
    "institution": "Lone Star College",
    "location": "Houston, Texas, United States",
@@ -7945,26 +7544,6 @@
    "modality_evidence": "inferred (research-active/relocation role): 'research program'",
    "has_full_text": true,
    "region": "Northeast/Mid-Atlantic"
-  },
-  {
-   "title": "Lecturer-Pool Faculty of Health Information Technology (HIT) - Up to 3 positions to be filled",
-   "institution": "Sam Houston State University",
-   "location": "Polytechnic College",
-   "state": "TX",
-   "posted": "2026-08-02",
-   "source": "Inside Higher Ed Careers",
-   "sources": [
-    "Inside Higher Ed Careers"
-   ],
-   "url": "https://careers.insidehighered.com/job/3535729/lecturer-pool-faculty-of-health-information-technology-hit-up-to-3-positions-to-be-filled/",
-   "alt_urls": [],
-   "rank": "Instructor/Lecturer/NTT",
-   "field": "CS",
-   "modality": "Remote/Online",
-   "snippet": "Position Title:Lecturer-Pool Faculty of Health Information Technology (HIT) - Up to 3 positions to be filledRequisition:202600097FRank:Lecturer-PoolFL",
-   "modality_evidence": "description: online courses, online learning, online teaching",
-   "has_full_text": true,
-   "region": "Southwest"
   },
   {
    "title": "Associate Lecturer/Lecturer/Senior Lecturer \u2013 Department of Computing and New Media Technologies (Continuous Recruitment)",
@@ -8122,26 +7701,6 @@
    "field": "CS",
    "modality": "On-campus",
    "snippet": "Jacksonville State UniversityAdjunct FacultyComputer Science (MCIS) Job SummaryThe discipline of Computer Science in the Department of Mathematical, C",
-   "modality_evidence": "description: 'in-person'",
-   "has_full_text": true,
-   "region": "Southeast"
-  },
-  {
-   "title": "Adjunct Faculty - Mathematics (MCIS) (Fall 2026 - Spring 2027)",
-   "institution": "Jacksonville State University",
-   "location": "Jacksonville, AL (Main Campus), Alabama, United States, 36265, AL",
-   "state": "AL",
-   "posted": "2026-07-29",
-   "source": "Inside Higher Ed Careers",
-   "sources": [
-    "Inside Higher Ed Careers"
-   ],
-   "url": "https://careers.insidehighered.com/job/3534299/adjunct-faculty-mathematics-mcis-fall-2026-spring-2027-/",
-   "alt_urls": [],
-   "rank": "Adjunct",
-   "field": "Other",
-   "modality": "On-campus",
-   "snippet": "Jacksonville State UniversityAdjunct FacultyMathematics (MCIS) Job SummaryThe discipline of Mathematics in the Department of Mathematical, Computing,",
    "modality_evidence": "description: 'in-person'",
    "has_full_text": true,
    "region": "Southeast"
@@ -8770,46 +8329,6 @@
    "region": "Northeast/Mid-Atlantic"
   },
   {
-   "title": "College of Arts and Sciences | Adjunct Professor Online, Astrophysics",
-   "institution": "Liberty University",
-   "location": "Lynchburg, Virginia, United States",
-   "state": "VA",
-   "posted": "2026-07-13",
-   "source": "Chronicle of Higher Education Jobs",
-   "sources": [
-    "Chronicle of Higher Education Jobs"
-   ],
-   "url": "https://jobs.chronicle.com/job/38014570/college-of-arts-and-sciences-adjunct-professor-online-astrophysics/",
-   "alt_urls": [],
-   "rank": "Adjunct",
-   "field": "Other",
-   "modality": "Remote/Online",
-   "snippet": "Liberty University: Adjuncts are essential to Liberty University\u2019s mission of Training Champions for Christ. It is expected that \u200e\u200e\u200e\u200e\u200e\u200ean adjunct member models a",
-   "modality_evidence": "title/location: 'Online'",
-   "has_full_text": true,
-   "region": "Southeast"
-  },
-  {
-   "title": "Lecturer (in lieu of GSI) Pool - Molecular Science and Software Engineering",
-   "institution": "University of California, Berkeley",
-   "location": "Berkeley",
-   "state": "CA",
-   "posted": "2026-07-13",
-   "source": "Inside Higher Ed Careers",
-   "sources": [
-    "Inside Higher Ed Careers"
-   ],
-   "url": "https://careers.insidehighered.com/job/3528346/lecturer-in-lieu-of-gsi-pool-molecular-science-and-software-engineering/",
-   "alt_urls": [],
-   "rank": "Instructor/Lecturer/NTT",
-   "field": "CS",
-   "modality": "Unknown",
-   "snippet": "Lecturer (in lieu of GSI) Pool - Molecular Science and Software Engineering (MSSE) - College of Chemistry Position overview Position title: Le",
-   "modality_evidence": "no modality cues in full description",
-   "has_full_text": true,
-   "region": "West"
-  },
-  {
    "title": "Co-Instructor Pool - Artificial Intelligence, Data Science, and the Future Workplace",
    "institution": "University of California, Berkeley",
    "location": "Berkeley",
@@ -9190,6 +8709,26 @@
    "region": "Southeast"
   },
   {
+   "title": "Part Time Instructor Pool - Computer Information Systems",
+   "institution": "Grossmont-Cuyamaca Community College District",
+   "location": "92020",
+   "state": "CA",
+   "posted": "2026-07-08",
+   "source": "Inside Higher Ed Careers",
+   "sources": [
+    "Inside Higher Ed Careers"
+   ],
+   "url": "https://careers.insidehighered.com/job/3525877/part-time-instructor-pool-computer-information-systems/",
+   "alt_urls": [],
+   "rank": "Adjunct",
+   "field": "CS",
+   "modality": "Unknown",
+   "snippet": "Part Time Instructor Pool - Computer Information Systems R-00671 San Diego County - Cuyamaca CollegeSan Diego County - Grossmont College Tr",
+   "modality_evidence": "no modality cues in full description",
+   "has_full_text": true,
+   "region": "West"
+  },
+  {
    "title": "Part Time - Electrical Engineering - Adjunct Lecturer",
    "institution": "Penn State University",
    "location": "Penn State Harrisburg",
@@ -9228,26 +8767,6 @@
    "modality_evidence": "no modality cues in full description",
    "has_full_text": true,
    "region": "Southeast"
-  },
-  {
-   "title": "Instructor, Health Information Technology",
-   "institution": "Tarrant County College",
-   "location": "Fort Worth, Texas, United States",
-   "state": "TX",
-   "posted": "2026-07-02",
-   "source": "Chronicle of Higher Education Jobs",
-   "sources": [
-    "Chronicle of Higher Education Jobs"
-   ],
-   "url": "https://jobs.chronicle.com/job/38010073/instructor-health-information-technology/",
-   "alt_urls": [],
-   "rank": "Instructor/Lecturer/NTT",
-   "field": "CS",
-   "modality": "Unknown",
-   "snippet": "Tarrant County College: Title: Instructor, Health Information Technology Department: TR Health Sciences Admin Campus Location: Trinity River Campus Employee",
-   "modality_evidence": "no modality cues in full description",
-   "has_full_text": true,
-   "region": "Southwest"
   },
   {
    "title": "Computer Science Associate (Part-time) Instructor Pool 2026 - 2027",
@@ -9330,26 +8849,6 @@
    "region": "West"
   },
   {
-   "title": "Assistant Professor of Mathematics",
-   "institution": "Kentucky State University",
-   "location": "Frankfort, KY, US",
-   "state": "KY",
-   "posted": "2026-06-28",
-   "source": "Inside Higher Ed Careers",
-   "sources": [
-    "Inside Higher Ed Careers"
-   ],
-   "url": "https://careers.insidehighered.com/job/3522925/assistant-professor-of-mathematics/",
-   "alt_urls": [],
-   "rank": "Tenure-track Assistant",
-   "field": "Other",
-   "modality": "On-campus",
-   "snippet": "TITLE:\u00a0Assistant Professor of MathematicsDEPARTMENT:\u00a0School of Math and Computer SciencesREPORTS TO: Chairperson, School of Math and Computer Sciences",
-   "modality_evidence": "description: 'On-Site'",
-   "has_full_text": true,
-   "region": "Southeast"
-  },
-  {
    "title": "Tenure-Eligible ASSISTANT/ASSOCIATE/ full PROFESSOR of ELECTRICAL & COMPUTER ENGINEERING / UMKC",
    "institution": "University of Missouri-Kansas City",
    "location": "Kansas City, Missouri, United States",
@@ -9368,26 +8867,6 @@
    "modality_evidence": "inferred (research-active/relocation role): 'research program'",
    "has_full_text": true,
    "region": "Midwest"
-  },
-  {
-   "title": "Adjunct Faculty, Health Information Technology (Academic Year 2026-2027)",
-   "institution": "Pensacola State College",
-   "location": "Pensacola, Florida, United States",
-   "state": "FL",
-   "posted": "2026-06-25",
-   "source": "Chronicle of Higher Education Jobs",
-   "sources": [
-    "Chronicle of Higher Education Jobs"
-   ],
-   "url": "https://jobs.chronicle.com/job/38006673/adjunct-faculty-health-information-technology-academic-year-2026-2027-/",
-   "alt_urls": [],
-   "rank": "Adjunct",
-   "field": "CS",
-   "modality": "On-campus",
-   "snippet": "Pensacola State College: Join the PSC family and connect with accomplished and diverse colleagues who inspire and innovate students and transform lives and futures. Along",
-   "modality_evidence": "description: 'face-to-face'",
-   "has_full_text": true,
-   "region": "Southeast"
   },
   {
    "title": "Adjunct Faculty, Cybersecurity (Academic Year 2026 - 2027)",
@@ -9636,26 +9115,6 @@
    "region": "Northeast/Mid-Atlantic"
   },
   {
-   "title": "Open Rank: Lecturer in Discipline or Senior Lecturer in Discipline in the Department of Industrial Engineering and Operations Research",
-   "institution": "Columbia University",
-   "location": "New York, New York, United States",
-   "state": "NY",
-   "posted": "2026-06-11",
-   "source": "CRA Career Center",
-   "sources": [
-    "CRA Career Center"
-   ],
-   "url": "https://careercenter.cra.org/job/open-rank-lecturer-in-discipline-or-senior-lecturer-in-discipline-in-the-department-of-industrial-engineering-and-operations-research-new-york-new-york-2354",
-   "alt_urls": [],
-   "rank": "Instructor/Lecturer/NTT",
-   "field": "CS",
-   "snippet": " The Department of Industrial Engineering and Operations Research at Columbia Engineering invites applications for a Lecturer in Discipline or a Senior Lecturer in Discipline, starting either January 1, 2027 or July 1, 2027. Applications will be reviewed on a rolling basis. Lecturers in Discipline a",
-   "modality": "Unknown",
-   "modality_evidence": "no modality cues in full description",
-   "has_full_text": true,
-   "region": "Northeast/Mid-Atlantic"
-  },
-  {
    "title": "Adjunct, Information Technology - School of Tech/Trades",
    "institution": "Frederick Community College",
    "location": "Frederick, MD",
@@ -9771,26 +9230,6 @@
    "field": "CS",
    "modality": "Unknown",
    "snippet": "Hampton University: Description The Department of Computer Science is an academic unit of Hampton University which serves traditional and non-traditional students.",
-   "modality_evidence": "no modality cues in full description",
-   "has_full_text": true,
-   "region": "Southeast"
-  },
-  {
-   "title": "Assistant / Associate Professor [Tenure Track] \u2013 Computer Science/School of Science",
-   "institution": "Hampton University",
-   "location": "Hampton, Virginia, United States",
-   "state": "VA",
-   "posted": "2026-05-21",
-   "source": "Chronicle of Higher Education Jobs",
-   "sources": [
-    "Chronicle of Higher Education Jobs"
-   ],
-   "url": "https://jobs.chronicle.com/job/37992080/assistant-associate-professor-tenure-track-computer-science-school-of-science/",
-   "alt_urls": [],
-   "rank": "Tenure-track Assistant",
-   "field": "CS",
-   "modality": "Unknown",
-   "snippet": "Hampton University: Description The Hampton University, the Department of Computer Science in the School of Science is seeking a candidates for Assistant or",
    "modality_evidence": "no modality cues in full description",
    "has_full_text": true,
    "region": "Southeast"
@@ -10316,46 +9755,6 @@
    "region": "Northeast/Mid-Atlantic"
   },
   {
-   "title": "Lecturer Unit 18 Non-Senate Faculty - Department of Statistics",
-   "institution": "UC Irvine",
-   "location": "Irvine, CA",
-   "state": "CA",
-   "posted": "2026-04-01",
-   "source": "UC Recruit",
-   "sources": [
-    "UC Recruit"
-   ],
-   "url": "https://recruit.ap.uci.edu/JPF10017",
-   "alt_urls": [],
-   "rank": "Instructor/Lecturer/NTT",
-   "field": "CS",
-   "snippet": "Position overview Salary range: The salary range for this position is $70,977 to $120,835. The posted UC salary scales ( https://ap.uci.edu/compensation/salary-scales/ ) set the minimum pay determined by rank and step at appointment. Application Window Open date: April 1, 2026 Most recent review dat",
-   "modality": "Unknown",
-   "modality_evidence": "no modality cues in full description",
-   "has_full_text": true,
-   "region": "West"
-  },
-  {
-   "title": "Adjunct Professor, Computer Information Systems",
-   "institution": "Flagler College",
-   "location": "St. Augustine, Florida, United States",
-   "state": "FL",
-   "posted": "2026-03-30",
-   "source": "Chronicle of Higher Education Jobs",
-   "sources": [
-    "Chronicle of Higher Education Jobs"
-   ],
-   "url": "https://jobs.chronicle.com/job/37969442/adjunct-professor-computer-information-systems/",
-   "alt_urls": [],
-   "rank": "Adjunct",
-   "field": "CS",
-   "modality": "On-campus",
-   "snippet": "Flagler College: Description The Department of Mathematics and Technology at Flagler College is seeking a part-time instructor to teach undergraduate courses in",
-   "modality_evidence": "description: 'in person'",
-   "has_full_text": true,
-   "region": "Southeast"
-  },
-  {
    "title": "Adjunct Faculty, Information Technology (IT) (Dual in the Schools Program)",
    "institution": "Prince George's Community College",
    "location": "Largo, Maryland, United States",
@@ -10554,26 +9953,6 @@
    "modality_evidence": "no modality cues in full description",
    "has_full_text": true,
    "region": "Southeast"
-  },
-  {
-   "title": "Research Assistant Professor - Magnetism and Swarm Robotics  - (495609 )",
-   "institution": "University of Houston",
-   "location": "Houston, Texas, United States",
-   "state": "TX",
-   "posted": "2026-03-04",
-   "source": "Chronicle of Higher Education Jobs",
-   "sources": [
-    "Chronicle of Higher Education Jobs"
-   ],
-   "url": "https://jobs.chronicle.com/job/37958564/research-assistant-professor-magnetism-and-swarm-robotics-495609-/",
-   "alt_urls": [],
-   "rank": "Tenure-track Assistant",
-   "field": "CS",
-   "modality": "On-campus",
-   "snippet": "University of Houston: Department: Electrical EngineeringSalary: Commensurate with experience Description: The Department of Electrical and Computer Engineering (ECE) at",
-   "modality_evidence": "inferred (research-active/relocation role): 'Research Laboratory'",
-   "has_full_text": true,
-   "region": "Southwest"
   },
   {
    "title": "Lecturer - Data Science - School of Information",
@@ -10779,26 +10158,6 @@
    "region": "Southeast"
   },
   {
-   "title": "Adjunct Faculty, Fire Science Technology",
-   "institution": "Lone Star College",
-   "location": "Kingwood, Texas, United States",
-   "state": "TX",
-   "posted": "2026-02-24",
-   "source": "Chronicle of Higher Education Jobs",
-   "sources": [
-    "Chronicle of Higher Education Jobs"
-   ],
-   "url": "https://jobs.chronicle.com/job/37955300/adjunct-faculty-fire-science-technology/",
-   "alt_urls": [],
-   "rank": "Adjunct",
-   "field": "Other",
-   "modality": "Unknown",
-   "snippet": "Lone Star College: Commitment to Mission This job carries with it the obligation to uphold the Mission of Lone Star College (LSC) in carrying out the duties of",
-   "modality_evidence": "no modality cues in full description",
-   "has_full_text": true,
-   "region": "Southwest"
-  },
-  {
    "title": "Engineering, Computer Science, and Information Technology - Part-Time Faculty Positions",
    "institution": "Penn State University",
    "location": "Penn State Hazleton",
@@ -10873,26 +10232,6 @@
    "alt_urls": [
     "https://careers.insidehighered.com/job/3488972/adjunct-faculty-computer-information-technology/"
    ],
-   "rank": "Adjunct",
-   "field": "CS",
-   "modality": "Unknown",
-   "snippet": "Lone Star College: Commitment to Mission This job carries with it the obligation to uphold the Mission of Lone Star College (LSC) in carrying out the duties of",
-   "modality_evidence": "no modality cues in full description",
-   "has_full_text": true,
-   "region": "Southwest"
-  },
-  {
-   "title": "Adjunct Faculty, Computer Information Technology-Microsoft System Admin & Azure",
-   "institution": "Lone Star College",
-   "location": "Tomball, Texas, United States",
-   "state": "TX",
-   "posted": "2026-02-18",
-   "source": "Chronicle of Higher Education Jobs",
-   "sources": [
-    "Chronicle of Higher Education Jobs"
-   ],
-   "url": "https://jobs.chronicle.com/job/37953056/adjunct-faculty-computer-information-technology-microsoft-system-admin-and-azure/",
-   "alt_urls": [],
    "rank": "Adjunct",
    "field": "CS",
    "modality": "Unknown",
@@ -11375,10 +10714,13 @@
    "posted": "2025-12-11",
    "source": "Chronicle of Higher Education Jobs",
    "sources": [
-    "Chronicle of Higher Education Jobs"
+    "Chronicle of Higher Education Jobs",
+    "Inside Higher Ed Careers"
    ],
    "url": "https://jobs.chronicle.com/job/37926797/adjunct-faculty-computer-information-technology-bcis/",
-   "alt_urls": [],
+   "alt_urls": [
+    "https://careers.insidehighered.com/job/3558383/adjunct-faculty-computer-information-technology-bcis/"
+   ],
    "rank": "Adjunct",
    "field": "CS",
    "modality": "Unknown",
@@ -11771,46 +11113,6 @@
    "region": "Southeast"
   },
   {
-   "title": "Lecturer, Department of Mechanical Engineering",
-   "institution": "University of Tennessee at Chattanooga",
-   "location": "Chattanooga, Tennessee, United States",
-   "state": "TN",
-   "posted": "2025-10-22",
-   "source": "Chronicle of Higher Education Jobs",
-   "sources": [
-    "Chronicle of Higher Education Jobs"
-   ],
-   "url": "https://jobs.chronicle.com/job/37905873/lecturer-department-of-mechanical-engineering/",
-   "alt_urls": [],
-   "rank": "Instructor/Lecturer/NTT",
-   "field": "Other",
-   "modality": "Unknown",
-   "snippet": "University of Tennessee at Chattanooga: Description The Mechanical Engineering Department in the College of Engineering and Computer Science at The University of Tennessee at",
-   "modality_evidence": "no modality cues in full description",
-   "has_full_text": true,
-   "region": "Southeast"
-  },
-  {
-   "title": "Assistant Professor, Department of Mechanical Engineering",
-   "institution": "University of Tennessee at Chattanooga",
-   "location": "Chattanooga, Tennessee, United States",
-   "state": "TN",
-   "posted": "2025-10-22",
-   "source": "Chronicle of Higher Education Jobs",
-   "sources": [
-    "Chronicle of Higher Education Jobs"
-   ],
-   "url": "https://jobs.chronicle.com/job/37905872/assistant-professor-department-of-mechanical-engineering/",
-   "alt_urls": [],
-   "rank": "Tenure-track Assistant",
-   "field": "Other",
-   "modality": "On-campus",
-   "snippet": "University of Tennessee at Chattanooga: Description The Mechanical Engineering Department in the College of Engineering and Computer Science at The University of Tennessee at",
-   "modality_evidence": "inferred (research-active/relocation role): 'research program'",
-   "has_full_text": true,
-   "region": "Southeast"
-  },
-  {
    "title": "Adjunct Faculty for Computer Sciences",
    "institution": "Gardner-Webb University",
    "location": "Boiling Springs, North Carolina, United States",
@@ -11829,26 +11131,6 @@
    "modality_evidence": "no modality cues in full description",
    "has_full_text": true,
    "region": "Southeast"
-  },
-  {
-   "title": "Part-Time Skills Instructor, Pharmacy Technology Lab",
-   "institution": "Lone Star College",
-   "location": "Tomball, Texas, United States",
-   "state": "TX",
-   "posted": "2025-10-15",
-   "source": "Chronicle of Higher Education Jobs",
-   "sources": [
-    "Chronicle of Higher Education Jobs"
-   ],
-   "url": "https://jobs.chronicle.com/job/37902957/part-time-skills-instructor-pharmacy-technology-lab/",
-   "alt_urls": [],
-   "rank": "Adjunct",
-   "field": "Other",
-   "modality": "Unknown",
-   "snippet": "Lone Star College: Commitment to Mission This job carries with it the obligation to uphold the Mission of Lone Star College (LSC) in carrying out the duties of",
-   "modality_evidence": "no modality cues in full description",
-   "has_full_text": true,
-   "region": "Southwest"
   },
   {
    "title": "Assistant Professor, Tenure Track - Robotics in Mechanical Engineering",
@@ -11909,26 +11191,6 @@
    "modality_evidence": "description: 'Onsite'",
    "has_full_text": true,
    "region": "Southeast"
-  },
-  {
-   "title": "Adjunct Faculty - COAS - Physics",
-   "institution": "Indiana Tech",
-   "location": "Fort Wayne, Indiana, United States",
-   "state": "IN",
-   "posted": "2025-09-25",
-   "source": "Chronicle of Higher Education Jobs",
-   "sources": [
-    "Chronicle of Higher Education Jobs"
-   ],
-   "url": "https://jobs.chronicle.com/job/37891030/adjunct-faculty-coas-physics/",
-   "alt_urls": [],
-   "rank": "Adjunct",
-   "field": "Other",
-   "modality": "On-campus",
-   "snippet": "Indiana Tech: Description Indiana Tech is a thriving, independent, teaching-oriented university that delivers career-oriented programming in a wide variety of",
-   "modality_evidence": "description: 'on-site'",
-   "has_full_text": true,
-   "region": "Midwest"
   },
   {
    "title": "Department of Computer Science: Adjunct Faculty",
@@ -12094,26 +11356,6 @@
    "region": "West"
   },
   {
-   "title": "Part-Time Health Information Technology Instructor (Pool)",
-   "institution": "West Valley-Mission Community College District",
-   "location": "Saratoga, CA",
-   "state": "CA",
-   "posted": "2025-08-22",
-   "source": "Inside Higher Ed Careers",
-   "sources": [
-    "Inside Higher Ed Careers"
-   ],
-   "url": "https://careers.insidehighered.com/job/3389089/part-time-health-information-technology-instructor-pool-/",
-   "alt_urls": [],
-   "rank": "Adjunct",
-   "field": "CS",
-   "modality": "Unknown",
-   "snippet": "Position Title:Part-Time Health Information Technology Instructor (Pool)Campus:West Valley CollegeDefinition:PART-TIME, ASSOCIATE FACULTY POOL  Applic",
-   "modality_evidence": "no modality cues in full description",
-   "has_full_text": true,
-   "region": "West"
-  },
-  {
    "title": "Part-Time Computer Information Systems (CIS) & Technology (CIT) Instructor (Pool)",
    "institution": "West Valley-Mission Community College District",
    "location": "Saratoga",
@@ -12192,26 +11434,6 @@
    "modality_evidence": "title/location: 'Online'",
    "has_full_text": true,
    "region": "Northeast/Mid-Atlantic"
-  },
-  {
-   "title": "Part-time Faculty, College of Natural Sciences and Mathematics",
-   "institution": "Lenoir-Rhyne University",
-   "location": "Hickory, North Carolina, United States",
-   "state": "NC",
-   "posted": "2025-07-24",
-   "source": "Chronicle of Higher Education Jobs",
-   "sources": [
-    "Chronicle of Higher Education Jobs"
-   ],
-   "url": "https://jobs.chronicle.com/job/37861928/part-time-faculty-college-of-natural-sciences-and-mathematics/",
-   "alt_urls": [],
-   "rank": "Adjunct",
-   "field": "Other",
-   "modality": "Unknown",
-   "snippet": "Lenoir-Rhyne University: Please note: The College of Natural Sciences and Mathematics includes the following academic programs: Biology, Chemistry, Computer Science,",
-   "modality_evidence": "no modality cues in full description",
-   "has_full_text": true,
-   "region": "Southeast"
   },
   {
    "title": "Adjunct Instructor - Marketing & Computer Information Systems",
@@ -12697,26 +11919,6 @@
    "region": "International/Other"
   },
   {
-   "title": "Adjunct Faculty - Health Information Technology",
-   "institution": "Harper College",
-   "location": "Palatine, Illinois, United States",
-   "state": "IL",
-   "posted": "2025-02-11",
-   "source": "Chronicle of Higher Education Jobs",
-   "sources": [
-    "Chronicle of Higher Education Jobs"
-   ],
-   "url": "https://jobs.chronicle.com/job/37791510/adjunct-faculty-health-information-technology/",
-   "alt_urls": [],
-   "rank": "Adjunct",
-   "field": "CS",
-   "modality": "On-campus",
-   "snippet": "Harper College: ABOUT US We are Harper College\u2026the college in your community. The College was established by referendum in 1965 and opened September 1967. It is",
-   "modality_evidence": "description: 'on campus'",
-   "has_full_text": true,
-   "region": "Midwest"
-  },
-  {
    "title": "Instructor IT Computer Repair Technician, CE (A+, Network+, Tech+, Cybersecurity) - Adjunct Pool",
    "institution": "Houston City College",
    "location": "Houston, Texas, System Wide",
@@ -12960,26 +12162,6 @@
    "region": "Southeast"
   },
   {
-   "title": "Adjunct Lecturer - Health Information Technology",
-   "institution": "City Colleges of Chicago",
-   "location": "Chicago, Illinois, United States",
-   "state": "IL",
-   "posted": "2024-09-12",
-   "source": "Chronicle of Higher Education Jobs",
-   "sources": [
-    "Chronicle of Higher Education Jobs"
-   ],
-   "url": "https://jobs.chronicle.com/job/37728120/adjunct-lecturer-health-information-technology/",
-   "alt_urls": [],
-   "rank": "Adjunct",
-   "field": "CS",
-   "modality": "Unknown",
-   "snippet": "City Colleges of Chicago: ADJUNCT INSTRUCTOR \u2013 HEALTH INFORMATION TECHNOLOGY MALCOLM X COLLEGE Malcolm X College is currently seeking a part-time Adjunct Instructor for",
-   "modality_evidence": "no modality cues in full description",
-   "has_full_text": true,
-   "region": "Midwest"
-  },
-  {
    "title": "Computer Science Online Short Term 2026-2027 Teaching Positions - UMC MST Division",
    "institution": "University of Minnesota",
    "location": "Crookston, Minnesota, United States",
@@ -13061,26 +12243,6 @@
    "modality_evidence": "no modality cues in full description",
    "has_full_text": true,
    "region": "West"
-  },
-  {
-   "title": "Anesthesiology Faculty - Data Science Research",
-   "institution": "University of Maryland, Baltimore",
-   "location": "Baltimore, Maryland, United States",
-   "state": "MD",
-   "posted": "2024-07-18",
-   "source": "Chronicle of Higher Education Jobs",
-   "sources": [
-    "Chronicle of Higher Education Jobs"
-   ],
-   "url": "https://jobs.chronicle.com/job/37685984/anesthesiology-faculty-data-science-research/",
-   "alt_urls": [],
-   "rank": "Instructor/Lecturer/NTT",
-   "field": "CS",
-   "modality": "On-campus",
-   "snippet": "University of Maryland, Baltimore: We are seeking an entry-level data scientist, junior faculty to join our clinical data research lab. The ideal candidate will have a strong",
-   "modality_evidence": "inferred (research-active/relocation role): 'research lab'",
-   "has_full_text": true,
-   "region": "Northeast/Mid-Atlantic"
   },
   {
    "title": "Lecturer of Electrical and Computer Engineering",
@@ -14106,21 +13268,21 @@
    "region": "Midwest"
   },
   {
-   "title": "Adjunct Health Information Technology",
-   "institution": "Community College of Allegheny County",
-   "location": "College Wide",
-   "state": "PA",
-   "posted": "2019-08-22",
+   "title": "Adjunct Faculty/Cybersecurity",
+   "institution": "Westchester Community College",
+   "location": "Valhalla, NY",
+   "state": "NY",
+   "posted": "2019-08-29",
    "source": "Inside Higher Ed Careers",
    "sources": [
     "Inside Higher Ed Careers"
    ],
-   "url": "https://careers.insidehighered.com/job/1853279/adjunct-health-information-technology/",
+   "url": "https://careers.insidehighered.com/job/1857556/adjunct-faculty-cybersecurity/",
    "alt_urls": [],
    "rank": "Adjunct",
    "field": "CS",
    "modality": "Unknown",
-   "snippet": "Position Title: Adjunct Health Information TechnologyDepartment: AcademicsCampus: College WideAdditional Information: Please note: If you are a PSERS",
+   "snippet": "Category:: Teaching FacultyDepartment:: Computer Information Technologies/School of Business and ProLocations:: Valhalla, NYPosted:: Jul 23, 2019Close",
    "modality_evidence": "no modality cues in full description",
    "has_full_text": true,
    "region": "Northeast/Mid-Atlantic"
@@ -14145,7 +13307,5 @@
    "has_full_text": true,
    "region": "Southeast"
   }
- ],
- "scraped_count": 696,
- "community_count": 1
+ ]
 }
