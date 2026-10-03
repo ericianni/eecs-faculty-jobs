@@ -26,6 +26,44 @@ header p{margin:0;color:#aeb3bd;font-size:12px}
 .ext a{display:inline-flex;align-items:center;height:24px;padding:0 9px;border:1px solid #d5d9e0;border-radius:6px;background:#fff;color:#0b4f9c;text-decoration:none;font-size:12px;white-space:nowrap}
 .ext a:hover{border-color:var(--accent);color:var(--accent)}
 .ext .kw{color:var(--muted);font-size:11.5px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;max-width:420px}
+/* Search elsewhere A/B variants */
+.ext{gap:6px 8px;padding:6px 14px}
+.ext .lbl{font-weight:600;color:#3a4252}
+.ext input.xq{height:26px;padding:0 8px;border:1px solid #d5d9e0;border-radius:6px;font-size:12.5px;width:320px;max-width:100%;background:#fff;color:var(--ink)}
+.ext input.xq:focus{outline:2px solid var(--accent);border-color:transparent}
+.ext input.xq[readonly]{background:#f3f5f8;color:#3a4252}
+.ext .sites,.ext .chips{display:inline-flex;gap:6px;flex-wrap:wrap;align-items:center}
+.ext .chips{gap:5px}
+.ext a.hl{border-color:var(--accent);color:var(--accent)}
+.chip{height:22px;padding:0 10px;border-radius:999px;border:1px solid #d5d9e0;background:#fff;font-size:11.5px;cursor:pointer;color:#3a4252}
+.chip:hover{border-color:var(--accent)}
+.abswitch{margin-left:auto;display:inline-flex;align-items:center;gap:0;font-size:11.5px;color:var(--muted)}
+.abswitch button{height:22px;min-width:28px;border:1px solid #d5d9e0;background:#fff;font-size:11.5px;font-weight:600;cursor:pointer;color:#3a4252;margin-left:4px;border-radius:0}
+.abswitch button+button{margin-left:-1px}
+.abswitch button:first-of-type{border-radius:6px 0 0 6px}.abswitch button:last-of-type{border-radius:0 6px 6px 0}
+.abswitch button[aria-pressed="true"]{background:#3a4252;border-color:#3a4252;color:#fff}
+.chip[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:#fff}
+.chip[aria-pressed="true"]::before{content:"✓ "}
+.linkbtn{border:0;background:none;color:#0b4f9c;cursor:pointer;font-size:12px;padding:0 2px;text-decoration:underline}
+.badge{display:inline-flex;align-items:center;height:22px;padding:0 8px;border-radius:999px;font-size:11px;font-weight:600;white-space:nowrap}
+.badge.sync{background:#e3f6ea;color:#11683a}
+.badge.edit{background:#fff4d6;color:#6b4f00}
+.pv{flex-basis:100%;display:flex;gap:6px;align-items:center;font-size:11.5px;color:var(--muted);min-width:0}
+.pv .q{color:var(--ink);font-weight:600;background:#fff4ee;border:1px solid #f6c9b3;border-radius:4px;padding:1px 6px}
+.pv code{font:11px/1.4 ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;background:#fff;border:1px solid var(--line);border-radius:4px;padding:2px 6px;color:#3a4252;min-width:0;flex:0 1 auto;max-width:640px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+/* Community emphasis (color + bar + star + text label, so not color-only) */
+:root{--comm:#9a3412;--commbg:#fff1dc;--commhover:#ffe6c2}
+tbody tr.job.comm,tbody tr.job.comm.z{background:var(--commbg)}
+tbody tr.job.comm:hover{background:var(--commhover)}
+tbody tr.job.comm td:first-child{box-shadow:inset 6px 0 0 var(--comm)}
+tbody tr.job.comm td.title a{font-weight:700}
+.cbadge{display:inline-block;border-radius:4px;padding:1px 7px;font-size:11px;font-weight:700;white-space:nowrap;background:var(--comm);color:#fff;letter-spacing:.02em;vertical-align:1px}
+td.title .cbadge{margin-left:6px}
+tr.grp td{padding:5px 8px 5px 14px;font-size:12px;font-weight:700;color:var(--comm);background:#ffe3bf;border-bottom:2px solid var(--comm);text-transform:uppercase;letter-spacing:.04em}
+tr.grp td .sub{font-weight:400;text-transform:none;letter-spacing:0;color:#5b3a1e;margin-left:6px}
+tr.grp.rest td{color:#3a4252;background:#eef1f5;border-bottom:1px solid #d5d9e0;border-top:6px solid #fff}
+.btn.comm-on{background:var(--comm);border-color:var(--comm);color:#fff}
+.count .cc{color:var(--comm);font-weight:700}
 .tablewrap{flex:1;overflow:auto}
 table{width:100%;border-collapse:collapse;min-width:1050px}
 thead th{position:sticky;top:0;z-index:2;background:#eef1f5;text-align:left;font-weight:600;font-size:11.5px;text-transform:uppercase;letter-spacing:.03em;color:#3a4252;padding:6px 8px;border-bottom:1px solid #d5d9e0;cursor:pointer;user-select:none;white-space:nowrap}
@@ -77,6 +115,9 @@ footer a{color:var(--muted)}
   td.title{font-size:14px}
   td.inst{font-weight:600}
   tr.detail{display:block}tr.detail td{display:block;padding-left:30px}
+  tbody tr.job.comm{box-shadow:inset 6px 0 0 var(--comm)}tbody tr.job.comm td:first-child{box-shadow:none}
+  tr.grp{display:block}tr.grp td{display:block}
+  .ext input.xq{width:100%!important}.pv{flex-wrap:wrap}.pv code{max-width:100%}.abswitch{margin-left:0}
 }
 </style>
 </head>
@@ -94,18 +135,23 @@ footer a{color:var(--muted)}
   <select id="region"><option value="">All regions</option></select>
   <select id="state"><option value="">All locations</option></select>
   <button class="btn" id="remoteBtn" title="Show only Remote/Online listings">Remote/Online only</button>
+  <button class="btn" id="commBtn" aria-pressed="false" title="Show only jobs submitted by site visitors">★ Community only</button>
   <button class="btn" id="expandAll">Expand all</button>
   <button class="btn" id="reset">Reset</button>
   <span class="count" id="count"></span>
 </div>
-<div class="ext" id="ext">
-  <span class="lbl">Search elsewhere:</span>
-  <a id="x-indeed" target="_blank" rel="noopener">Indeed ↗</a>
-  <a id="x-hej" target="_blank" rel="noopener">HigherEdJobs ↗</a>
-  <a id="x-linkedin" target="_blank" rel="noopener">LinkedIn Jobs ↗</a>
-  <a id="x-chronicle" target="_blank" rel="noopener">Chronicle ↗</a>
-  <a id="x-ihe" target="_blank" rel="noopener">Inside Higher Ed ↗</a>
-  <span class="kw" id="x-kw"></span>
+<div class="ext" id="ext" aria-label="Search other job sites">
+  <span class="lbl" id="x-lbl">Search elsewhere for:</span>
+  <span id="x-controls" style="display:contents"></span>
+  <span class="sites">
+    <a id="x-indeed" data-k="indeed" target="_blank" rel="noopener">Indeed ↗</a>
+    <a id="x-hej" data-k="hej" target="_blank" rel="noopener">HigherEdJobs ↗</a>
+    <a id="x-linkedin" data-k="li" target="_blank" rel="noopener">LinkedIn Jobs ↗</a>
+    <a id="x-chronicle" data-k="chron" target="_blank" rel="noopener">Chronicle ↗</a>
+    <a id="x-ihe" data-k="ihe" target="_blank" rel="noopener">Inside Higher Ed ↗</a>
+  </span>
+  <span class="abswitch" id="x-switch" role="group" aria-label="Try a Search elsewhere layout">Try layout: <button type="button" data-v="B" aria-pressed="true" title="Text box with quick-pick chips">B</button><button type="button" data-v="C" aria-pressed="false" title="Follows this page's search and filters, with Edit">C</button></span>
+  <div class="pv" aria-live="polite">Will search for <span class="q" id="pv-q"></span><span id="pv-ctx"></span> → <span id="pv-site"></span> link: <code id="pv-url"></code></div>
 </div>
 <div class="tablewrap">
 <table>
@@ -133,8 +179,8 @@ const SHORT={"Chronicle of Higher Education Jobs":"Chronicle","Inside Higher Ed 
 (()=>{const u=(window.SITE_CONFIG||{}).submitFormUrl||"",a=document.getElementById("submitJob");
   if(/^https:\/\//.test(u)){a.href=u;a.target="_blank";a.rel="noopener";a.textContent="Submit a job";a.title="Know of an EECS faculty opening? Add it (no sign-in needed)";a.classList.remove("off")}
   else a.onclick=e=>e.preventDefault()})();
-const commTag=j=>j.community?` <span class="pill comm" title="Submitted by a site visitor${j.expires?"; listed until "+esc(j.expires):""}">community-added</span>`:"";
-let JOBS=[],sortK="posted",sortDir=-1,open=new Set(),allOpen=false;
+const commTag=j=>j.community?`<span class="cbadge" title="community-added: submitted by a site visitor${j.expires?"; listed until "+esc(j.expires):""}">★ Community</span>`:"";
+let JOBS=[],sortK="posted",sortDir=-1,open=new Set(),allOpen=false,commOnly=false;
 const FILTERS=["q","rank","field","modality","region","state"];
 const REGION_ORDER=["Pacific Northwest","West","Southwest","Midwest","Southeast","Northeast/Mid-Atlantic","Remote","International/Other"];
 const REGION_STATES={"Pacific Northwest":"WA OR ID AK","West":"CA NV UT CO WY MT HI","Southwest":"AZ NM TX OK","Midwest":"ND SD NE KS MN IA MO WI IL IN MI OH","Southeast":"AR LA MS AL GA FL SC NC TN KY VA WV","Northeast/Mid-Atlantic":"ME NH VT MA RI CT NY NJ PA DE MD DC"};
@@ -146,13 +192,18 @@ function render(){
   if(typeof updateExternal==="function")updateExternal();
   const q=$("q").value.toLowerCase().trim().split(/\s+/).filter(Boolean),r=$("rank").value,f=$("field").value,m=$("modality").value,s=$("state").value,g=$("region").value;
   let out=JOBS.filter(j=>(!r||j.rank===r)&&(!f||j.field===f)&&(!m||j.modality===m)&&(!s||j.state===s)&&(!g||j.region===g)&&
-    q.every(t=>(j.title+" "+j.institution+" "+j.location+" "+j.snippet+(j.community?" community-added community":"")).toLowerCase().includes(t)));
+    (!commOnly||j.community)&&q.every(t=>(j.title+" "+j.institution+" "+j.location+" "+j.snippet+(j.community?" community-added community":"")).toLowerCase().includes(t)));
   out.sort((a,b)=>{const c=sortVal(a,sortK).toLowerCase().localeCompare(sortVal(b,sortK).toLowerCase());return (c||b.posted.localeCompare(a.posted)*-sortDir)*sortDir});
+  // Community submissions are always pinned above the chosen sort.
+  const nComm=out.filter(j=>j.community).length;out=out.filter(j=>j.community).concat(out.filter(j=>!j.community));
   document.querySelectorAll("thead th[data-k]").forEach(th=>{const on=th.dataset.k===sortK;th.querySelector(".ind").textContent=on?(sortDir>0?"▲":"▼"):"";th.setAttribute("aria-sort",on?(sortDir>0?"ascending":"descending"):"none")});
   $("remoteBtn").classList.toggle("on",m==="Remote/Online");
-  $("count").textContent=`${out.length} of ${JOBS.length} listings`;
-  $("rows").innerHTML=out.length?out.map((j,i)=>{const id=j.url,isOpen=allOpen||open.has(id);return `
-   <tr class="job${i%2?" z":""}" data-id="${esc(id)}">
+  $("commBtn").classList.toggle("comm-on",commOnly);$("commBtn").setAttribute("aria-pressed",String(commOnly));
+  $("count").innerHTML=`${out.length} of ${JOBS.length} listings${nComm?` · <span class="cc">★ ${nComm} community</span>`:""}`;
+  const grp=(cls,label,sub)=>`<tr class="grp${cls}"><td colspan="9">${label}<span class="sub">${sub}</span></td></tr>`;
+  $("rows").innerHTML=out.length?out.map((j,i)=>{const id=j.url,isOpen=allOpen||open.has(id);const zi=j.community?i:i-nComm;
+   const head=nComm&&i===0?grp("","★ Community submissions",`${nComm} listing${nComm>1?"s":""} added by site visitors, pinned to the top. Check the posting before applying.`):nComm&&i===nComm?grp(" rest","All other listings",""):"";return `${head}
+   <tr class="job${zi%2?" z":""}${j.community?" comm":""}" data-id="${esc(id)}">
     <td class="x"><button class="exp" aria-label="Show details">${isOpen?"▾":"▸"}</button></td>
     <td class="posted">${esc(j.posted)}</td>
     <td class="title"><a href="${esc(safeUrl(j.url))}" target="_blank" rel="noopener">${esc(j.title)}</a>${commTag(j)}</td>
@@ -161,7 +212,7 @@ function render(){
     <td class="rank"><span class="pill ${cls("r",j.rank)}">${esc(j.rank)}</span></td>
     <td class="field">${esc(j.field)}</td>
     <td class="mod"><span class="pill ${cls("m",j.modality)}">${esc(j.modality)}</span></td>
-    <td class="src">${j.sources.map((s,k)=>`<a href="${esc(safeUrl(k?j.alt_urls[k-1]:j.url))}" target="_blank" rel="noopener" style="color:inherit">${esc(SHORT[s]||s)}</a>`).join(" + ")}</td>
+    <td class="src">${j.community?`<span class="cbadge" title="Submitted by a site visitor through the Submit a job form">★ Community</span>`:j.sources.map((s,k)=>`<a href="${esc(safeUrl(k?j.alt_urls[k-1]:j.url))}" target="_blank" rel="noopener" style="color:inherit">${esc(SHORT[s]||s)}</a>`).join(" + ")}</td>
    </tr>${isOpen?`<tr class="detail"><td colspan="9">${esc(j.snippet||"(no snippet in feed)")}${j.modality_evidence?` <span style="color:#7a8190">· Modality basis: ${esc(j.modality_evidence)}</span>`:""}${j.community?` <span style="color:#7a8190">· Community-submitted ${esc(j.submitted)}${j.deadline?", deadline "+esc(j.deadline):""}; listed until ${esc(j.expires)}${j.link_note?"; "+esc(j.link_note):""}. Not verified by the site, so check the posting.</span>`:""} <a href="${esc(safeUrl(j.url))}" target="_blank" rel="noopener">Open posting ↗</a></td></tr>`:""}`}).join("")
    :`<tr><td colspan="9" class="empty">No listings match these filters.</td></tr>`;
 }
@@ -177,44 +228,93 @@ fetch("jobs.json").then(r=>r.json()).then(d=>{
   if(P.get("q"))$("q").value=P.get("q");
   if(P.get("field"))$("field").value=P.get("field");
   if(P.get("region"))$("region").value=P.get("region");
+  if(P.get("community")==="1")commOnly=true;
   render();
 });
 FILTERS.forEach(id=>$(id).addEventListener("input",render));
-// ---- External search links (built from current filters) ----
+// ---- "Search elsewhere" layout: B = text box + quick-pick chips (default), C = follows page filters with Edit/Re-sync.
+// Pick with ?variant=B or ?variant=C, or the "Try layout" switch (which updates the URL so it can be shared).
+const urlVariant=()=>{const v=String(new URLSearchParams(location.search).get("variant")||"").toUpperCase();return v==="C"?"C":"B"};
+let AB=urlVariant();
+// ---- External search links ----
 const STATE_NAMES={AL:"Alabama",AK:"Alaska",AZ:"Arizona",AR:"Arkansas",CA:"California",CO:"Colorado",CT:"Connecticut",DE:"Delaware",DC:"District of Columbia",FL:"Florida",GA:"Georgia",HI:"Hawaii",ID:"Idaho",IL:"Illinois",IN:"Indiana",IA:"Iowa",KS:"Kansas",KY:"Kentucky",LA:"Louisiana",ME:"Maine",MD:"Maryland",MA:"Massachusetts",MI:"Michigan",MN:"Minnesota",MS:"Mississippi",MO:"Missouri",MT:"Montana",NE:"Nebraska",NV:"Nevada",NH:"New Hampshire",NJ:"New Jersey",NM:"New Mexico",NY:"New York",NC:"North Carolina",ND:"North Dakota",OH:"Ohio",OK:"Oklahoma",OR:"Oregon",PA:"Pennsylvania",RI:"Rhode Island",SC:"South Carolina",SD:"South Dakota",TN:"Tennessee",TX:"Texas",UT:"Utah",VT:"Vermont",VA:"Virginia",WA:"Washington",WV:"West Virginia",WI:"Wisconsin",WY:"Wyoming"};
 const RANK_KW={"Adjunct":"adjunct","Instructor/Lecturer/NTT":"lecturer","Tenure-track Assistant":"tenure-track assistant professor","Associate/Full/Tenured":"associate professor","Other":""};
 const FIELD_KW={"CS":"computer science","EE":"electrical engineering","Computer Eng":"computer engineering","Other":""};
 const WFH_LOCATION_ID="20752010"; // Chronicle / Inside Higher Ed "Working from home"
-function updateExternal(){
-  const q=$("q").value.trim(),r=$("rank").value,f=$("field").value,st=$("state").value;
-  const remote=$("modality").value==="Remote/Online"||st==="Remote"||$("region").value==="Remote";
-  const stateName=STATE_NAMES[st]||"";
-  let field=FIELD_KW[f]??"";
-  if(!q&&!field)field="computer science";
+const SITE_NAMES={indeed:"Indeed",hej:"HigherEdJobs",li:"LinkedIn",chron:"Chronicle",ihe:"Inside Higher Ed"};
+const CHIPS=[["Computer Science","computer science"],["Electrical Engineering","electrical engineering"],["Computer Engineering","computer engineering"],["Cybersecurity","cybersecurity"],["AI/Robotics","artificial intelligence robotics"],["Data Science","data science"]];
+const clean=s=>String(s).replace(/\s+/g," ").trim();
+let previewKey="indeed",edited=false;
+// Query derived from the page's search box + Field + Rank filters (the original behaviour).
+function derivedKw(){const q=$("q").value.trim(),r=$("rank").value,f=$("field").value;
+  let field=FIELD_KW[f]??"";if(!q&&!field)field="computer science";
   const rank=r?RANK_KW[r]:"";
-  const kw=[q,field,rank||(/faculty|professor|lecturer|instructor|adjunct/i.test(q)?"":"faculty")].filter(Boolean).join(" ").replace(/\s+/g," ").trim();
-  const enc=encodeURIComponent;
+  return clean([q,field,rank||(/faculty|professor|lecturer|instructor|adjunct/i.test(q)?"":"faculty")].filter(Boolean).join(" "))}
+function extCtx(){const st=$("state").value;
+  return{remote:$("modality").value==="Remote/Online"||st==="Remote"||$("region").value==="Remote",stateName:STATE_NAMES[st]||""}}
+function buildLinks(kw){const {remote,stateName}=extCtx(),enc=encodeURIComponent;
   // Indeed: remote attribute filter (sc=0kf:attr(DSQF7);) + l=<state>
   let indeed=`https://www.indeed.com/jobs?q=${enc(kw)}`;
   if(stateName)indeed+=`&l=${enc(stateName)}`;
   if(remote)indeed+=`&sc=${enc("0kf:attr(DSQF7);")}`;
   // HigherEdJobs: Remote=2 = Online/Remote; no state parameter by name
-  let hej=`https://www.higheredjobs.com/search/advanced_action.cfm?Keyword=${enc(kw)}&SortBy=1`+(remote?"&Remote=2":"");
+  const hej=`https://www.higheredjobs.com/search/advanced_action.cfm?Keyword=${enc(kw)}&SortBy=1`+(remote?"&Remote=2":"");
   // LinkedIn: f_WT=2 = Remote workplace type
-  let li=`https://www.linkedin.com/jobs/search/?keywords=${enc(kw)}&location=${enc(stateName?stateName+", United States":"United States")}`+(remote?"&f_WT=2":"");
+  const li=`https://www.linkedin.com/jobs/search/?keywords=${enc(kw)}&location=${enc(stateName?stateName+", United States":"United States")}`+(remote?"&f_WT=2":"");
   // Chronicle / IHE (Madgex): LocationId for Working from home, radialtown for a state
   const madgex=base=>{let u=`${base}/searchjobs/?keywords=${enc(kw)}`;if(remote)u+=`&LocationId=${WFH_LOCATION_ID}`;else if(stateName)u+=`&location=${enc(stateName)}&radialtown=${enc(stateName)}`;return u};
-  $("x-indeed").href=indeed;$("x-hej").href=hej;$("x-linkedin").href=li;
-  $("x-chronicle").href=madgex("https://jobs.chronicle.com");$("x-ihe").href=madgex("https://careers.insidehighered.com");
-  $("x-kw").textContent=`“${kw}”${remote?" · remote":""}${stateName&&!remote?" · "+stateName:stateName?" · "+stateName+" (Indeed/LinkedIn)":""}`;
-}
+  return{indeed,hej,li,chron:madgex("https://jobs.chronicle.com"),ihe:madgex("https://careers.insidehighered.com")}}
+function setupExternal(){const c=$("x-controls");
+  if(AB==="B"){
+    c.innerHTML=`<input class="xq" id="xq" type="search" style="width:360px" aria-label="Search text for other job sites">
+      <span class="chips" role="group" aria-label="Quick picks">${CHIPS.map(([l,q])=>`<button type="button" class="chip" aria-pressed="false" data-chip="${esc(l)}" data-q="${esc(q)}">${esc(l)}</button>`).join("")}</span>
+      <span style="flex-basis:100%;height:0"></span>`;
+    $("xq").addEventListener("input",updateExternal);
+    c.querySelectorAll(".chip").forEach(b=>b.onclick=()=>{$("xq").value=b.dataset.q+" faculty";updateExternal()});
+  }else{
+    c.innerHTML=`<span class="badge sync" id="xbadge"></span>
+      <input class="xq" id="xq" type="search" style="width:390px" aria-label="Search text for other job sites" aria-describedby="xbadge">
+      <button type="button" class="linkbtn" id="xedit">✎ Edit</button>
+      <button type="button" class="linkbtn" id="xsync" hidden>⟲ Re-sync with filters</button>`;
+    $("xq").addEventListener("input",updateExternal);
+    $("xedit").onclick=()=>{edited=true;updateExternal();$("xq").focus();$("xq").select()};
+    $("xsync").onclick=()=>{edited=false;updateExternal()};
+  }
+  document.querySelectorAll("#x-switch button").forEach(b=>b.setAttribute("aria-pressed",String(b.dataset.v===AB)));
+  updateExternal()}
+document.querySelectorAll("#ext a[data-k]").forEach(a=>{
+  a.addEventListener("mouseenter",()=>{previewKey=a.dataset.k;updateExternal()});
+  a.addEventListener("focus",()=>{previewKey=a.dataset.k;updateExternal()})});
+function setVariant(v){if(v===AB)return;AB=v;edited=false;
+  const u=new URL(location.href);u.searchParams.set("variant",v);history.replaceState(null,"",u);
+  setupExternal()}
+document.querySelectorAll("#x-switch button").forEach(b=>b.onclick=()=>setVariant(b.dataset.v));
+function currentKw(){const x=$("xq");if(!x)return derivedKw();
+  if(AB==="C")return edited?(clean(x.value)||derivedKw()):derivedKw();
+  return clean(x.value)||derivedKw()}
+function updateExternal(){const x=$("xq");if(!x)return;
+  document.documentElement.dataset.searchLayout=AB;
+  if(AB==="B"){x.placeholder=`Type a field or pick one, e.g. ${derivedKw()}`;
+    const v=clean(x.value).toLowerCase();
+    document.querySelectorAll("#ext .chip").forEach(b=>b.setAttribute("aria-pressed",String(!!v&&v.startsWith(b.dataset.q))))}
+  else{if(!edited)x.value=derivedKw();x.readOnly=!edited;
+    const b=$("xbadge");b.className="badge "+(edited?"edit":"sync");b.textContent=edited?"✎ Custom query (filters no longer applied)":"⟲ Matches your filters";
+    $("xedit").hidden=edited;$("xsync").hidden=!edited}
+  const kw=currentKw(),L=buildLinks(kw),{remote,stateName}=extCtx();
+  $("x-indeed").href=L.indeed;$("x-hej").href=L.hej;$("x-linkedin").href=L.li;$("x-chronicle").href=L.chron;$("x-ihe").href=L.ihe;
+  document.querySelectorAll("#ext a[data-k]").forEach(a=>a.classList.toggle("hl",a.dataset.k===previewKey));
+  $("pv-q").textContent=`“${kw}”`;
+  $("pv-ctx").textContent=`${remote?" · remote":""}${stateName&&!remote?" · "+stateName:stateName?" · "+stateName+" (Indeed/LinkedIn)":""}`;
+  $("pv-site").textContent=SITE_NAMES[previewKey];$("pv-url").textContent=L[previewKey];$("pv-url").title=L[previewKey]}
+setupExternal();
 FILTERS.forEach(id=>$(id).addEventListener("input",updateExternal));
 
 document.querySelectorAll("thead th[data-k]").forEach(th=>th.onclick=()=>{const k=th.dataset.k;if(k===sortK)sortDir=-sortDir;else{sortK=k;sortDir=k==="posted"?-1:1}render()});
 $("rows").addEventListener("click",e=>{const b=e.target.closest(".exp");if(!b)return;const id=b.closest("tr").dataset.id;open.has(id)?open.delete(id):open.add(id);render()});
 $("remoteBtn").onclick=()=>{$("modality").value=$("modality").value==="Remote/Online"?"":"Remote/Online";render()};
 $("expandAll").onclick=()=>{allOpen=!allOpen;if(!allOpen)open.clear();$("expandAll").textContent=allOpen?"Collapse all":"Expand all";render()};
-$("reset").onclick=()=>{FILTERS.forEach(id=>$(id).value="");sortK="posted";sortDir=-1;render()};
+$("commBtn").onclick=()=>{commOnly=!commOnly;render()};
+$("reset").onclick=()=>{FILTERS.forEach(id=>$(id).value="");commOnly=false;sortK="posted";sortDir=-1;render()};
 </script>
 </body>
 </html>
