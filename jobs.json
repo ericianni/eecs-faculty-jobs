@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-03T17:21:32+00:00",
+ "generated": "2026-10-04T17:40:26+00:00",
  "sources": {
   "Chronicle of Higher Education Jobs": "https://jobs.chronicle.com/jobsrss/",
   "Inside Higher Ed Careers": "https://careers.insidehighered.com/jobsrss/",
@@ -9,8 +9,8 @@
   "University career sites (Workday, UC Recruit, UW Academic HR)": "https://ap.washington.edu/ahr/academic-jobs/",
   "Community submission": "https://ericianni.github.io/eecs-faculty-jobs/#submit"
  },
- "count": 655,
- "scraped_count": 654,
+ "count": 646,
+ "scraped_count": 645,
  "community_count": 1,
  "jobs": [
   {
@@ -358,6 +358,26 @@
    "modality_evidence": "inferred (research-active/relocation role): 'research program'",
    "has_full_text": true,
    "region": "Southeast"
+  },
+  {
+   "title": "Assistant Professor (Mathematical Computer Science) - Mathematics, Statistics, and Computer Science",
+   "institution": "University of Illinois at Chicago",
+   "location": "Chicago, Illinois, United States",
+   "state": "IL",
+   "posted": "2026-10-02",
+   "source": "CRA Career Center",
+   "sources": [
+    "CRA Career Center"
+   ],
+   "url": "https://careercenter.cra.org/job/assistant-professor-mathematical-computer-science-mathematics-statistics-and-computer-science-chicago-illinois-2482",
+   "alt_urls": [],
+   "rank": "Tenure-track Assistant",
+   "field": "CS",
+   "snippet": " The Mathematics, Statistics, and Computer Science Department in the College of Liberal Arts and Sciences at the University of Illinois Chicago (UIC) has active research programs in pure mathematics, computational and applied mathematics, theoretical computer science, probability and statistics, and",
+   "modality": "On-campus",
+   "modality_evidence": "inferred (research-active/relocation role): 'research program'",
+   "has_full_text": true,
+   "region": "Midwest"
   },
   {
    "title": "Assistant Professor in Computer Science",
@@ -2097,6 +2117,26 @@
    "region": "Southwest"
   },
   {
+   "title": "Tenure Track Assistant Professor in Computer Science - Bioinformatics",
+   "institution": "San Jose State University",
+   "location": "San Jose, California, United States",
+   "state": "CA",
+   "posted": "2026-09-22",
+   "source": "Chronicle of Higher Education Jobs",
+   "sources": [
+    "Chronicle of Higher Education Jobs"
+   ],
+   "url": "https://jobs.chronicle.com/job/38042571/tenure-track-assistant-professor-in-computer-science-bioinformatics/",
+   "alt_urls": [],
+   "rank": "Tenure-track Assistant",
+   "field": "CS",
+   "modality": "On-campus",
+   "snippet": "San Jose State University: Position Rank and Title: Assistant Professor School/Department Name: Department of Computer Science Compensation: Commensurate with",
+   "modality_evidence": "description: 'in-person'",
+   "has_full_text": true,
+   "region": "West"
+  },
+  {
    "title": "Assistant Professor in Electrical or Computer Engineering",
    "institution": "Penn State Behrend",
    "location": "State College, Pennsylvania",
@@ -2175,26 +2215,6 @@
    "modality_evidence": "description: 'on campus'",
    "has_full_text": true,
    "region": "Midwest"
-  },
-  {
-   "title": "Tenure Track Assistant Professor in Computer Science - Bioinformatics",
-   "institution": "San Jose State University",
-   "location": "San Jose, California, United States",
-   "state": "CA",
-   "posted": "2026-09-22",
-   "source": "Chronicle of Higher Education Jobs",
-   "sources": [
-    "Chronicle of Higher Education Jobs"
-   ],
-   "url": "https://jobs.chronicle.com/job/38042571/tenure-track-assistant-professor-in-computer-science-bioinformatics/",
-   "alt_urls": [],
-   "rank": "Tenure-track Assistant",
-   "field": "CS",
-   "modality": "On-campus",
-   "snippet": "San Jose State University: Position Rank and Title: Assistant Professor School/Department Name: Department of Computer Science Compensation: Commensurate with",
-   "modality_evidence": "description: 'in-person'",
-   "has_full_text": true,
-   "region": "West"
   },
   {
    "title": "Assistant Professor, Electrical Engineering",
@@ -2600,26 +2620,6 @@
    "region": "International/Other"
   },
   {
-   "title": "Open Rank Tenure-line Faculty in Computer Science",
-   "institution": "University of Virginia",
-   "location": "Charlottesville, VA",
-   "state": "VA",
-   "posted": "2026-09-18",
-   "source": "Inside Higher Ed Careers",
-   "sources": [
-    "Inside Higher Ed Careers"
-   ],
-   "url": "https://careers.insidehighered.com/job/3552974/open-rank-tenure-line-faculty-in-computer-science/",
-   "alt_urls": [],
-   "rank": "Associate/Full/Tenured",
-   "field": "CS",
-   "modality": "On-campus",
-   "snippet": "DescriptionThe Department of Computer Science at the University of Virginia (UVA) invites applications for multiple tenured or tenure-track faculty po",
-   "modality_evidence": "inferred (research-active/relocation role): 'research program'",
-   "has_full_text": true,
-   "region": "Southeast"
-  },
-  {
    "title": "Assistant Professor, Computer Science",
    "institution": "Winthrop University",
    "location": "Rock Hill, South Carolina",
@@ -2636,6 +2636,26 @@
    "modality": "On-campus",
    "snippet": "The Department of Computing & Information Sciences at Winthrop University is seeking to fill two full-time, tenure-track faculty vacancies at the assi",
    "modality_evidence": "description: 'on-campus'",
+   "has_full_text": true,
+   "region": "Southeast"
+  },
+  {
+   "title": "Open Rank Tenure or Tenure-Track Faculty in Computer Science",
+   "institution": "University of Virginia",
+   "location": "Charlottesville, VA",
+   "state": "VA",
+   "posted": "2026-09-18",
+   "source": "Inside Higher Ed Careers",
+   "sources": [
+    "Inside Higher Ed Careers"
+   ],
+   "url": "https://careers.insidehighered.com/job/3552974/open-rank-tenure-or-tenure-track-faculty-in-computer-science/",
+   "alt_urls": [],
+   "rank": "Associate/Full/Tenured",
+   "field": "CS",
+   "modality": "On-campus",
+   "snippet": "DescriptionThe Department of Computer Science at the University of Virginia (UVA) invites applications for multiple tenured or tenure-track faculty po",
+   "modality_evidence": "inferred (research-active/relocation role): 'research program'",
    "has_full_text": true,
    "region": "Southeast"
   },
@@ -2867,26 +2887,6 @@
    "modality_evidence": "inferred (research-active/relocation role): 'research program'",
    "has_full_text": true,
    "region": "Northeast/Mid-Atlantic"
-  },
-  {
-   "title": "Assistant Professor of Computer Science",
-   "institution": "Texas Christian University",
-   "location": "Fort Worth, Texas, United States",
-   "state": "TX",
-   "posted": "2026-09-17",
-   "source": "Chronicle of Higher Education Jobs",
-   "sources": [
-    "Chronicle of Higher Education Jobs"
-   ],
-   "url": "https://jobs.chronicle.com/job/38040832/assistant-professor-of-computer-science/",
-   "alt_urls": [],
-   "rank": "Tenure-track Assistant",
-   "field": "CS",
-   "modality": "On-campus",
-   "snippet": "Texas Christian University: Application Deadline: Open until filled. Review of applications will begin November 13, 2026. Position Details: This full-time faculty position",
-   "modality_evidence": "description: 'on-campus'",
-   "has_full_text": true,
-   "region": "Southwest"
   },
   {
    "title": "Adjunct Instructor, Geographic Information Systems",
@@ -3132,6 +3132,46 @@
    "region": "Remote"
   },
   {
+   "title": "Adjunct - Computer Science Instructor",
+   "institution": "Lee College",
+   "location": "Baytown",
+   "state": "TX",
+   "posted": "2026-09-16",
+   "source": "Inside Higher Ed Careers",
+   "sources": [
+    "Inside Higher Ed Careers"
+   ],
+   "url": "https://careers.insidehighered.com/job/3551583/adjunct-computer-science-instructor/",
+   "alt_urls": [],
+   "rank": "Adjunct",
+   "field": "CS",
+   "modality": "On-campus",
+   "snippet": "Adjunct - Computer Science Instructor     Salary:   Job Type: Part-Time  Job Number: FY202100046  Location: Main Campus - Baytown, TX  Division: P",
+   "modality_evidence": "description: 'in-person'",
+   "has_full_text": true,
+   "region": "Southwest"
+  },
+  {
+   "title": "Adjunct - Computer Science Instructor (Huntsville Campus)",
+   "institution": "Lee College",
+   "location": "Baytown",
+   "state": "TX",
+   "posted": "2026-09-16",
+   "source": "Inside Higher Ed Careers",
+   "sources": [
+    "Inside Higher Ed Careers"
+   ],
+   "url": "https://careers.insidehighered.com/job/3551555/adjunct-computer-science-instructor-huntsville-campus-/",
+   "alt_urls": [],
+   "rank": "Adjunct",
+   "field": "CS",
+   "modality": "Unknown",
+   "snippet": "Adjunct - Computer Science Instructor (Huntsville Campus)     Salary:   Job Type: Part-Time  Job Number: FY202100057  Location: Huntsville Center",
+   "modality_evidence": "no modality cues in full description",
+   "has_full_text": true,
+   "region": "Southwest"
+  },
+  {
    "title": "Computer Science Instructor (Part-Time Faculty Pool)",
    "institution": "Ohlone College",
    "location": "Fremont",
@@ -3190,6 +3230,46 @@
    "modality_evidence": "no modality cues in full description",
    "has_full_text": true,
    "region": "Northeast/Mid-Atlantic"
+  },
+  {
+   "title": "Adjunct - Cybersecurity Instructor",
+   "institution": "Lee College",
+   "location": "Baytown",
+   "state": "TX",
+   "posted": "2026-09-16",
+   "source": "Inside Higher Ed Careers",
+   "sources": [
+    "Inside Higher Ed Careers"
+   ],
+   "url": "https://careers.insidehighered.com/job/3551578/adjunct-cybersecurity-instructor/",
+   "alt_urls": [],
+   "rank": "Adjunct",
+   "field": "CS",
+   "modality": "On-campus",
+   "snippet": "Adjunct - Cybersecurity Instructor     Salary:   Job Type: Part-Time  Job Number: FY2300088  Location: Main Campus - Baytown, TX  Division: Provos",
+   "modality_evidence": "description: 'in-person'",
+   "has_full_text": true,
+   "region": "Southwest"
+  },
+  {
+   "title": "Adjunct - Computer Information Systems Instructor",
+   "institution": "Lee College",
+   "location": "Baytown",
+   "state": "TX",
+   "posted": "2026-09-16",
+   "source": "Inside Higher Ed Careers",
+   "sources": [
+    "Inside Higher Ed Careers"
+   ],
+   "url": "https://careers.insidehighered.com/job/3551505/adjunct-computer-information-systems-instructor/",
+   "alt_urls": [],
+   "rank": "Adjunct",
+   "field": "CS",
+   "modality": "On-campus",
+   "snippet": "Adjunct - Computer Information Systems Instructor     Salary:   Job Type: Part-Time  Job Number: FY202100031  Location: Main Campus - Baytown, TX",
+   "modality_evidence": "description: 'in-person'",
+   "has_full_text": true,
+   "region": "Southwest"
   },
   {
    "title": "Assistant Research Professor \u2013 Distributed Acoustic Sensing and Machine Learning",
@@ -3372,29 +3452,6 @@
    "region": "Northeast/Mid-Atlantic"
   },
   {
-   "title": "Adjunct - Computer Science Instructor",
-   "institution": "Lee College",
-   "location": "Texas, United States",
-   "state": "TX",
-   "posted": "2026-09-15",
-   "source": "Chronicle of Higher Education Jobs",
-   "sources": [
-    "Chronicle of Higher Education Jobs",
-    "Inside Higher Ed Careers"
-   ],
-   "url": "https://jobs.chronicle.com/job/38038532/adjunct-computer-science-instructor/",
-   "alt_urls": [
-    "https://careers.insidehighered.com/job/3551583/adjunct-computer-science-instructor/"
-   ],
-   "rank": "Adjunct",
-   "field": "CS",
-   "modality": "On-campus",
-   "snippet": "Lee College: Adjunct - Computer Science Instructor Salary: Job Type: Part-Time Job Number: FY202100046 Location: Main Campus - Baytown, TX Division:...",
-   "modality_evidence": "description: 'in-person'",
-   "has_full_text": true,
-   "region": "Southwest"
-  },
-  {
    "title": "Open rank Tenure-Track or Technical Computer Science Faculty",
    "institution": "King's College",
    "location": "Wilkes Barre, Pennsylvania",
@@ -3413,29 +3470,6 @@
    "modality_evidence": "no modality cues in full description",
    "has_full_text": true,
    "region": "Northeast/Mid-Atlantic"
-  },
-  {
-   "title": "Adjunct - Computer Science Instructor (Huntsville Campus)",
-   "institution": "Lee College",
-   "location": "Texas, United States",
-   "state": "TX",
-   "posted": "2026-09-15",
-   "source": "Chronicle of Higher Education Jobs",
-   "sources": [
-    "Chronicle of Higher Education Jobs",
-    "Inside Higher Ed Careers"
-   ],
-   "url": "https://jobs.chronicle.com/job/38038506/adjunct-computer-science-instructor-huntsville-campus-/",
-   "alt_urls": [
-    "https://careers.insidehighered.com/job/3551555/adjunct-computer-science-instructor-huntsville-campus-/"
-   ],
-   "rank": "Adjunct",
-   "field": "CS",
-   "modality": "Unknown",
-   "snippet": "Lee College: Adjunct - Computer Science Instructor (Huntsville Campus) Salary: Job Type: Part-Time Job Number: FY202100057 Location: Huntsville Center -...",
-   "modality_evidence": "no modality cues in full description",
-   "has_full_text": true,
-   "region": "Southwest"
   },
   {
    "title": "Part-time Lecturer - Electrical and Computer Engineering",
@@ -3504,29 +3538,6 @@
    "region": "Northeast/Mid-Atlantic"
   },
   {
-   "title": "Adjunct - Cybersecurity Instructor",
-   "institution": "Lee College",
-   "location": "Texas, United States",
-   "state": "TX",
-   "posted": "2026-09-15",
-   "source": "Chronicle of Higher Education Jobs",
-   "sources": [
-    "Chronicle of Higher Education Jobs",
-    "Inside Higher Ed Careers"
-   ],
-   "url": "https://jobs.chronicle.com/job/38038525/adjunct-cybersecurity-instructor/",
-   "alt_urls": [
-    "https://careers.insidehighered.com/job/3551578/adjunct-cybersecurity-instructor/"
-   ],
-   "rank": "Adjunct",
-   "field": "CS",
-   "modality": "On-campus",
-   "snippet": "Lee College: Adjunct - Cybersecurity Instructor Salary: Job Type: Part-Time Job Number: FY2300088 Location: Main Campus - Baytown, TX Division:...",
-   "modality_evidence": "description: 'in-person'",
-   "has_full_text": true,
-   "region": "Southwest"
-  },
-  {
    "title": "Instructional Faculty FT - Cybersecurity, Cloud Computing and Networking",
    "institution": "Montgomery College",
    "location": "Rockville, Maryland, United States",
@@ -3588,29 +3599,6 @@
    "modality_evidence": "description: 'on-campus'",
    "has_full_text": true,
    "region": "Northeast/Mid-Atlantic"
-  },
-  {
-   "title": "Adjunct - Computer Information Systems Instructor",
-   "institution": "Lee College",
-   "location": "Texas, United States",
-   "state": "TX",
-   "posted": "2026-09-15",
-   "source": "Chronicle of Higher Education Jobs",
-   "sources": [
-    "Chronicle of Higher Education Jobs",
-    "Inside Higher Ed Careers"
-   ],
-   "url": "https://jobs.chronicle.com/job/38038456/adjunct-computer-information-systems-instructor/",
-   "alt_urls": [
-    "https://careers.insidehighered.com/job/3551505/adjunct-computer-information-systems-instructor/"
-   ],
-   "rank": "Adjunct",
-   "field": "CS",
-   "modality": "On-campus",
-   "snippet": "Lee College: Adjunct - Computer Information Systems Instructor Salary: Job Type: Part-Time Job Number: FY202100031 Location: Main Campus - Baytown,...",
-   "modality_evidence": "description: 'in-person'",
-   "has_full_text": true,
-   "region": "Southwest"
   },
   {
    "title": "Florida State University | Department of Computer Science Tenure-Track Faculty Positions",
@@ -5251,26 +5239,6 @@
    "region": "Southwest"
   },
   {
-   "title": "Assistant or Associate Professor, Tenure Track or Tenured, Computer Science - Artificial Intelligenc",
-   "institution": "Baylor University",
-   "location": "Waco, Texas",
-   "state": "TX",
-   "posted": "2026-09-02",
-   "source": "Chronicle of Higher Education Jobs",
-   "sources": [
-    "Chronicle of Higher Education Jobs"
-   ],
-   "url": "https://jobs.chronicle.com/job/38032149/assistant-or-associate-professor-tenure-track-or-tenured-computer-science-artificial-intelligenc/",
-   "alt_urls": [],
-   "rank": "Tenure-track Assistant",
-   "field": "CS",
-   "modality": "On-campus",
-   "snippet": "Baylor University: Baylor University seeks qualified candidates for two tenure-track or tenured positions with the rank of Assistant or Associate Professor in\u00a0AI.",
-   "modality_evidence": "inferred (research-active/relocation role): 'research program'",
-   "has_full_text": true,
-   "region": "Southwest"
-  },
-  {
    "title": "Tenure-Track Assistant Professor Positions in Computer Science - Fall 2027 - 2 Positions Available",
    "institution": "The University of Tennessee, Knoxville",
    "location": "Knoxville, TN, United States",
@@ -5986,26 +5954,6 @@
    "region": "Southwest"
   },
   {
-   "title": "Adjunct Lecturer, Computer Information Systems (Pooled Posting)",
-   "institution": "Bentley University",
-   "location": "Massachusetts, United States",
-   "state": "MA",
-   "posted": "2026-08-26",
-   "source": "Chronicle of Higher Education Jobs",
-   "sources": [
-    "Chronicle of Higher Education Jobs"
-   ],
-   "url": "https://jobs.chronicle.com/job/38029888/adjunct-lecturer-computer-information-systems-pooled-posting-/",
-   "alt_urls": [],
-   "rank": "Adjunct",
-   "field": "CS",
-   "modality": "Unknown",
-   "snippet": "Bentley University: Position Title: Adjunct Lecturer, Computer Information Systems (Pooled Posting) Req ID: R0005912 Time Type: Part time Location: Waltham,...",
-   "modality_evidence": "no modality cues in full description",
-   "has_full_text": true,
-   "region": "Northeast/Mid-Atlantic"
-  },
-  {
    "title": "Quarterly Lecturer in Mathematics for the Mathematics & Computer Science Department (POOL) 2026-2027",
    "institution": "Santa Clara University",
    "location": "Santa Clara, CA",
@@ -6572,26 +6520,6 @@
    "region": "Midwest"
   },
   {
-   "title": "Assistant Professor",
-   "institution": "Princeton Quantum Initiative, Princeton University",
-   "location": "Princeton, New Jersey, United States",
-   "state": "NJ",
-   "posted": "2026-08-19",
-   "source": "CRA Career Center",
-   "sources": [
-    "CRA Career Center"
-   ],
-   "url": "https://careercenter.cra.org/job/assistant-professor-princeton-new-jersey-2392",
-   "alt_urls": [],
-   "rank": "Tenure-track Assistant",
-   "field": "Computer Eng",
-   "snippet": " The Princeton Quantum Initiative, Department of Computer Science, and Department of Electrical and Computer Engineering at Princeton University seek applications for a tenure-track assistant professor faculty position in quantum information theory and quantum computer science. Candidates in all are",
-   "modality": "On-campus",
-   "modality_evidence": "inferred (research-active/relocation role): 'research program'",
-   "has_full_text": true,
-   "region": "Northeast/Mid-Atlantic"
-  },
-  {
    "title": "Assistant Professor of Electrical and Computer Engineering",
    "institution": "York College of Pennsylvania",
    "location": "York, Pennsylvania, United States",
@@ -6673,26 +6601,6 @@
    "modality_evidence": "no modality cues in full description",
    "has_full_text": true,
    "region": "West"
-  },
-  {
-   "title": "Assistant Professor of Computer Science",
-   "institution": "St. Olaf College",
-   "location": "Northfield, Minnesota, United States",
-   "state": "MN",
-   "posted": "2026-08-18",
-   "source": "CRA Career Center",
-   "sources": [
-    "CRA Career Center"
-   ],
-   "url": "https://careercenter.cra.org/job/assistant-professor-of-computer-science-northfield-minnesota-2390",
-   "alt_urls": [],
-   "rank": "Tenure-track Assistant",
-   "field": "CS",
-   "snippet": " The Department of Mathematics, Statistics, and Computer Science (MSCS) at St. Olaf College invites applications for a full-time, tenure track position in Computer Science at the Assistant Professor level, to begin August 2027. We are looking for candidates who can contribute broadly to our growing ",
-   "modality": "Unknown",
-   "modality_evidence": "no modality cues in full description",
-   "has_full_text": true,
-   "region": "Midwest"
   },
   {
    "title": "Chair of Computer Science and Assistant Professor.",
@@ -8046,26 +7954,6 @@
    "region": "Southwest"
   },
   {
-   "title": "Professor & Department Chair - Electrical and Computer Engineering",
-   "institution": "The University of Pittsburgh",
-   "location": "University of Pittsburgh, Pittsburgh",
-   "state": "PA",
-   "posted": "2026-07-21",
-   "source": "Inside Higher Ed Careers",
-   "sources": [
-    "Inside Higher Ed Careers"
-   ],
-   "url": "https://careers.insidehighered.com/job/3530588/professor-and-department-chair-electrical-and-computer-engineering/",
-   "alt_urls": [],
-   "rank": "Associate/Full/Tenured",
-   "field": "Computer Eng",
-   "modality": "Unknown",
-   "snippet": "The University of Pittsburgh: The successful candidate will bring a distinguished record of sponsored research, impactful publications, and excellence in teaching and mentoring, al",
-   "modality_evidence": "no modality cues in full description",
-   "has_full_text": true,
-   "region": "Northeast/Mid-Atlantic"
-  },
-  {
    "title": "Department Chair (Computer Science)",
    "institution": "Angelo State University",
    "location": "San Angelo, Texas, United States",
@@ -8267,26 +8155,6 @@
    "modality_evidence": "inferred (research-active/relocation role): 'research program'",
    "has_full_text": true,
    "region": "Southeast"
-  },
-  {
-   "title": "Professor of Practice in Computer Science",
-   "institution": "Fitchburg State University",
-   "location": "Fitchburg, Massachusetts, United States",
-   "state": "MA",
-   "posted": "2026-07-15",
-   "source": "Chronicle of Higher Education Jobs",
-   "sources": [
-    "Chronicle of Higher Education Jobs"
-   ],
-   "url": "https://jobs.chronicle.com/job/38016213/professor-of-practice-in-computer-science/",
-   "alt_urls": [],
-   "rank": "Instructor/Lecturer/NTT",
-   "field": "CS",
-   "modality": "Unknown",
-   "snippet": "Fitchburg State University: About Fitchburg State University: Fitchburg State University, located in Fitchburg, Massachusetts, is a public institution dedicated to...",
-   "modality_evidence": "no modality cues in full description",
-   "has_full_text": true,
-   "region": "Northeast/Mid-Atlantic"
   },
   {
    "title": "Quarterly Lecturer - Computer Science and Engineering (2026-2027 Pool)",
@@ -8709,26 +8577,6 @@
    "region": "Southeast"
   },
   {
-   "title": "Part Time Instructor Pool - Computer Information Systems",
-   "institution": "Grossmont-Cuyamaca Community College District",
-   "location": "92020",
-   "state": "CA",
-   "posted": "2026-07-08",
-   "source": "Inside Higher Ed Careers",
-   "sources": [
-    "Inside Higher Ed Careers"
-   ],
-   "url": "https://careers.insidehighered.com/job/3525877/part-time-instructor-pool-computer-information-systems/",
-   "alt_urls": [],
-   "rank": "Adjunct",
-   "field": "CS",
-   "modality": "Unknown",
-   "snippet": "Part Time Instructor Pool - Computer Information Systems R-00671 San Diego County - Cuyamaca CollegeSan Diego County - Grossmont College Tr",
-   "modality_evidence": "no modality cues in full description",
-   "has_full_text": true,
-   "region": "West"
-  },
-  {
    "title": "Part Time - Electrical Engineering - Adjunct Lecturer",
    "institution": "Penn State University",
    "location": "Penn State Harrisburg",
@@ -8954,22 +8802,19 @@
   {
    "title": "Computer Science Part-time Adjunct Faculty",
    "institution": "Oakton College",
-   "location": "Des Plaines, Illinois, United States",
+   "location": "Des Plaines / Skokie, IL",
    "state": "IL",
-   "posted": "2026-06-18",
-   "source": "Chronicle of Higher Education Jobs",
+   "posted": "2026-06-19",
+   "source": "Inside Higher Ed Careers",
    "sources": [
-    "Chronicle of Higher Education Jobs",
     "Inside Higher Ed Careers"
    ],
-   "url": "https://jobs.chronicle.com/job/38003883/computer-science-part-time-adjunct-faculty/",
-   "alt_urls": [
-    "https://careers.insidehighered.com/job/3519764/computer-science-part-time-adjunct-faculty/"
-   ],
+   "url": "https://careers.insidehighered.com/job/3519764/computer-science-part-time-adjunct-faculty/",
+   "alt_urls": [],
    "rank": "Adjunct",
    "field": "CS",
    "modality": "Unknown",
-   "snippet": "Oakton College: About Oakton College : Educate. Empower. Transform At Oakton College, we know education changes lives - and that starts with the people who make",
+   "snippet": "Category:: Adjunct Faculty Subscribe::  Department:: Division of STEM Locations:: Des Plaines / Skokie, IL Posted:: Jun 18, 2026 Closes:: Open Until F",
    "modality_evidence": "no modality cues in full description",
    "has_full_text": true,
    "region": "Midwest"
@@ -9235,6 +9080,26 @@
    "region": "Southeast"
   },
   {
+   "title": "Assistant / Associate Professor [Tenure Track] \u2013 Computer Science/School of Science",
+   "institution": "Hampton University",
+   "location": "Hampton, Virginia, United States",
+   "state": "VA",
+   "posted": "2026-05-21",
+   "source": "Chronicle of Higher Education Jobs",
+   "sources": [
+    "Chronicle of Higher Education Jobs"
+   ],
+   "url": "https://jobs.chronicle.com/job/37992080/assistant-associate-professor-tenure-track-computer-science-school-of-science/",
+   "alt_urls": [],
+   "rank": "Tenure-track Assistant",
+   "field": "CS",
+   "modality": "Unknown",
+   "snippet": "Hampton University: Description The Hampton University, the Department of Computer Science in the School of Science is seeking a candidates for Assistant or",
+   "modality_evidence": "no modality cues in full description",
+   "has_full_text": true,
+   "region": "Southeast"
+  },
+  {
    "title": "Research Assistant Professor of Software Engineering & Optimization \u2013 School of Engineering,",
    "institution": "Hampton University",
    "location": "Hampton, Virginia, United States",
@@ -9253,26 +9118,6 @@
    "modality_evidence": "no modality cues in full description",
    "has_full_text": true,
    "region": "Southeast"
-  },
-  {
-   "title": "Full-Time Tenure Track Faculty - Computer Information Systems",
-   "institution": "City Colleges of Chicago",
-   "location": "Chicago, Illinois, United States",
-   "state": "IL",
-   "posted": "2026-05-21",
-   "source": "Chronicle of Higher Education Jobs",
-   "sources": [
-    "Chronicle of Higher Education Jobs"
-   ],
-   "url": "https://jobs.chronicle.com/job/37991694/full-time-tenure-track-faculty-computer-information-systems/",
-   "alt_urls": [],
-   "rank": "Tenure-track Assistant",
-   "field": "CS",
-   "modality": "Unknown",
-   "snippet": "City Colleges of Chicago: FULL-TIME TENDURE TRACK FACULTY - COMPUTER INFORMATION SYSTEMS KENNEDY-KING COLLEGE Kennedy King College is currently seeking a Full-Time Faculty",
-   "modality_evidence": "no modality cues in full description",
-   "has_full_text": true,
-   "region": "Midwest"
   },
   {
    "title": "Assistant Professor of Computer Science & Information Technology",
@@ -9795,26 +9640,6 @@
    "region": "Northeast/Mid-Atlantic"
   },
   {
-   "title": "26-27 AY Temporary Faculty Pool (Lecturer) - Information Systems",
-   "institution": "California State University - Fresno",
-   "location": "Fresno, California, United States",
-   "state": "CA",
-   "posted": "2026-03-25",
-   "source": "Chronicle of Higher Education Jobs",
-   "sources": [
-    "Chronicle of Higher Education Jobs"
-   ],
-   "url": "https://jobs.chronicle.com/job/37966998/26-27-ay-temporary-faculty-pool-lecturer-information-systems/",
-   "alt_urls": [],
-   "rank": "Instructor/Lecturer/NTT",
-   "field": "Other",
-   "modality": "On-campus",
-   "snippet": "California State University - Fresno: Temporary Faculty Pool - Lecturer in Computer Information Systems Department Overview [ <a href=",
-   "modality_evidence": "description: 'in-person'",
-   "has_full_text": true,
-   "region": "West"
-  },
-  {
    "title": "26-27 AY Teaching Associate (TA) - Computer Science",
    "institution": "California State University - Fresno",
    "location": "Fresno, California, United States",
@@ -9830,6 +9655,26 @@
    "field": "CS",
    "modality": "On-campus",
    "snippet": "California State University - Fresno: Teaching Associate (TA) for the Department of Department of Computer Science College of Science and Mathematics Position Overview: The",
+   "modality_evidence": "description: 'in-person'",
+   "has_full_text": true,
+   "region": "West"
+  },
+  {
+   "title": "26-27 AY Temporary Faculty Pool (Lecturer) - Information Systems",
+   "institution": "California State University - Fresno",
+   "location": "Fresno, California, United States",
+   "state": "CA",
+   "posted": "2026-03-25",
+   "source": "Chronicle of Higher Education Jobs",
+   "sources": [
+    "Chronicle of Higher Education Jobs"
+   ],
+   "url": "https://jobs.chronicle.com/job/37966998/26-27-ay-temporary-faculty-pool-lecturer-information-systems/",
+   "alt_urls": [],
+   "rank": "Instructor/Lecturer/NTT",
+   "field": "Other",
+   "modality": "On-campus",
+   "snippet": "California State University - Fresno: Temporary Faculty Pool - Lecturer in Computer Information Systems Department Overview [ <a href=",
    "modality_evidence": "description: 'in-person'",
    "has_full_text": true,
    "region": "West"
@@ -9913,26 +9758,6 @@
    "modality_evidence": "no modality cues in full description",
    "has_full_text": true,
    "region": "West"
-  },
-  {
-   "title": "Adjunct Faculty - Computing Science (GRADE)",
-   "institution": "Finger Lakes Community College",
-   "location": "Canandaigua, New York, United States",
-   "state": "NY",
-   "posted": "2026-03-05",
-   "source": "Chronicle of Higher Education Jobs",
-   "sources": [
-    "Chronicle of Higher Education Jobs"
-   ],
-   "url": "https://jobs.chronicle.com/job/37958659/adjunct-faculty-computing-science-grade-/",
-   "alt_urls": [],
-   "rank": "Adjunct",
-   "field": "CS",
-   "modality": "On-campus",
-   "snippet": "Finger Lakes Community College: The Computing Sciences Department at Finger Lakes Community College is seeking innovative and adaptable educators committed to student engagement,",
-   "modality_evidence": "description: 'In-person'",
-   "has_full_text": true,
-   "region": "Northeast/Mid-Atlantic"
   },
   {
    "title": "Temporary Data and AI at Work Instructor",
@@ -10459,6 +10284,26 @@
    "field": "CS",
    "modality": "Unknown",
    "snippet": "Hainan Bielefeld University of Applied Sciences (BiUH): We invite passionate educators and researchers at all career stages, from early-career lecturers to established professors, to join our team.",
+   "modality_evidence": "no modality cues in full description",
+   "has_full_text": true,
+   "region": "International/Other"
+  },
+  {
+   "title": "Lecturer / Associate Professor / Professor in Artificial Intelligence and Data Science",
+   "institution": "Hainan Bielefeld University of Applied Sciences (BiUH)",
+   "location": "Hainan (CN)",
+   "state": "Other/Unknown",
+   "posted": "2026-01-13",
+   "source": "Inside Higher Ed Careers",
+   "sources": [
+    "Inside Higher Ed Careers"
+   ],
+   "url": "https://careers.insidehighered.com/job/3450972/lecturer-associate-professor-professor-in-artificial-intelligence-and-data-science/",
+   "alt_urls": [],
+   "rank": "Instructor/Lecturer/NTT",
+   "field": "CS",
+   "modality": "Unknown",
+   "snippet": "Hainan Bielefeld University of Applied Sciences (BiUH): We invite passionate educators and researchers at all career stages, from early-career lecturers ...",
    "modality_evidence": "no modality cues in full description",
    "has_full_text": true,
    "region": "International/Other"
@@ -12062,26 +11907,6 @@
    "region": "Southeast"
   },
   {
-   "title": "Adjunct Faculty/ Computer Science",
-   "institution": "Westchester Community College",
-   "location": "Valhalla, NY",
-   "state": "NY",
-   "posted": "2024-11-12",
-   "source": "Inside Higher Ed Careers",
-   "sources": [
-    "Inside Higher Ed Careers"
-   ],
-   "url": "https://careers.insidehighered.com/job/3259386/adjunct-faculty-computer-science/",
-   "alt_urls": [],
-   "rank": "Adjunct",
-   "field": "CS",
-   "modality": "Unknown",
-   "snippet": "Category:: Adjunct Positions - Teaching Faculty Subscribe::  Department:: School of Math, Science & Eng Locations:: Valhalla, NY Posted:: Nov 8, 2024",
-   "modality_evidence": "no modality cues in full description",
-   "has_full_text": true,
-   "region": "Northeast/Mid-Atlantic"
-  },
-  {
    "title": "CE Instructor-Technology Instructor (Career Training)",
    "institution": "Harper College",
    "location": "Palatine, Illinois, United States",
@@ -13083,26 +12908,6 @@
    "field": "CS",
    "modality": "Unknown",
    "snippet": "MassBay Community College: Adjunct Faculty \u2013 Computer Science Department: Dean of Science and Engineering Location: Wellesley Hills MassBay fosters educational excellence",
-   "modality_evidence": "no modality cues in full description",
-   "has_full_text": true,
-   "region": "Northeast/Mid-Atlantic"
-  },
-  {
-   "title": "Computer Science - Adjunct Pool",
-   "institution": "Worcester State University",
-   "location": "Worcester, Massachusetts, United States",
-   "state": "MA",
-   "posted": "2021-07-22",
-   "source": "Chronicle of Higher Education Jobs",
-   "sources": [
-    "Chronicle of Higher Education Jobs"
-   ],
-   "url": "https://jobs.chronicle.com/job/362021/computer-science-adjunct-pool/",
-   "alt_urls": [],
-   "rank": "Adjunct",
-   "field": "CS",
-   "modality": "Unknown",
-   "snippet": "Worcester State University: About Worcester State University: WORCESTER STATE UNIVERSITY is a vibrant public university located in the residential west side of Worcester,",
    "modality_evidence": "no modality cues in full description",
    "has_full_text": true,
    "region": "Northeast/Mid-Atlantic"
