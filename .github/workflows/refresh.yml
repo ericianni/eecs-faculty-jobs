@@ -2,7 +2,10 @@ name: Refresh job listings
 
 on:
   schedule:
-    - cron: '17 13 * * *'   # ~6:17 AM Pacific (PDT); 5:17 AM during PST
+    # Weekdays (Mon-Fri) at 5:17 PM Pacific, end of business West Coast time.
+    # `timezone` makes GitHub follow PDT/PST automatically, so no DST adjustment is needed.
+    - cron: '17 17 * * 1-5'
+      timezone: 'America/Los_Angeles'
   workflow_dispatch:
 
 permissions:

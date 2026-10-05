@@ -19,8 +19,8 @@ A small static site that helps EE / CS / Computer Engineering faculty (tenure-tr
 ## Community submissions
 Anyone can submit a job with the Google Form linked from the **Submit a job** button (set in `site-config.js`). No sign-in is needed. Every hour, `.github/workflows/community-intake.yml` reads the form's published response CSV (repo secret `COMMUNITY_FORM_CSV_URL`), validates new rows with `community.py` (link loads, `relevance.py`, duplicate check, spam guards), and adds passing ones to `community_jobs.json` and `jobs.json`, shown with a **community-added** tag. They expire on the deadline, or after 90 days. If the scraper later finds the same job, the scraped listing replaces it. Setup steps: [docs/COMMUNITY_FORM.md](docs/COMMUNITY_FORM.md). Tests: `python3 -m unittest test_community`.
 
-## Daily refresh
-`.github/workflows/refresh.yml` runs every day at 13:17 UTC (~6:17 AM Pacific) and on demand (Actions → "Refresh job listings" → Run workflow). It commits `jobs.json` only if it changed. Failed sources are logged and skipped; if the new listing count is under 50% of the previous one, the old `jobs.json` is kept and the run fails.
+## Weekday refresh
+`.github/workflows/refresh.yml` runs Monday–Friday at 5:17 PM Pacific (cron `17 17 * * 1-5` with `timezone: America/Los_Angeles`, so it tracks PDT/PST automatically) and on demand (Actions → "Refresh job listings" → Run workflow). It commits `jobs.json` only if it changed. Failed sources are logged and skipped; if the new listing count is under 50% of the previous one, the old `jobs.json` is kept and the run fails.
 
 ## Run locally
 ```
