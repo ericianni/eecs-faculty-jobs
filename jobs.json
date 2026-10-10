@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-09T06:29:24+00:00",
+ "generated": "2026-10-10T06:01:23+00:00",
  "sources": {
   "Chronicle of Higher Education Jobs": "https://jobs.chronicle.com/jobsrss/",
   "Inside Higher Ed Careers": "https://careers.insidehighered.com/jobsrss/",
@@ -9,10 +9,110 @@
   "University career sites (Workday, UC Recruit, UW Academic HR)": "https://ap.washington.edu/ahr/academic-jobs/",
   "Community submission": "https://ericianni.github.io/eecs-faculty-jobs/#submit"
  },
- "count": 670,
- "scraped_count": 669,
+ "count": 681,
+ "scraped_count": 680,
  "community_count": 1,
  "jobs": [
+  {
+   "title": "Assistant Professor \u2013 Electrical Engineering",
+   "institution": "Anderson University",
+   "location": "Anderson, South Carolina",
+   "state": "SC",
+   "posted": "2026-10-10",
+   "source": "Chronicle of Higher Education Jobs",
+   "sources": [
+    "Chronicle of Higher Education Jobs"
+   ],
+   "url": "https://jobs.chronicle.com/job/38049913/assistant-professor-electrical-engineering/",
+   "alt_urls": [],
+   "rank": "Tenure-track Assistant",
+   "field": "EE",
+   "modality": "Unknown",
+   "snippet": "Anderson University: Anderson University and the College of Engineering invites applications for a full-time, 9-month faculty position in Engineering with emphasis in A...",
+   "modality_evidence": "no modality cues in full description",
+   "has_full_text": true,
+   "region": "Southeast"
+  },
+  {
+   "title": "Assistant / Associate Professor - Applied Artificial Intelligence and Offensive Cybersecurity",
+   "institution": "Dakota State University",
+   "location": "Madison, South Dakota",
+   "state": "SD",
+   "posted": "2026-10-10",
+   "source": "Chronicle of Higher Education Jobs",
+   "sources": [
+    "Chronicle of Higher Education Jobs"
+   ],
+   "url": "https://jobs.chronicle.com/job/38049990/assistant-associate-professor-applied-artificial-intelligence-and-offensive-cybersecurity/",
+   "alt_urls": [],
+   "rank": "Tenure-track Assistant",
+   "field": "CS",
+   "modality": "On-campus",
+   "snippet": "Dakota State University: The Beacom College of Computer and Cyber Sciences at Dakota State University invites applications for a full-time, tenure-track, benefits-eligible ...",
+   "modality_evidence": "inferred (research-active/relocation role): 'relocate'",
+   "has_full_text": true,
+   "region": "Midwest"
+  },
+  {
+   "title": "Assistant Professor \u2013 Intersection of Statistics and CS",
+   "institution": "University of California, Berkeley",
+   "location": "Berkeley",
+   "state": "CA",
+   "posted": "2026-10-10",
+   "source": "Inside Higher Ed Careers",
+   "sources": [
+    "Inside Higher Ed Careers"
+   ],
+   "url": "https://careers.insidehighered.com/job/3561246/assistant-professor-intersection-of-statistics-and-cs/",
+   "alt_urls": [],
+   "rank": "Tenure-track Assistant",
+   "field": "CS",
+   "modality": "On-campus",
+   "snippet": "Assistant Professor \u2013 Intersection of Statistics and CS \u2013 Departments of Electrical Engineering & Computer Sciences and Statistics Positio",
+   "modality_evidence": "inferred (research-active/relocation role): 'relocation'",
+   "has_full_text": true,
+   "region": "West"
+  },
+  {
+   "title": "Assistant Professor (Tenure Track) University of Washington - ECE",
+   "institution": "Electrical and Computer Engineering Department",
+   "location": "Seattle, Washington State",
+   "state": "WA",
+   "posted": "2026-10-09",
+   "source": "Chronicle of Higher Education Jobs",
+   "sources": [
+    "Chronicle of Higher Education Jobs"
+   ],
+   "url": "https://jobs.chronicle.com/job/38049874/assistant-professor-tenure-track-university-of-washington-ece/",
+   "alt_urls": [],
+   "rank": "Tenure-track Assistant",
+   "field": "Computer Eng",
+   "modality": "On-campus",
+   "snippet": "Electrical and Computer Engineering Department: The Department of Electrical & Computer Engineering invites applications for two tenure-track positions at the Assistant Professor level. We are hi...",
+   "modality_evidence": "inferred (research-active/relocation role): 'research lab'",
+   "has_full_text": true,
+   "region": "Pacific Northwest"
+  },
+  {
+   "title": "Assistant Teaching Professor - Computer Science",
+   "institution": "University of Wisconsin-Green Bay",
+   "location": "Green Bay, Wisconsin",
+   "state": "WI",
+   "posted": "2026-10-09",
+   "source": "Chronicle of Higher Education Jobs",
+   "sources": [
+    "Chronicle of Higher Education Jobs"
+   ],
+   "url": "https://jobs.chronicle.com/job/38049893/assistant-teaching-professor-computer-science/",
+   "alt_urls": [],
+   "rank": "Instructor/Lecturer/NTT",
+   "field": "CS",
+   "modality": "Unknown",
+   "snippet": "University of Wisconsin-Green Bay: Assistant Teaching Professor - Computer Science \u00a0 \u00a0 Job Category: Academic Staff \u00a0 \u00a0 Employment Type: Regular \u00a0 \u00a0 Job Profile: Teaching Assistant P...",
+   "modality_evidence": "no modality cues in full description",
+   "has_full_text": true,
+   "region": "Midwest"
+  },
   {
    "title": "Assistant Professor: Semiconductor Innovation",
    "institution": "Electrical & Computer Engineering Department",
@@ -32,6 +132,109 @@
    "modality_evidence": "inferred (research-active/relocation role): 'research program'",
    "has_full_text": true,
    "region": "Pacific Northwest"
+  },
+  {
+   "title": "Assistant Professor - Data Science",
+   "institution": "University of Wisconsin La Crosse",
+   "location": "La Crosse, Wisconsin, United States",
+   "state": "WI",
+   "posted": "2026-10-09",
+   "source": "Chronicle of Higher Education Jobs",
+   "sources": [
+    "Chronicle of Higher Education Jobs"
+   ],
+   "url": "https://jobs.chronicle.com/job/38049711/assistant-professor-data-science/",
+   "alt_urls": [],
+   "rank": "Tenure-track Assistant",
+   "field": "CS",
+   "modality": "Unknown",
+   "snippet": "University of Wisconsin La Crosse: Current Employees: If you are currently employed at any of the Universities of Wisconsin, log in to Workday to apply through the internal",
+   "modality_evidence": "no modality cues in full description",
+   "has_full_text": true,
+   "region": "Midwest"
+  },
+  {
+   "title": "Open Rank (Assistant, Associate, or Full) Tenure-Track Professor in AI-mediated Telepresence",
+   "institution": "Northeastern University",
+   "location": "Massachusetts, United States",
+   "state": "MA",
+   "posted": "2026-10-09",
+   "source": "Chronicle of Higher Education Jobs",
+   "sources": [
+    "Chronicle of Higher Education Jobs",
+    "Northeastern University (Workday)"
+   ],
+   "url": "https://jobs.chronicle.com/job/38049924/open-rank-assistant-associate-or-full-tenure-track-professor-in-ai-mediated-telepresence/",
+   "alt_urls": [
+    "https://northeastern.wd1.myworkdayjobs.com/en-US/careers/job/Boston-MA-Main-Campus/Open-Rank--Assistant--Associate--or-Full--Tenure-Track-Professor-in-AI-mediated-Telepresence_R142875"
+   ],
+   "rank": "Associate/Full/Tenured",
+   "field": "CS",
+   "modality": "On-campus",
+   "snippet": "Northeastern University: Open Rank (Assistant, Associate, or Full) Tenure-Track Professor in AI-mediated Telepresence About the Opportunity About Northeastern:",
+   "modality_evidence": "description: 'on-campus'",
+   "has_full_text": true,
+   "region": "Northeast/Mid-Atlantic"
+  },
+  {
+   "title": "Assistant or Untenured Associate Professor in Electrical Engineering",
+   "institution": "Stanford University",
+   "location": "Stanford, CA",
+   "state": "CA",
+   "posted": "2026-10-09",
+   "source": "Inside Higher Ed Careers",
+   "sources": [
+    "Inside Higher Ed Careers"
+   ],
+   "url": "https://careers.insidehighered.com/job/3561115/assistant-or-untenured-associate-professor-in-electrical-engineering/",
+   "alt_urls": [],
+   "rank": "Tenure-track Assistant",
+   "field": "EE",
+   "modality": "Unknown",
+   "snippet": "Stanford UniversityDepartment of Electrical EngineeringFaculty Opening  In the application system, within the field for \u201cPrimary Research Area for Pos",
+   "modality_evidence": "no modality cues in full description",
+   "has_full_text": true,
+   "region": "West"
+  },
+  {
+   "title": "Assistant Professor - Statistics, Probability, and Data Science - Department of Statistics",
+   "institution": "University of California, Berkeley",
+   "location": "Berkeley",
+   "state": "CA",
+   "posted": "2026-10-09",
+   "source": "Inside Higher Ed Careers",
+   "sources": [
+    "Inside Higher Ed Careers"
+   ],
+   "url": "https://careers.insidehighered.com/job/3561054/assistant-professor-statistics-probability-and-data-science-department-of-statistics/",
+   "alt_urls": [],
+   "rank": "Tenure-track Assistant",
+   "field": "CS",
+   "modality": "On-campus",
+   "snippet": "Assistant Professor - Statistics, Probability, and Data Science - Department of Statistics Position overview Position title: Assistan",
+   "modality_evidence": "inferred (research-active/relocation role): 'relocation'",
+   "has_full_text": true,
+   "region": "West"
+  },
+  {
+   "title": "Assistant Teaching Professor - Computer Science",
+   "institution": "Universities of Wisconsin (comprehensives)",
+   "location": "Green Bay, WI",
+   "state": "WI",
+   "posted": "2026-10-09",
+   "source": "Universities of Wisconsin (comprehensives) (Workday)",
+   "sources": [
+    "Universities of Wisconsin (comprehensives) (Workday)"
+   ],
+   "url": "https://wisconsin.wd1.myworkdayjobs.com/en-US/UW_Comprehensives/job/Green-Bay-WI/Assistant-Teaching-Professor---Computer-Science_JR10015787",
+   "alt_urls": [],
+   "rank": "Instructor/Lecturer/NTT",
+   "field": "CS",
+   "snippet": " Current Employees and Students: If you are currently employed or enrolled as a student at any of the Universities of Wisconsin, log in to Workday to apply through the internal application process. Position Title: Assistant Teaching Professor - Computer Science Job Category: Academic Staff Employmen",
+   "modality": "Unknown",
+   "modality_evidence": "no modality cues in full description",
+   "has_full_text": true,
+   "region": "Midwest"
   },
   {
    "title": "Assistant Professor - Data Science",
@@ -254,26 +457,6 @@
    "region": "Southeast"
   },
   {
-   "title": "Open Rank (Assistant, Associate, or Full) Tenure-Track Professor in AI-mediated Telepresence",
-   "institution": "Northeastern University",
-   "location": "Boston, MA (Main Campus)",
-   "state": "MA",
-   "posted": "2026-10-08",
-   "source": "Northeastern University (Workday)",
-   "sources": [
-    "Northeastern University (Workday)"
-   ],
-   "url": "https://northeastern.wd1.myworkdayjobs.com/en-US/careers/job/Boston-MA-Main-Campus/Open-Rank--Assistant--Associate--or-Full--Tenure-Track-Professor-in-AI-mediated-Telepresence_R142875",
-   "alt_urls": [],
-   "rank": "Associate/Full/Tenured",
-   "field": "CS",
-   "snippet": " About the Opportunity About Northeastern: Founded in 1898, Northeastern is a global research university and the recognized leader in experience-driven lifelong learning. Our world-renowned experiential approach empowers our students, faculty, alumni, and partners to create impact far beyond the con",
-   "modality": "On-campus",
-   "modality_evidence": "description: 'on-campus'",
-   "has_full_text": true,
-   "region": "Northeast/Mid-Atlantic"
-  },
-  {
    "title": "Assistant/Associate/Full Professor - Computational Biomedicine - Center for Computational Biology",
    "institution": "UC Berkeley",
    "location": "Berkeley, CA",
@@ -341,13 +524,10 @@
    "posted": "2026-10-07",
    "source": "Chronicle of Higher Education Jobs",
    "sources": [
-    "Chronicle of Higher Education Jobs",
-    "Inside Higher Ed Careers"
+    "Chronicle of Higher Education Jobs"
    ],
    "url": "https://jobs.chronicle.com/job/38048923/adjunct-instructor-electrical-and-computer-engineering/",
-   "alt_urls": [
-    "https://careers.insidehighered.com/job/3560361/adjunct-instructor-electrical-and-computer-engineering/"
-   ],
+   "alt_urls": [],
    "rank": "Adjunct",
    "field": "Computer Eng",
    "modality": "Unknown",
@@ -1695,6 +1875,29 @@
    "region": "Midwest"
   },
   {
+   "title": "Assistant, Associate, or Full Professor (Ladder Rank): Robotics, Power Systems, or Semiconductors",
+   "institution": "University of California San Diego",
+   "location": "La Jolla, California",
+   "state": "CA",
+   "posted": "2026-10-01",
+   "source": "Chronicle of Higher Education Jobs",
+   "sources": [
+    "Chronicle of Higher Education Jobs",
+    "Inside Higher Ed Careers"
+   ],
+   "url": "https://jobs.chronicle.com/job/38045327/assistant-associate-or-full-professor-ladder-rank-robotics-power-systems-or-semiconductors/",
+   "alt_urls": [
+    "https://careers.insidehighered.com/job/3557367/assistant-associate-or-full-professor-ladder-rank-robotics-power-systems-or-semiconductors/"
+   ],
+   "rank": "Tenure-track Assistant",
+   "field": "EE",
+   "modality": "On-campus",
+   "snippet": "University of California San Diego: The UC San Diego Department of Electrical and Computer Engineering (ECE) invites applications for a tenure-track faculty position",
+   "modality_evidence": "inferred (research-active/relocation role): 'research program'",
+   "has_full_text": true,
+   "region": "West"
+  },
+  {
    "title": "Associtate / Assistant Professor / Lecturer in Computer Science",
    "institution": "Wenzhou Business College",
    "location": "Shanghai (CN)",
@@ -1733,26 +1936,6 @@
    "modality_evidence": "no modality cues in full description",
    "has_full_text": true,
    "region": "Midwest"
-  },
-  {
-   "title": "Assistant, Associate, or Full Professor (Ladder Rank): Robotics, Power Systems, or Semiconductors",
-   "institution": "University of California - San Diego",
-   "location": "San Diego",
-   "state": "CA",
-   "posted": "2026-10-01",
-   "source": "Inside Higher Ed Careers",
-   "sources": [
-    "Inside Higher Ed Careers"
-   ],
-   "url": "https://careers.insidehighered.com/job/3557367/assistant-associate-or-full-professor-ladder-rank-robotics-power-systems-or-semiconductors/",
-   "alt_urls": [],
-   "rank": "Tenure-track Assistant",
-   "field": "EE",
-   "modality": "On-campus",
-   "snippet": "Assistant, Associate, or Full Professor (Ladder Rank): Robotics, Power Systems, or Semiconductors    University of California San Diego    Positio",
-   "modality_evidence": "inferred (research-active/relocation role): 'research program'",
-   "has_full_text": true,
-   "region": "West"
   },
   {
    "title": "Cybersecurity and Privacy Tenure-line Faculty Position",
@@ -1950,10 +2133,13 @@
    "posted": "2026-09-30",
    "source": "Chronicle of Higher Education Jobs",
    "sources": [
-    "Chronicle of Higher Education Jobs"
+    "Chronicle of Higher Education Jobs",
+    "Inside Higher Ed Careers"
    ],
    "url": "https://jobs.chronicle.com/job/38045437/assistant-professor-mathematics-and-computer-science-tenure-track-uc-blue-ash-college/",
-   "alt_urls": [],
+   "alt_urls": [
+    "https://careers.insidehighered.com/job/3557555/assistant-professor-mathematics-and-computer-science-tenure-track-uc-blue-ash-college/"
+   ],
    "rank": "Tenure-track Assistant",
    "field": "CS",
    "modality": "On-campus",
@@ -5672,7 +5858,7 @@
    ],
    "url": "https://jobs.chronicle.com/job/38035072/assistant-professor-of-artificial-intelligence/",
    "alt_urls": [
-    "https://careers.insidehighered.com/job/3549798/assistant-professor-of-artificial-intelligence/"
+    "https://careers.insidehighered.com/job/3561077/assistant-professor-of-artificial-intelligence/"
    ],
    "rank": "Tenure-track Assistant",
    "field": "CS",
@@ -6962,13 +7148,10 @@
    "posted": "2026-08-25",
    "source": "Chronicle of Higher Education Jobs",
    "sources": [
-    "Chronicle of Higher Education Jobs",
-    "Inside Higher Ed Careers"
+    "Chronicle of Higher Education Jobs"
    ],
    "url": "https://jobs.chronicle.com/job/38029540/assistant-professor-of-data-science-and-statistics/",
-   "alt_urls": [
-    "https://careers.insidehighered.com/job/3538404/assistant-professor-of-data-science-and-statistics/"
-   ],
+   "alt_urls": [],
    "rank": "Tenure-track Assistant",
    "field": "CS",
    "modality": "On-campus",
@@ -7584,6 +7767,26 @@
    "region": "West"
   },
   {
+   "title": "Full/Associate/Assistant Professor in Robotics",
+   "institution": "University of Macau",
+   "location": "Macau (MO)",
+   "state": "Other/Unknown",
+   "posted": "2026-08-14",
+   "source": "Chronicle of Higher Education Jobs",
+   "sources": [
+    "Chronicle of Higher Education Jobs"
+   ],
+   "url": "https://jobs.chronicle.com/job/38025777/full-associate-assistant-professor-in-robotics/",
+   "alt_urls": [],
+   "rank": "Tenure-track Assistant",
+   "field": "CS",
+   "modality": "On-campus",
+   "snippet": "University of Macau: UM invites applications for the position of Full/Associate/Assistant Professor in Robotics.",
+   "modality_evidence": "description: 'on-campus'",
+   "has_full_text": true,
+   "region": "International/Other"
+  },
+  {
    "title": "Assistant/Associate Professor, Computer Science & Software Engineering",
    "institution": "Augustana University",
    "location": "Sioux Falls, South Dakota",
@@ -7730,29 +7933,6 @@
    "region": "West"
   },
   {
-   "title": "Computer Science Instructor - Part-time Adjunct Pool",
-   "institution": "Kern Community College District",
-   "location": "California, United States",
-   "state": "CA",
-   "posted": "2026-08-12",
-   "source": "Chronicle of Higher Education Jobs",
-   "sources": [
-    "Chronicle of Higher Education Jobs",
-    "Inside Higher Ed Careers"
-   ],
-   "url": "https://jobs.chronicle.com/job/38024761/computer-science-instructor-part-time-adjunct-pool/",
-   "alt_urls": [
-    "https://careers.insidehighered.com/job/3539171/computer-science-instructor-part-time-adjunct-pool/"
-   ],
-   "rank": "Adjunct",
-   "field": "CS",
-   "modality": "Unknown",
-   "snippet": "Kern Community College District: Computer Science Instructor - Part-time Adjunct Pool Kern Community College District Salary: $67.00 Hourly Job Type: Temporary --...",
-   "modality_evidence": "no modality cues in full description",
-   "has_full_text": true,
-   "region": "West"
-  },
-  {
    "title": "Adjunct Faculty, Cybersecurity",
    "institution": "Lone Star College",
    "location": "Houston, Texas, United States",
@@ -7774,6 +7954,29 @@
    "modality_evidence": "no modality cues in full description",
    "has_full_text": true,
    "region": "Southwest"
+  },
+  {
+   "title": "Computer Science Instructor - Part-time Adjunct Pool",
+   "institution": "Kern Community College District",
+   "location": "California, United States",
+   "state": "CA",
+   "posted": "2026-08-12",
+   "source": "Chronicle of Higher Education Jobs",
+   "sources": [
+    "Chronicle of Higher Education Jobs",
+    "Inside Higher Ed Careers"
+   ],
+   "url": "https://jobs.chronicle.com/job/38024761/computer-science-instructor-part-time-adjunct-pool/",
+   "alt_urls": [
+    "https://careers.insidehighered.com/job/3539171/computer-science-instructor-part-time-adjunct-pool/"
+   ],
+   "rank": "Adjunct",
+   "field": "CS",
+   "modality": "Unknown",
+   "snippet": "Kern Community College District: Computer Science Instructor - Part-time Adjunct Pool Kern Community College District Salary: $67.00 Hourly Job Type: Temporary --...",
+   "modality_evidence": "no modality cues in full description",
+   "has_full_text": true,
+   "region": "West"
   },
   {
    "title": "Research Faculty I,12 month Salaried (Quantum Scientific Computing-FAMU\u2013FSU College of Engine...",
@@ -7901,6 +8104,26 @@
    "modality_evidence": "inferred (research-active/relocation role): 'research program'",
    "has_full_text": true,
    "region": "Pacific Northwest"
+  },
+  {
+   "title": "Computer Science - Associate Professor - 530200",
+   "institution": "The University of Alabama",
+   "location": "Tuscaloosa",
+   "state": "AL",
+   "posted": "2026-08-08",
+   "source": "Inside Higher Ed Careers",
+   "sources": [
+    "Inside Higher Ed Careers"
+   ],
+   "url": "https://careers.insidehighered.com/job/3537709/computer-science-associate-professor-530200/",
+   "alt_urls": [],
+   "rank": "Associate/Full/Tenured",
+   "field": "CS",
+   "modality": "On-campus",
+   "snippet": "Apply nowJob no: 530200 Work type: Regular Full-time (Benefits eligible) Location: Tuscaloosa Categories: Tenure/Tenure-Track Faculty Department/Organ",
+   "modality_evidence": "description: 'on campus'",
+   "has_full_text": true,
+   "region": "Southeast"
   },
   {
    "title": "Computer Science - Renewable Contract Teaching Assistant Professor - 530198",
@@ -8041,6 +8264,26 @@
    "field": "CS",
    "modality": "Unknown",
    "snippet": "Sinclair Community College: Position Information Position Information (Default Section) Job Title Information Technology - Part-Time (Adjunct) Faculty Location Courseview",
+   "modality_evidence": "no modality cues in full description",
+   "has_full_text": true,
+   "region": "Midwest"
+  },
+  {
+   "title": "Electronics Engineering Technology - Part-Time (Adjunct) Faculty",
+   "institution": "Sinclair Community College",
+   "location": "Dayton, Ohio, United States",
+   "state": "OH",
+   "posted": "2026-08-05",
+   "source": "Chronicle of Higher Education Jobs",
+   "sources": [
+    "Chronicle of Higher Education Jobs"
+   ],
+   "url": "https://jobs.chronicle.com/job/38032432/electronics-engineering-technology-part-time-adjunct-faculty/",
+   "alt_urls": [],
+   "rank": "Adjunct",
+   "field": "EE",
+   "modality": "Unknown",
+   "snippet": "Sinclair Community College: Position Information Position Information (Default Section) Job Title Electronics Engineering Technology - Part-Time (Adjunct) Faculty",
    "modality_evidence": "no modality cues in full description",
    "has_full_text": true,
    "region": "Midwest"
@@ -8567,26 +8810,6 @@
    "modality_evidence": "no modality cues in full description",
    "has_full_text": true,
    "region": "West"
-  },
-  {
-   "title": "Assistant Professor - Electrical and Computer Engineering (Canada Impact+ Emerging Leader)",
-   "institution": "University of Toronto",
-   "location": "St. George (Downtown Toronto)",
-   "state": "Other/Unknown",
-   "posted": "2026-07-22",
-   "source": "Inside Higher Ed Careers",
-   "sources": [
-    "Inside Higher Ed Careers"
-   ],
-   "url": "https://careers.insidehighered.com/job/3530906/assistant-professor-electrical-and-computer-engineering-canada-impact-emerging-leader-/",
-   "alt_urls": [],
-   "rank": "Tenure-track Assistant",
-   "field": "Computer Eng",
-   "modality": "On-campus",
-   "snippet": "Assistant Professor - Electrical and Computer Engineering (Canada Impact+ Emerging Leader) Date Posted: 07/21/2026 Closing Date: 10/15/2026, 11:59PM E",
-   "modality_evidence": "inferred (research-active/relocation role): 'research program'",
-   "has_full_text": true,
-   "region": "International/Other"
   },
   {
    "title": "Assistant Professor of Computer Science",
@@ -9658,6 +9881,26 @@
    "region": "Northeast/Mid-Atlantic"
   },
   {
+   "title": "Adjunct Faculty, Electrical Technology",
+   "institution": "Lone Star College",
+   "location": "Houston, Texas, United States",
+   "state": "TX",
+   "posted": "2026-06-04",
+   "source": "Chronicle of Higher Education Jobs",
+   "sources": [
+    "Chronicle of Higher Education Jobs"
+   ],
+   "url": "https://jobs.chronicle.com/job/37997686/adjunct-faculty-electrical-technology/",
+   "alt_urls": [],
+   "rank": "Adjunct",
+   "field": "Other",
+   "modality": "Unknown",
+   "snippet": "Lone Star College: Commitment to Mission This job carries with it the obligation to uphold the Mission of Lone Star College (LSC) in carrying out the duties of",
+   "modality_evidence": "no modality cues in full description",
+   "has_full_text": true,
+   "region": "Southwest"
+  },
+  {
    "title": "Adjunct Faculty - Electrical and Computer Engineering  - (496267 )",
    "institution": "University of Houston",
    "location": "Houston, Texas, United States",
@@ -10541,6 +10784,26 @@
    "region": "Southeast"
   },
   {
+   "title": "Adjunct Faculty - Computer/Electrical Engineering",
+   "institution": "Embry-Riddle Aeronautical University",
+   "location": "Prescott, Arizona, United States",
+   "state": "AZ",
+   "posted": "2026-02-27",
+   "source": "Chronicle of Higher Education Jobs",
+   "sources": [
+    "Chronicle of Higher Education Jobs"
+   ],
+   "url": "https://jobs.chronicle.com/job/37956084/adjunct-faculty-computer-electrical-engineering/",
+   "alt_urls": [],
+   "rank": "Adjunct",
+   "field": "EE",
+   "modality": "Unknown",
+   "snippet": "Embry-Riddle Aeronautical University: Job Description Embry-Riddle: Celebrating 100 Years of Leadership in Aviation and Aerospace As Embry-Riddle Aeronautical University marks its...",
+   "modality_evidence": "no modality cues in full description",
+   "has_full_text": true,
+   "region": "Southwest"
+  },
+  {
    "title": "Visiting Assistant Professor - Electrical and Computer Engineering",
    "institution": "University at Albany, SUNY",
    "location": "Albany, New York, United States",
@@ -10925,26 +11188,6 @@
    "modality_evidence": "no modality cues in full description",
    "has_full_text": true,
    "region": "International/Other"
-  },
-  {
-   "title": "Department Chair - Computer Science Engineering",
-   "institution": "University of South Carolina",
-   "location": "Columbia",
-   "state": "SC",
-   "posted": "2026-01-07",
-   "source": "Inside Higher Ed Careers",
-   "sources": [
-    "Inside Higher Ed Careers"
-   ],
-   "url": "https://careers.insidehighered.com/job/3449287/department-chair-computer-science-engineering/",
-   "alt_urls": [],
-   "rank": "Associate/Full/Tenured",
-   "field": "CS",
-   "modality": "On-campus",
-   "snippet": "Logo:Posting Number:FAC00001PO26Advertised Title:Department Chair - Computer Science EngineeringCampus:ColumbiaCollege/Division:College of Engineering",
-   "modality_evidence": "description: 'in-person'",
-   "has_full_text": true,
-   "region": "Southeast"
   },
   {
    "title": "Instructor Pool - COMPUTER SCIENCE & COMPUTER ENGINERING",
@@ -11553,26 +11796,6 @@
    "region": "Southwest"
   },
   {
-   "title": "Electrical Engineering Technology Instructor",
-   "institution": "Liberty University",
-   "location": "Lynchburg, Virginia, United States",
-   "state": "VA",
-   "posted": "2025-10-01",
-   "source": "Chronicle of Higher Education Jobs",
-   "sources": [
-    "Chronicle of Higher Education Jobs"
-   ],
-   "url": "https://jobs.chronicle.com/job/37895163/electrical-engineering-technology-instructor/",
-   "alt_urls": [],
-   "rank": "Instructor/Lecturer/NTT",
-   "field": "EE",
-   "modality": "On-campus",
-   "snippet": "Liberty University: Faculty are essential to Liberty University\u2019s mission of Training Champions for Christ. It is expected that \u200e\u200e\u200e\u200e\u200e\u200ea faculty member model a",
-   "modality_evidence": "description: 'Onsite'",
-   "has_full_text": true,
-   "region": "Southeast"
-  },
-  {
    "title": "Department of Computer Science: Adjunct Faculty",
    "institution": "Central Connecticut State University",
    "location": "Britain, Connecticut, United States",
@@ -11771,26 +11994,6 @@
    "field": "CS",
    "modality": "On-campus",
    "snippet": "Logo:Posting Number:FAC00118PO25Advertised Title:Instructor, GIScience - Geospatial Data ScienceCampus:ColumbiaCollege/Division:College of Arts and Sc",
-   "modality_evidence": "description: 'in-person'",
-   "has_full_text": true,
-   "region": "Southeast"
-  },
-  {
-   "title": "Adjunct Instructor - Computer Science",
-   "institution": "Fort Valley State University",
-   "location": "Fort Valley, GA, United States, 31030",
-   "state": "GA",
-   "posted": "2025-07-29",
-   "source": "Inside Higher Ed Careers",
-   "sources": [
-    "Inside Higher Ed Careers"
-   ],
-   "url": "https://careers.insidehighered.com/job/3377892/adjunct-instructor-computer-science/",
-   "alt_urls": [],
-   "rank": "Adjunct",
-   "field": "CS",
-   "modality": "On-campus",
-   "snippet": "FORT VALLEY STATE UNIVERSITY (FVSU), a state and land-grant institution of the University System of Georgia, invites applications for the position of",
    "modality_evidence": "description: 'in-person'",
    "has_full_text": true,
    "region": "Southeast"
@@ -12500,6 +12703,26 @@
    "modality_evidence": "description: 'in-person'",
    "has_full_text": true,
    "region": "Midwest"
+  },
+  {
+   "title": "Residential Adjunct Faculty - School of Engineering",
+   "institution": "Liberty University",
+   "location": "Lynchburg, Virginia, United States",
+   "state": "VA",
+   "posted": "2024-10-25",
+   "source": "Chronicle of Higher Education Jobs",
+   "sources": [
+    "Chronicle of Higher Education Jobs"
+   ],
+   "url": "https://jobs.chronicle.com/job/37741263/residential-adjunct-faculty-school-of-engineering/",
+   "alt_urls": [],
+   "rank": "Adjunct",
+   "field": "Other",
+   "modality": "On-campus",
+   "snippet": "Liberty University: Adjuncts are essential to Liberty University\u2019s mission of Training Champions for Christ. It is expected that \u200e\u200e\u200e\u200e\u200e\u200ean adjunct member models a",
+   "modality_evidence": "description: 'Onsite'",
+   "has_full_text": true,
+   "region": "Southeast"
   },
   {
    "title": "School of Engineering - Online Adjunct",
