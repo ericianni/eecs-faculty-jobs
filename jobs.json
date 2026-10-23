@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-22T04:54:47+00:00",
+ "generated": "2026-10-23T04:59:27+00:00",
  "sources": {
   "Chronicle of Higher Education Jobs": "https://jobs.chronicle.com/jobsrss/",
   "Inside Higher Ed Careers": "https://careers.insidehighered.com/jobsrss/",
@@ -13,6 +13,26 @@
  "scraped_count": 757,
  "community_count": 1,
  "jobs": [
+  {
+   "title": "Tenure-track Assistant Professor of Software Engineering for Intelligent Systems",
+   "institution": "Oakland University",
+   "location": "Rochester, Michigan",
+   "state": "MI",
+   "posted": "2026-10-23",
+   "source": "Chronicle of Higher Education Jobs",
+   "sources": [
+    "Chronicle of Higher Education Jobs"
+   ],
+   "url": "https://jobs.chronicle.com/job/38055236/tenure-track-assistant-professor-of-software-engineering-for-intelligent-systems/",
+   "alt_urls": [],
+   "rank": "Tenure-track Assistant",
+   "field": "CS",
+   "modality": "On-campus",
+   "snippet": "Oakland University: The Department of Computer Science and Engineering and the Department of Electrical and Computer Engineering need to fill one tenure-track assistan...",
+   "modality_evidence": "inferred (research-active/relocation role): 'research program'",
+   "has_full_text": true,
+   "region": "Midwest"
+  },
   {
    "title": "Chair, Department of Electrical and Computer Engineering",
    "institution": "Northwestern University",
@@ -32,6 +52,86 @@
    "modality_evidence": "inferred (research-active/relocation role): 'research program'",
    "has_full_text": true,
    "region": "Midwest"
+  },
+  {
+   "title": "Tenure-Track Faculty for Computer Science & Engineering",
+   "institution": "Lehigh University",
+   "location": "Bethlehem, Pennsylvania, United States",
+   "state": "PA",
+   "posted": "2026-10-22",
+   "source": "CRA Career Center",
+   "sources": [
+    "CRA Career Center"
+   ],
+   "url": "https://careercenter.cra.org/job/tenure-track-faculty-for-computer-science-engineering-bethlehem-pennsylvania-2528",
+   "alt_urls": [],
+   "rank": "Tenure-track Assistant",
+   "field": "CS",
+   "snippet": " The Department of Computer Science and Engineering (CSE) in the P.C. Rossin College of Engineering and Applied Science at Lehigh University invites applications for tenure-track faculty at the ranks of Assistant Professor or Associate Professor (without tenure) with an anticipated start date of Jul",
+   "modality": "Unknown",
+   "modality_evidence": "no modality cues in full description",
+   "has_full_text": true,
+   "region": "Northeast/Mid-Atlantic"
+  },
+  {
+   "title": "Tenure-Track Faculty (Assistant or Associate) Position in AI for Material Science",
+   "institution": "Hunter College Computer Science Department",
+   "location": "New York, New York, United States",
+   "state": "NY",
+   "posted": "2026-10-22",
+   "source": "CRA Career Center",
+   "sources": [
+    "CRA Career Center"
+   ],
+   "url": "https://careercenter.cra.org/job/tenure-track-faculty-assistant-or-associate-position-in-ai-for-material-science-new-york-new-york-2530",
+   "alt_urls": [],
+   "rank": "Tenure-track Assistant",
+   "field": "CS",
+   "snippet": " Hunter College\u2019s Department of Computer Science invites applications for a tenure-track Assistant or Associate Professor beginning August 2027, as part of the CUNY Martin S. Spergel Initiative supported by the Simons Foundation. We seek researchers at the intersection of AI and materials science wh",
+   "modality": "On-campus",
+   "modality_evidence": "inferred (research-active/relocation role): 'research program'",
+   "has_full_text": true,
+   "region": "Northeast/Mid-Atlantic"
+  },
+  {
+   "title": "Faculty Position in Electrical Engineering",
+   "institution": "California Institute of Technology",
+   "location": "Pasadena, California, United States",
+   "state": "CA",
+   "posted": "2026-10-22",
+   "source": "CRA Career Center",
+   "sources": [
+    "CRA Career Center"
+   ],
+   "url": "https://careercenter.cra.org/job/faculty-position-in-electrical-engineering-pasadena-california-2531",
+   "alt_urls": [],
+   "rank": "Associate/Full/Tenured",
+   "field": "EE",
+   "snippet": " The Division of Engineering and Applied Science at the California Institute of Technology invites applications for tenure-track/tenured faculty positions. We seek highly qualified candidates committed to a career in teaching, mentoring, and research excellence in the department of Electrical Engine",
+   "modality": "Unknown",
+   "modality_evidence": "no modality cues in full description",
+   "has_full_text": true,
+   "region": "West"
+  },
+  {
+   "title": "Open Rank Faculty Positions in Informatics and Computer Science at UC Irvine",
+   "institution": "University of California Irvine",
+   "location": "Irvine, California, United States",
+   "state": "CA",
+   "posted": "2026-10-22",
+   "source": "CRA Career Center",
+   "sources": [
+    "CRA Career Center"
+   ],
+   "url": "https://careercenter.cra.org/job/open-rank-faculty-positions-in-informatics-and-computer-science-at-uc-irvine-irvine-california-2532",
+   "alt_urls": [],
+   "rank": "Associate/Full/Tenured",
+   "field": "CS",
+   "snippet": " Open Rank Faculty Positions in Informatics and Computer Science at UC Irvine The Donald Bren School of Information and Computer Sciences at the University of California, Irvine invites applications for three tenure-track/tenured assistant, associate, or full professor positions, starting July 1, 20",
+   "modality": "Unknown",
+   "modality_evidence": "no modality cues in full description",
+   "has_full_text": true,
+   "region": "West"
   },
   {
    "title": "Assistant Professor in Artificial Intelligence for Animal Improvement",
@@ -70,6 +170,26 @@
    "modality": "Unknown",
    "snippet": "Purdue University Fort Wayne: The Department of Electrical and Computer Engineering at PFW invites applications for a full-time, tenure-track position beginning August 2027.",
    "modality_evidence": "no modality cues in full description",
+   "has_full_text": true,
+   "region": "Midwest"
+  },
+  {
+   "title": "Assistant / Associate / Full Professor of Computer Sciences",
+   "institution": "University of Wisconsin-Madison",
+   "location": "Madison, Wisconsin, United States",
+   "state": "WI",
+   "posted": "2026-10-21",
+   "source": "Chronicle of Higher Education Jobs",
+   "sources": [
+    "Chronicle of Higher Education Jobs"
+   ],
+   "url": "https://jobs.chronicle.com/job/38054922/assistant-associate-full-professor-of-computer-sciences/",
+   "alt_urls": [],
+   "rank": "Tenure-track Assistant",
+   "field": "CS",
+   "modality": "On-campus",
+   "snippet": "University of Wisconsin-Madison: Salary: Current Employees: If you are currently employed at any of the Universities of Wisconsin, log in to Workday to apply through the internal",
+   "modality_evidence": "inferred (research-active/relocation role): 'research program'",
    "has_full_text": true,
    "region": "Midwest"
   },
@@ -292,6 +412,26 @@
    "modality_evidence": "description: 'On-site'",
    "has_full_text": true,
    "region": "West"
+  },
+  {
+   "title": "Tenure-Track, Assistant Professor of Statistics and Data Science - Morris, MN",
+   "institution": "University of Minnesota",
+   "location": "Morris, Minnesota, United States",
+   "state": "MN",
+   "posted": "2026-10-20",
+   "source": "Chronicle of Higher Education Jobs",
+   "sources": [
+    "Chronicle of Higher Education Jobs"
+   ],
+   "url": "https://jobs.chronicle.com/job/38054629/tenure-track-assistant-professor-of-statistics-and-data-science-morris-mn/",
+   "alt_urls": [],
+   "rank": "Tenure-track Assistant",
+   "field": "CS",
+   "modality": "On-campus",
+   "snippet": "University of Minnesota: About the Job Tenure-Track, Assistant Professor of Statistics and Data Science - Morris, MN Teaching introductory statistics and data science",
+   "modality_evidence": "inferred (research-active/relocation role): 'research program'",
+   "has_full_text": true,
+   "region": "Midwest"
   },
   {
    "title": "Tenure-Track Faculty Positions, EECS and IMES with focus in ML/AI in health sciences",
@@ -1449,6 +1589,26 @@
    "region": "West"
   },
   {
+   "title": "ASSISTANT/ASSOCIATE PROFESSOR IN BIOMEDICAL ROBOTICS \u2013 ENGINEERING (INDIANAPOLIS)",
+   "institution": "Purdue University",
+   "location": "Indianapolis, Indiana",
+   "state": "IN",
+   "posted": "2026-10-15",
+   "source": "Inside Higher Ed Careers",
+   "sources": [
+    "Inside Higher Ed Careers"
+   ],
+   "url": "https://careers.insidehighered.com/job/3563221/assistant-associate-professor-in-biomedical-robotics-engineering-indianapolis-/",
+   "alt_urls": [],
+   "rank": "Tenure-track Assistant",
+   "field": "CS",
+   "modality": "On-campus",
+   "snippet": "Purdue University College of Engineering invites applications for multiple tenured/tenure track positions at the Assistant or Associate Professor l...",
+   "modality_evidence": "inferred (research-active/relocation role): 'relocation'",
+   "has_full_text": true,
+   "region": "Midwest"
+  },
+  {
    "title": "Computer Information Systems Instructor - Part-time Adjunct Pool",
    "institution": "Kern Community College District",
    "location": "Bakersfield",
@@ -2598,26 +2758,6 @@
    "region": "Pacific Northwest"
   },
   {
-   "title": "Assistant Professor - Data Science",
-   "institution": "University of Wisconsin La Crosse",
-   "location": "La Crosse, Wisconsin, United States",
-   "state": "WI",
-   "posted": "2026-10-09",
-   "source": "Chronicle of Higher Education Jobs",
-   "sources": [
-    "Chronicle of Higher Education Jobs"
-   ],
-   "url": "https://jobs.chronicle.com/job/38049711/assistant-professor-data-science/",
-   "alt_urls": [],
-   "rank": "Tenure-track Assistant",
-   "field": "CS",
-   "modality": "Unknown",
-   "snippet": "University of Wisconsin La Crosse: Current Employees: If you are currently employed at any of the Universities of Wisconsin, log in to Workday to apply through the internal",
-   "modality_evidence": "no modality cues in full description",
-   "has_full_text": true,
-   "region": "Midwest"
-  },
-  {
    "title": "Professor of Practice/Assistant Professor-Computer Science",
    "institution": "Missouri Western State University",
    "location": "St Joseph, Missouri, United States",
@@ -2634,6 +2774,26 @@
    "modality": "On-campus",
    "snippet": "Missouri Western State University: Posting Details Position Information Position Title Professor of Practice/Assistant Professor-Computer Science Department Engineering",
    "modality_evidence": "description: 'face-to-face'",
+   "has_full_text": true,
+   "region": "Midwest"
+  },
+  {
+   "title": "Assistant Professor - Data Science",
+   "institution": "University of Wisconsin La Crosse",
+   "location": "La Crosse, Wisconsin, United States",
+   "state": "WI",
+   "posted": "2026-10-09",
+   "source": "Chronicle of Higher Education Jobs",
+   "sources": [
+    "Chronicle of Higher Education Jobs"
+   ],
+   "url": "https://jobs.chronicle.com/job/38049711/assistant-professor-data-science/",
+   "alt_urls": [],
+   "rank": "Tenure-track Assistant",
+   "field": "CS",
+   "modality": "Unknown",
+   "snippet": "University of Wisconsin La Crosse: Current Employees: If you are currently employed at any of the Universities of Wisconsin, log in to Workday to apply through the internal",
+   "modality_evidence": "no modality cues in full description",
    "has_full_text": true,
    "region": "Midwest"
   },
@@ -4531,26 +4691,6 @@
    "region": "Southwest"
   },
   {
-   "title": "Visiting Professor of Data Science",
-   "institution": "Framingham State University",
-   "location": "Massachusetts, United States",
-   "state": "MA",
-   "posted": "2026-09-30",
-   "source": "Chronicle of Higher Education Jobs",
-   "sources": [
-    "Chronicle of Higher Education Jobs"
-   ],
-   "url": "https://jobs.chronicle.com/job/38045935/visiting-professor-of-data-science/",
-   "alt_urls": [],
-   "rank": "Instructor/Lecturer/NTT",
-   "field": "CS",
-   "modality": "On-campus",
-   "snippet": "Framingham State University: Company Description: Framingham State University was founded in 1839 for a singular purpose - to meet a public need and promote the public good.",
-   "modality_evidence": "description: 'face-to-face'",
-   "has_full_text": true,
-   "region": "Northeast/Mid-Atlantic"
-  },
-  {
    "title": "Assistant Professor, Mathematics & Computer Science Tenure-Track, UC Blue Ash College",
    "institution": "University of Cincinnati",
    "location": "Cincinnati, Ohio, United States",
@@ -4572,6 +4712,26 @@
    "modality_evidence": "description: 'in-person'",
    "has_full_text": true,
    "region": "Midwest"
+  },
+  {
+   "title": "Visiting Professor of Data Science",
+   "institution": "Framingham State University",
+   "location": "Massachusetts, United States",
+   "state": "MA",
+   "posted": "2026-09-30",
+   "source": "Chronicle of Higher Education Jobs",
+   "sources": [
+    "Chronicle of Higher Education Jobs"
+   ],
+   "url": "https://jobs.chronicle.com/job/38045935/visiting-professor-of-data-science/",
+   "alt_urls": [],
+   "rank": "Instructor/Lecturer/NTT",
+   "field": "CS",
+   "modality": "On-campus",
+   "snippet": "Framingham State University: Company Description: Framingham State University was founded in 1839 for a singular purpose - to meet a public need and promote the public good.",
+   "modality_evidence": "description: 'face-to-face'",
+   "has_full_text": true,
+   "region": "Northeast/Mid-Atlantic"
   },
   {
    "title": "Full Professor in Artificial Intelligence, Data Science, or Controls",
@@ -5324,26 +5484,6 @@
    "modality_evidence": "no modality cues in full description",
    "has_full_text": true,
    "region": "Northeast/Mid-Atlantic"
-  },
-  {
-   "title": "Tenure-Track Faculty Position in Computer Science",
-   "institution": "Virginia Tech",
-   "location": "Blacksburg, Virginia, United States",
-   "state": "VA",
-   "posted": "2026-09-24",
-   "source": "Chronicle of Higher Education Jobs",
-   "sources": [
-    "Chronicle of Higher Education Jobs"
-   ],
-   "url": "https://jobs.chronicle.com/job/38043891/tenure-track-faculty-position-in-computer-science/",
-   "alt_urls": [],
-   "rank": "Tenure-track Assistant",
-   "field": "CS",
-   "modality": "On-campus",
-   "snippet": "Virginia Tech: Job Description Tenure-Track Faculty in the Department of Computer Science hold full-time appointments with a workload allocation of",
-   "modality_evidence": "inferred (research-active/relocation role): 'research program'",
-   "has_full_text": true,
-   "region": "Southeast"
   },
   {
    "title": "Assistant Professor of Electrical Engineering",
@@ -8820,26 +8960,6 @@
    "region": "Southeast"
   },
   {
-   "title": "Faculty Position in Data Science and Society, Open Rank",
-   "institution": "Georgetown University",
-   "location": "Doha (QA)",
-   "state": "Other/Unknown",
-   "posted": "2026-09-01",
-   "source": "Chronicle of Higher Education Jobs",
-   "sources": [
-    "Chronicle of Higher Education Jobs"
-   ],
-   "url": "https://jobs.chronicle.com/job/38032013/faculty-position-in-data-science-and-society-open-rank/",
-   "alt_urls": [],
-   "rank": "Associate/Full/Tenured",
-   "field": "CS",
-   "modality": "On-campus",
-   "snippet": "Georgetown University: Georgetown University in Qatar (GU-Q) invites applications for one (1) open-rank core faculty position in Data Science and Society.",
-   "modality_evidence": "inferred (research-active/relocation role): 'relocation'",
-   "has_full_text": true,
-   "region": "International/Other"
-  },
-  {
    "title": "Asst Professor 9 Mo SAL (School of Information)",
    "institution": "Florida State University School of Information",
    "location": "Florida State University School of Information",
@@ -12228,26 +12348,6 @@
    "region": "West"
   },
   {
-   "title": "Adjunct Faculty - Computing Science (GRADE)",
-   "institution": "Finger Lakes Community College",
-   "location": "Canandaigua, New York, United States",
-   "state": "NY",
-   "posted": "2026-03-05",
-   "source": "Chronicle of Higher Education Jobs",
-   "sources": [
-    "Chronicle of Higher Education Jobs"
-   ],
-   "url": "https://jobs.chronicle.com/job/37958659/adjunct-faculty-computing-science-grade-/",
-   "alt_urls": [],
-   "rank": "Adjunct",
-   "field": "CS",
-   "modality": "On-campus",
-   "snippet": "Finger Lakes Community College: The Computing Sciences Department at Finger Lakes Community College is seeking innovative and adaptable educators committed to student engagement,",
-   "modality_evidence": "description: 'In-person'",
-   "has_full_text": true,
-   "region": "Northeast/Mid-Atlantic"
-  },
-  {
    "title": "Temporary Data and AI at Work Instructor",
    "institution": "NC State University",
    "location": "Raleigh, NC",
@@ -12266,6 +12366,26 @@
    "modality_evidence": "no modality cues in full description",
    "has_full_text": true,
    "region": "Southeast"
+  },
+  {
+   "title": "Adjunct Faculty - Computing Science (GRADE)",
+   "institution": "Finger Lakes Community College",
+   "location": "Canandaigua, New York, United States",
+   "state": "NY",
+   "posted": "2026-03-04",
+   "source": "Chronicle of Higher Education Jobs",
+   "sources": [
+    "Chronicle of Higher Education Jobs"
+   ],
+   "url": "https://jobs.chronicle.com/job/38055000/adjunct-faculty-computing-science-grade-/",
+   "alt_urls": [],
+   "rank": "Adjunct",
+   "field": "CS",
+   "modality": "On-campus",
+   "snippet": "Finger Lakes Community College: The Computing Sciences Department at Finger Lakes Community College is seeking innovative and adaptable educators committed to student engagement,",
+   "modality_evidence": "description: 'In-person'",
+   "has_full_text": true,
+   "region": "Northeast/Mid-Atlantic"
   },
   {
    "title": "Lecturer - Data Science - School of Information",
@@ -12447,46 +12567,6 @@
    "modality": "On-campus",
    "snippet": "University at Albany, SUNY: About University at Albany: Established in 1844 and designated a University Center of the State University of New York in 1962, the University at",
    "modality_evidence": "inferred (research-active/relocation role): 'research program'",
-   "has_full_text": true,
-   "region": "Northeast/Mid-Atlantic"
-  },
-  {
-   "title": "Information Technology: Part-Time Faculty - AY 26-27",
-   "institution": "Georgia Gwinnett College",
-   "location": "Georgia Gwinnett College",
-   "state": "GA",
-   "posted": "2026-02-25",
-   "source": "Inside Higher Ed Careers",
-   "sources": [
-    "Inside Higher Ed Careers"
-   ],
-   "url": "https://careers.insidehighered.com/job/3470017/information-technology-part-time-faculty-ay-26-27/",
-   "alt_urls": [],
-   "rank": "Adjunct",
-   "field": "CS",
-   "modality": "On-campus",
-   "snippet": "Job Title: Information Technology: Part-Time Faculty - AY 26-27  Location: Georgia Gwinnett College  Regular/Temporary: Temporary  Full/Part Time: Par",
-   "modality_evidence": "description: 'face-to-face'",
-   "has_full_text": true,
-   "region": "Southeast"
-  },
-  {
-   "title": "Engineering, Computer Science, and Information Technology - Part-Time Faculty Positions",
-   "institution": "Penn State University",
-   "location": "Penn State Hazleton",
-   "state": "PA",
-   "posted": "2026-02-24",
-   "source": "Penn State University (Workday)",
-   "sources": [
-    "Penn State University (Workday)"
-   ],
-   "url": "https://psu.wd1.myworkdayjobs.com/en-US/PSU_Academic/job/Penn-State-Hazleton/Engineering--Computer-Science--and-Information-Technology---Part-Time-Faculty-Positions_REQ_0000076055-1",
-   "alt_urls": [],
-   "rank": "Adjunct",
-   "field": "CS",
-   "snippet": " APPLICATION INSTRUCTIONS: CURRENT PENN STATE EMPLOYEE (faculty, staff, technical service, or student), please login to Workday to complete the internal application process . Please do not apply here, apply internally through Workday. CURRENT PENN STATE STUDENT (not employed previously at the univer",
-   "modality": "On-campus",
-   "modality_evidence": "description: 'in person'",
    "has_full_text": true,
    "region": "Northeast/Mid-Atlantic"
   },
@@ -12937,26 +13017,6 @@
    "region": "West"
   },
   {
-   "title": "Adjunct Faculty, Computer Information Systems",
-   "institution": "Manhattan University",
-   "location": "Riverdale, New York, United States",
-   "state": "NY",
-   "posted": "2025-12-18",
-   "source": "Chronicle of Higher Education Jobs",
-   "sources": [
-    "Chronicle of Higher Education Jobs"
-   ],
-   "url": "https://jobs.chronicle.com/job/37929871/adjunct-faculty-computer-information-systems/",
-   "alt_urls": [],
-   "rank": "Adjunct",
-   "field": "CS",
-   "modality": "On-campus",
-   "snippet": "Manhattan University: Position Description The O'Malley School of Business is seeking qualified individuals to join our team as an Adjunct Faculty Member to teach",
-   "modality_evidence": "description: 'in-person'",
-   "has_full_text": true,
-   "region": "Northeast/Mid-Atlantic"
-  },
-  {
    "title": "Lecturer, Electrical Engineering 2025-2026",
    "institution": "UC Irvine",
    "location": "Irvine, CA",
@@ -13044,13 +13104,10 @@
    "posted": "2025-12-11",
    "source": "Chronicle of Higher Education Jobs",
    "sources": [
-    "Chronicle of Higher Education Jobs",
-    "Inside Higher Ed Careers"
+    "Chronicle of Higher Education Jobs"
    ],
    "url": "https://jobs.chronicle.com/job/37926797/adjunct-faculty-computer-information-technology-bcis/",
-   "alt_urls": [
-    "https://careers.insidehighered.com/job/3558383/adjunct-faculty-computer-information-technology-bcis/"
-   ],
+   "alt_urls": [],
    "rank": "Adjunct",
    "field": "CS",
    "modality": "Unknown",
@@ -13161,26 +13218,6 @@
    "modality_evidence": "no modality cues in full description",
    "has_full_text": true,
    "region": "Midwest"
-  },
-  {
-   "title": "Adjunct Faculty/Computer Information Systems (CIS)",
-   "institution": "Westchester Community College",
-   "location": "Valhalla, NY",
-   "state": "NY",
-   "posted": "2025-11-21",
-   "source": "Inside Higher Ed Careers",
-   "sources": [
-    "Inside Higher Ed Careers"
-   ],
-   "url": "https://careers.insidehighered.com/job/3432635/adjunct-faculty-computer-information-systems-cis-/",
-   "alt_urls": [],
-   "rank": "Adjunct",
-   "field": "CS",
-   "modality": "Unknown",
-   "snippet": "Category:: Adjunct Positions - Teaching Faculty Subscribe::  Department:: Computer Information Technologies/School of Business and Pro Locations:: Val",
-   "modality_evidence": "no modality cues in full description",
-   "has_full_text": true,
-   "region": "Northeast/Mid-Atlantic"
   },
   {
    "title": "Temporary Lecturer \u2013 Data Science Programs (HDSI/SCIDS)",
@@ -14292,26 +14329,6 @@
    "region": "Southeast"
   },
   {
-   "title": "Adjunct Faculty/ Computer Science",
-   "institution": "Westchester Community College",
-   "location": "Valhalla, NY",
-   "state": "NY",
-   "posted": "2024-11-12",
-   "source": "Inside Higher Ed Careers",
-   "sources": [
-    "Inside Higher Ed Careers"
-   ],
-   "url": "https://careers.insidehighered.com/job/3259386/adjunct-faculty-computer-science/",
-   "alt_urls": [],
-   "rank": "Adjunct",
-   "field": "CS",
-   "modality": "Unknown",
-   "snippet": "Category:: Adjunct Positions - Teaching Faculty Subscribe::  Department:: School of Math, Science & Eng Locations:: Valhalla, NY Posted:: Nov 8, 2024",
-   "modality_evidence": "no modality cues in full description",
-   "has_full_text": true,
-   "region": "Northeast/Mid-Atlantic"
-  },
-  {
    "title": "CE Instructor-Technology Instructor (Career Training)",
    "institution": "Harper College",
    "location": "Palatine, Illinois, United States",
@@ -15336,26 +15353,6 @@
    "modality_evidence": "no modality cues in full description",
    "has_full_text": true,
    "region": "Midwest"
-  },
-  {
-   "title": "Adjunct Faculty/Cybersecurity",
-   "institution": "Westchester Community College",
-   "location": "Valhalla, NY",
-   "state": "NY",
-   "posted": "2019-08-29",
-   "source": "Inside Higher Ed Careers",
-   "sources": [
-    "Inside Higher Ed Careers"
-   ],
-   "url": "https://careers.insidehighered.com/job/1857556/adjunct-faculty-cybersecurity/",
-   "alt_urls": [],
-   "rank": "Adjunct",
-   "field": "CS",
-   "modality": "Unknown",
-   "snippet": "Category:: Teaching FacultyDepartment:: Computer Information Technologies/School of Business and ProLocations:: Valhalla, NYPosted:: Jul 23, 2019Close",
-   "modality_evidence": "no modality cues in full description",
-   "has_full_text": true,
-   "region": "Northeast/Mid-Atlantic"
   },
   {
    "title": "Part-time Faculty - Computer Science (Applicant Pool)",
