@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-12T08:29:31+00:00",
+ "generated": "2026-11-13T08:08:09+00:00",
  "sources": {
   "Chronicle of Higher Education Jobs": "https://jobs.chronicle.com/jobsrss/",
   "Inside Higher Ed Careers": "https://careers.insidehighered.com/jobsrss/",
@@ -9,10 +9,130 @@
   "University career sites (Workday, UC Recruit, UW Academic HR)": "https://ap.washington.edu/ahr/academic-jobs/",
   "Community submission": "https://ericianni.github.io/eecs-faculty-jobs/#submit"
  },
- "count": 833,
- "scraped_count": 832,
+ "count": 835,
+ "scraped_count": 834,
  "community_count": 1,
  "jobs": [
+  {
+   "title": "Assistant Professor of Education & AI Integration (MDSK) Position #004884",
+   "institution": "UNC Charlotte",
+   "location": "Charlotte, North Carolina",
+   "state": "NC",
+   "posted": "2026-11-13",
+   "source": "Chronicle of Higher Education Jobs",
+   "sources": [
+    "Chronicle of Higher Education Jobs"
+   ],
+   "url": "https://jobs.chronicle.com/job/38065412/assistant-professor-of-education-and-ai-integration-mdsk-position-004884/",
+   "alt_urls": [],
+   "rank": "Tenure-track Assistant",
+   "field": "CS",
+   "modality": "Unknown",
+   "snippet": "UNC Charlotte: Assistant Professor of Education specializing in AI integration in curriculum, pedagogy, and technologies, and in generalist middle/secondary pedagogy",
+   "modality_evidence": "no modality cues in full description",
+   "has_full_text": true,
+   "region": "Southeast"
+  },
+  {
+   "title": "Adjunct Professor - MS in Applied Data Science and MS in Applied Artificial Intelligence (Open-Rank)",
+   "institution": "The University of Chicago, Data Science Institute",
+   "location": "Chicago, Illinois",
+   "state": "IL",
+   "posted": "2026-11-13",
+   "source": "Chronicle of Higher Education Jobs",
+   "sources": [
+    "Chronicle of Higher Education Jobs"
+   ],
+   "url": "https://jobs.chronicle.com/job/38065418/adjunct-professor-ms-in-applied-data-science-and-ms-in-applied-artificial-intelligence-open-rank-/",
+   "alt_urls": [],
+   "rank": "Adjunct",
+   "field": "CS",
+   "modality": "Unknown",
+   "snippet": "The University of Chicago, Data Science Institute: Position Description The Data Science Institute in the Physical Sciences Division at the University of Chicago invites applications for the positio...",
+   "modality_evidence": "no modality cues in full description",
+   "has_full_text": true,
+   "region": "Midwest"
+  },
+  {
+   "title": "Assistant Professor of Computer Science/ Computer Information Systems",
+   "institution": "Talladega College",
+   "location": "Talladega, Alabama, United States",
+   "state": "AL",
+   "posted": "2026-11-12",
+   "source": "Chronicle of Higher Education Jobs",
+   "sources": [
+    "Chronicle of Higher Education Jobs"
+   ],
+   "url": "https://jobs.chronicle.com/job/38065200/assistant-professor-of-computer-science-computer-information-systems/",
+   "alt_urls": [],
+   "rank": "Tenure-track Assistant",
+   "field": "CS",
+   "modality": "On-campus",
+   "snippet": "Talladega College: Assistant Professor of Computer Science/ Computer Information Systems Talladega College is seeking an Assistant Professor to teach Computer",
+   "modality_evidence": "description: 'in person'",
+   "has_full_text": true,
+   "region": "Southeast"
+  },
+  {
+   "title": "Assistant Professor in Computer Science - Quantum Computing",
+   "institution": "University of Miami",
+   "location": "Coral Gables, FL",
+   "state": "FL",
+   "posted": "2026-11-12",
+   "source": "University of Miami (Workday)",
+   "sources": [
+    "University of Miami (Workday)"
+   ],
+   "url": "https://umiami.wd1.myworkdayjobs.com/en-US/UMFaculty/job/Coral-Gables-FL/Assistant-Professor-in-Computer-Science---Quantum-Computing_R100103062",
+   "alt_urls": [],
+   "rank": "Tenure-track Assistant",
+   "field": "CS",
+   "snippet": " Current Employees: If you are a current Staff, Faculty or Temporary employee at the University of Miami, please click here to log in to Workday to use the internal application process. To learn how to apply for a faculty or staff position, please review this tip sheet . The Department of Computer S",
+   "modality": "On-campus",
+   "modality_evidence": "inferred (research-active/relocation role): 'research program'",
+   "has_full_text": true,
+   "region": "Southeast"
+  },
+  {
+   "title": "Adjunct Teaching - Electrical & Computer Engineering - EC EN 225: Computer Systems Laboratory",
+   "institution": "Brigham Young University",
+   "location": "Provo, UT",
+   "state": "UT",
+   "posted": "2026-11-12",
+   "source": "Brigham Young University (Workday)",
+   "sources": [
+    "Brigham Young University (Workday)"
+   ],
+   "url": "https://byu.wd1.myworkdayjobs.com/en-US/faculty-careers/job/Provo-UT/Adjunct-Teaching---Electrical---Computer-Engineering---EC-EN-225--Computer-Systems-Laboratory_JR-13876",
+   "alt_urls": [],
+   "rank": "Adjunct",
+   "field": "Computer Eng",
+   "snippet": " Job Title: Adjunct Teaching - Electrical & Computer Engineering - EC EN 225: Computer Systems Laboratory Posting End Date: November 26, 2026 *NOTE: Last day to apply is Wednesday, November 25, 2026, at 11:59pm (MT) Position Start Date: January 6, 2027 Required Degree: BS Degree in Electrical Engine",
+   "modality": "On-campus",
+   "modality_evidence": "description: 'in-person'",
+   "has_full_text": true,
+   "region": "West"
+  },
+  {
+   "title": "UCLA | Assistant Professor of Teaching in Computer Engineering",
+   "institution": "UCLA",
+   "location": "Los Angeles, California, United States",
+   "state": "CA",
+   "posted": "2026-11-12",
+   "source": "CRA Career Center",
+   "sources": [
+    "CRA Career Center"
+   ],
+   "url": "https://careercenter.cra.org/job/ucla-assistant-professor-of-teaching-in-computer-engineering-los-angeles-california-2588",
+   "alt_urls": [],
+   "rank": "Tenure-track Assistant",
+   "field": "Computer Eng",
+   "snippet": " UCLA | Assistant Professor of Teaching in Computer Engineering UCLA Samueli\u2019s Department of Electrical and Computer Engineering invites applications for an Academic Senate faculty position in Computer Engineering. The appointee will teach undergraduate courses and labs, lead capstone design and men",
+   "modality": "Unknown",
+   "modality_evidence": "no modality cues in full description",
+   "has_full_text": true,
+   "region": "West"
+  },
   {
    "title": "Computer Science, Assistant Professor",
    "institution": "Cal Poly Pomona",
@@ -923,6 +1043,26 @@
    "region": "Southeast"
   },
   {
+   "title": "AI Initiatives Librarian - Librarian Asst. Professor/Librarian Assoc. Professor",
+   "institution": "University of Miami",
+   "location": "Coral Gables, FL",
+   "state": "FL",
+   "posted": "2026-11-06",
+   "source": "University of Miami (Workday)",
+   "sources": [
+    "University of Miami (Workday)"
+   ],
+   "url": "https://umiami.wd1.myworkdayjobs.com/en-US/UMFaculty/job/Coral-Gables-FL/AI-Initiatives-Libraria---Librarian-Asst-Professor-Librarian-Assoc-Professor_R100102903",
+   "alt_urls": [],
+   "rank": "Instructor/Lecturer/NTT",
+   "field": "CS",
+   "snippet": " Current Employees: If you are a current Staff, Faculty or Temporary employee at the University of Miami, please click here to log in to Workday to use the internal application process. To learn how to apply for a faculty or staff position, please review this tip sheet . PURPOSE & SCOPE The AI Initi",
+   "modality": "Unknown",
+   "modality_evidence": "no modality cues in full description",
+   "has_full_text": true,
+   "region": "Southeast"
+  },
+  {
    "title": "Assistant, Associate, or Full Professor of Computer Science",
    "institution": "The University of Texas at Dallas",
    "location": "Richardson, Texas, United States",
@@ -1121,26 +1261,6 @@
    "modality_evidence": "no modality cues in full description",
    "has_full_text": true,
    "region": "Northeast/Mid-Atlantic"
-  },
-  {
-   "title": "Adjunct Teaching - Electrical & Computer Engineering - EC EN 225: Computer Systems Laboratory",
-   "institution": "Brigham Young University",
-   "location": "Provo, UT",
-   "state": "UT",
-   "posted": "2026-11-05",
-   "source": "Brigham Young University (Workday)",
-   "sources": [
-    "Brigham Young University (Workday)"
-   ],
-   "url": "https://byu.wd1.myworkdayjobs.com/en-US/faculty-careers/job/Provo-UT/Adjunct-Teaching---Electrical---Computer-Engineering---EC-EN-225--Computer-Systems-Laboratory_JR-12885",
-   "alt_urls": [],
-   "rank": "Adjunct",
-   "field": "Computer Eng",
-   "snippet": " Job Title: Adjunct Teaching - Electrical & Computer Engineering - EC EN 225: Computer Systems Laboratory Posting End Date: November 19, 2026 *NOTE: Last day to apply is Wednesday, November 18, 2026, at 11:59pm (MT) Position Start Date: January 6, 2027 Required Degree: MS Degree in Electrical Engine",
-   "modality": "On-campus",
-   "modality_evidence": "description: 'in-person'",
-   "has_full_text": true,
-   "region": "West"
   },
   {
    "title": "Adjunct Teaching - Information Systems - IS 590R: AI Applications in Business",
@@ -2552,26 +2672,6 @@
    "region": "Southeast"
   },
   {
-   "title": "Adjunct Teaching - Public Health - HLTH 440: Introduction to Statistical Computing in Epidemiology",
-   "institution": "Brigham Young University",
-   "location": "Provo, UT",
-   "state": "UT",
-   "posted": "2026-10-29",
-   "source": "Brigham Young University (Workday)",
-   "sources": [
-    "Brigham Young University (Workday)"
-   ],
-   "url": "https://byu.wd1.myworkdayjobs.com/en-US/faculty-careers/job/Provo-UT/Adjunct-Teaching---Public-Health---HLTH-440--Introduction-to-Statistical-Computing-in-Epidemiology_JR-13445-1",
-   "alt_urls": [],
-   "rank": "Adjunct",
-   "field": "CS",
-   "snippet": " Job Title: Adjunct Teaching - Public Health - HLTH 440: I ntroduction to Statistical Computing in Epidemiology Posting End Date: November 13, 2026 *NOTE: Last day to apply is Thursday, November 12, 2026 at 11:59 p.m. (MT) Position Start Date: January 4, 2027 Required Degree: Masters Degree. The req",
-   "modality": "On-campus",
-   "modality_evidence": "inferred (research-active/relocation role): 'relocate'",
-   "has_full_text": true,
-   "region": "West"
-  },
-  {
    "title": "Assistant Professor (Tenure track) - Computer Science",
    "institution": "City College of New York",
    "location": "New York City, New York, United States",
@@ -3065,13 +3165,10 @@
    "posted": "2026-10-26",
    "source": "Chronicle of Higher Education Jobs",
    "sources": [
-    "Chronicle of Higher Education Jobs",
-    "CRA Career Center"
+    "Chronicle of Higher Education Jobs"
    ],
    "url": "https://jobs.chronicle.com/job/38056132/assistant-professor-of-computing-technology-cybersecurity-and-it-infrastructure-/",
-   "alt_urls": [
-    "https://careercenter.cra.org/job/assistant-professor-of-computing-technology-cybersecurity-and-it-infrastructure-poughkeepsie-new-york-2464"
-   ],
+   "alt_urls": [],
    "rank": "Tenure-track Assistant",
    "field": "CS",
    "modality": "On-campus",
@@ -3475,7 +3572,7 @@
    "rank": "Tenure-track Assistant",
    "field": "CS",
    "modality": "On-campus",
-   "snippet": "Talladega College: Chair of Computer Science and Assistant Professor Contact Name: Talladega College Office of Human Resources Contact Email: hr@talladega.edu",
+   "snippet": "Talladega College: Chair of Computer Science and Assistant Professor Responsibilities: Qualifications:Ph.D. in Computer Science, Computer Information Systems or a",
    "modality_evidence": "description: 'in person'",
    "has_full_text": true,
    "region": "Southeast"
@@ -3519,6 +3616,26 @@
    "modality_evidence": "no modality cues in full description",
    "has_full_text": true,
    "region": "Southeast"
+  },
+  {
+   "title": "Assistant Professor of Computer Engineering",
+   "institution": "Union College (NY)",
+   "location": "Schenectady, New York, United States",
+   "state": "NY",
+   "posted": "2026-10-23",
+   "source": "Chronicle of Higher Education Jobs",
+   "sources": [
+    "Chronicle of Higher Education Jobs"
+   ],
+   "url": "https://jobs.chronicle.com/job/38055961/assistant-professor-of-computer-engineering/",
+   "alt_urls": [],
+   "rank": "Tenure-track Assistant",
+   "field": "Computer Eng",
+   "modality": "On-campus",
+   "snippet": "Union College (NY): Union College invites applications for the position of Assistant Professor of Computer Engineering (tenure-track), beginning September 1, 2027.",
+   "modality_evidence": "inferred (research-active/relocation role): 'research program'",
+   "has_full_text": true,
+   "region": "Northeast/Mid-Atlantic"
   },
   {
    "title": "Tenure-track Assistant Professor of Software Engineering for Intelligent Systems",
@@ -5239,26 +5356,6 @@
    "modality_evidence": "description: 'on campus'",
    "has_full_text": true,
    "region": "Southeast"
-  },
-  {
-   "title": "Faculty Positions in Computer and AI Engineering \u2014 Assistant, Associate, and Full Professor - 311930",
-   "institution": "United Arab Emirates University",
-   "location": "United Arab Emirates",
-   "state": "Other/Unknown",
-   "posted": "2026-10-14",
-   "source": "Chronicle of Higher Education Jobs",
-   "sources": [
-    "Chronicle of Higher Education Jobs"
-   ],
-   "url": "https://jobs.chronicle.com/job/38051231/faculty-positions-in-computer-and-ai-engineering-assistant-associate-and-full-professor-311930/",
-   "alt_urls": [],
-   "rank": "Tenure-track Assistant",
-   "field": "CS",
-   "modality": "On-campus",
-   "snippet": "United Arab Emirates University: Job Description Faculty Position in Computer and AI Engineering - All Ranks The College of Computing and Artificial Intelligence (CCAI) at the Unit...",
-   "modality_evidence": "inferred (research-active/relocation role): 'research program'",
-   "has_full_text": true,
-   "region": "International/Other"
   },
   {
    "title": "Assistant/Associate/Full Professor - Artificial Intelligence",
@@ -8210,26 +8307,6 @@
    "region": "Northeast/Mid-Atlantic"
   },
   {
-   "title": "Tenure-Track Professor in Computer Science",
-   "institution": "Harvard SEAS",
-   "location": "Allston, Massachusetts, United States",
-   "state": "MA",
-   "posted": "2026-09-28",
-   "source": "CRA Career Center",
-   "sources": [
-    "CRA Career Center"
-   ],
-   "url": "https://careercenter.cra.org/job/tenure-track-professor-in-computer-science-allston-massachusetts-2466",
-   "alt_urls": [],
-   "rank": "Tenure-track Assistant",
-   "field": "CS",
-   "snippet": " Tenure-Track Professor in Computer Science Position Description: The Harvard John A. Paulson School of Engineering and Applied Sciences (SEAS) seeks applicants for a tenure-track position in Computer Science, with an expected start date of July 1, 2027. We invite applicants bridging AI with other a",
-   "modality": "Unknown",
-   "modality_evidence": "no modality cues in full description",
-   "has_full_text": true,
-   "region": "Northeast/Mid-Atlantic"
-  },
-  {
    "title": "Assistant Professor, Computer Engineering",
    "institution": "Lamar University",
    "location": "Beaumont, TX, TX",
@@ -8826,6 +8903,26 @@
    "modality_evidence": "description: 'on campus'",
    "has_full_text": true,
    "region": "Midwest"
+  },
+  {
+   "title": "Tenure Track Assistant Professor in Computer Science - Bioinformatics",
+   "institution": "San Jose State University",
+   "location": "San Jose, California, United States",
+   "state": "CA",
+   "posted": "2026-09-22",
+   "source": "Chronicle of Higher Education Jobs",
+   "sources": [
+    "Chronicle of Higher Education Jobs"
+   ],
+   "url": "https://jobs.chronicle.com/job/38042571/tenure-track-assistant-professor-in-computer-science-bioinformatics/",
+   "alt_urls": [],
+   "rank": "Tenure-track Assistant",
+   "field": "CS",
+   "modality": "On-campus",
+   "snippet": "San Jose State University: Position Rank and Title: Assistant Professor School/Department Name: Department of Computer Science Compensation: Commensurate with",
+   "modality_evidence": "description: 'in-person'",
+   "has_full_text": true,
+   "region": "West"
   },
   {
    "title": "Assistant Professor, Electrical Engineering",
@@ -9769,26 +9866,6 @@
    "region": "West"
   },
   {
-   "title": "CSE @ TAMU Multiple Faculty Positions",
-   "institution": "Department of Computer Science and Engineering",
-   "location": "College Station, Texas",
-   "state": "TX",
-   "posted": "2026-09-14",
-   "source": "Chronicle of Higher Education Jobs",
-   "sources": [
-    "Chronicle of Higher Education Jobs"
-   ],
-   "url": "https://jobs.chronicle.com/job/38035615/cse-tamu-multiple-faculty-positions/",
-   "alt_urls": [],
-   "rank": "Tenure-track Assistant",
-   "field": "CS",
-   "modality": "On-campus",
-   "snippet": "Department of Computer Science and Engineering: The Department of Computer Science and Engineering, College of Engineering at Texas A&M University, invites applications for ten full-time, tenure-...",
-   "modality_evidence": "inferred (research-active/relocation role): 'research program'",
-   "has_full_text": true,
-   "region": "Southwest"
-  },
-  {
    "title": "ASSISTANT PROFESSOR - Electrical and Computer Engineering #00096296",
    "institution": "Missouri University of Science and Technology",
    "location": "Rolla, Missouri, United States",
@@ -9809,46 +9886,6 @@
    "region": "Midwest"
   },
   {
-   "title": "Tenure-Track/Tenured Faculty Positions in Statistics and Data Science (2026-2027)",
-   "institution": "University of Texas at Austin",
-   "location": "Texas, United States",
-   "state": "TX",
-   "posted": "2026-09-14",
-   "source": "Chronicle of Higher Education Jobs",
-   "sources": [
-    "Chronicle of Higher Education Jobs"
-   ],
-   "url": "https://jobs.chronicle.com/job/38038158/tenure-track-tenured-faculty-positions-in-statistics-and-data-science-2026-2027-/",
-   "alt_urls": [],
-   "rank": "Associate/Full/Tenured",
-   "field": "CS",
-   "modality": "On-campus",
-   "snippet": "University of Texas at Austin: Tenure-Track/Tenured Faculty Positions in Statistics and Data Science (2026-2027) College/School/Unit: College of Natural Sciences Department:...",
-   "modality_evidence": "inferred (research-active/relocation role): 'research program'",
-   "has_full_text": true,
-   "region": "Southwest"
-  },
-  {
-   "title": "Adjunct Pool - Mathematics Department, including Data Science and Statistics",
-   "institution": "California Lutheran University",
-   "location": "California, United States",
-   "state": "CA",
-   "posted": "2026-09-14",
-   "source": "Chronicle of Higher Education Jobs",
-   "sources": [
-    "Chronicle of Higher Education Jobs"
-   ],
-   "url": "https://jobs.chronicle.com/job/38037942/adjunct-pool-mathematics-department-including-data-science-and-statistics/",
-   "alt_urls": [],
-   "rank": "Adjunct",
-   "field": "CS",
-   "modality": "On-campus",
-   "snippet": "California Lutheran University: Adjunct Pool - Mathematics Department, including Data Science and Statistics Position Category: Adjunct FLSA: Exempt FTE: Location: Thousand...",
-   "modality_evidence": "description: 'on campus'",
-   "has_full_text": true,
-   "region": "West"
-  },
-  {
    "title": "Assistant Professor (Tenure Track) \u2013 Biostatistics and Health Data Science",
    "institution": "University of Minnesota",
    "location": "Twin Cities, Minnesota, United States",
@@ -9867,49 +9904,6 @@
    "modality_evidence": "inferred (research-active/relocation role): 'research program'",
    "has_full_text": true,
    "region": "Midwest"
-  },
-  {
-   "title": "Adjunct Pool - Computer Science Department",
-   "institution": "California Lutheran University",
-   "location": "California, United States",
-   "state": "CA",
-   "posted": "2026-09-14",
-   "source": "Chronicle of Higher Education Jobs",
-   "sources": [
-    "Chronicle of Higher Education Jobs"
-   ],
-   "url": "https://jobs.chronicle.com/job/38038038/adjunct-pool-computer-science-department/",
-   "alt_urls": [],
-   "rank": "Adjunct",
-   "field": "CS",
-   "modality": "On-campus",
-   "snippet": "California Lutheran University: Adjunct Pool - Computer Science Department Position Category: Adjunct FLSA: Exempt FTE: Location: Thousand Oaks University Background: Cal...",
-   "modality_evidence": "description: 'on campus'",
-   "has_full_text": true,
-   "region": "West"
-  },
-  {
-   "title": "z-Part-Time Faculty Pool - Computer Science",
-   "institution": "College of the Sequoias",
-   "location": "California, United States",
-   "state": "CA",
-   "posted": "2026-09-14",
-   "source": "Chronicle of Higher Education Jobs",
-   "sources": [
-    "Chronicle of Higher Education Jobs",
-    "Inside Higher Ed Careers"
-   ],
-   "url": "https://jobs.chronicle.com/job/38038102/z-part-time-faculty-pool-computer-science/",
-   "alt_urls": [
-    "https://careers.insidehighered.com/job/3468959/z-part-time-faculty-pool-computer-science/"
-   ],
-   "rank": "Adjunct",
-   "field": "CS",
-   "modality": "On-campus",
-   "snippet": "College of the Sequoias: z-Part-Time Faculty Pool - Computer Science Salary: $60.60 - $72.51 Hourly Job Type: Part-time Faculty Job Number:...",
-   "modality_evidence": "description: 'face-to-face'",
-   "has_full_text": true,
-   "region": "West"
   },
   {
    "title": "Assistant Professor - Division of Biomedical AI, Cellular, Molecular and Genetic Medicine",
@@ -13521,26 +13515,6 @@
    "region": "Northeast/Mid-Atlantic"
   },
   {
-   "title": "Assistant Professor of Computer Science/ Computer Information Systems",
-   "institution": "Talladega College",
-   "location": "Talladega, Alabama, United States",
-   "state": "AL",
-   "posted": "2026-04-28",
-   "source": "Chronicle of Higher Education Jobs",
-   "sources": [
-    "Chronicle of Higher Education Jobs"
-   ],
-   "url": "https://jobs.chronicle.com/job/37980979/assistant-professor-of-computer-science-computer-information-systems/",
-   "alt_urls": [],
-   "rank": "Tenure-track Assistant",
-   "field": "CS",
-   "modality": "On-campus",
-   "snippet": "Talladega College: Assistant Professor of Computer Science/ Computer Information Systems Contact Name: Talladega College Office of Human Resources Contact Email:",
-   "modality_evidence": "description: 'in person'",
-   "has_full_text": true,
-   "region": "Southeast"
-  },
-  {
    "title": "Lecturer Pool Statistics and Data Science AY 26-27",
    "institution": "California State University- East Bay",
    "location": "Hayward, California, United States",
@@ -14185,6 +14159,26 @@
    "modality_evidence": "inferred (research-active/relocation role): 'research program'",
    "has_full_text": true,
    "region": "Northeast/Mid-Atlantic"
+  },
+  {
+   "title": "z-Part-Time Faculty Pool - Computer Science",
+   "institution": "College of the Sequoias",
+   "location": "Visalia",
+   "state": "CA",
+   "posted": "2026-02-24",
+   "source": "Inside Higher Ed Careers",
+   "sources": [
+    "Inside Higher Ed Careers"
+   ],
+   "url": "https://careers.insidehighered.com/job/3468959/z-part-time-faculty-pool-computer-science/",
+   "alt_urls": [],
+   "rank": "Adjunct",
+   "field": "CS",
+   "modality": "On-campus",
+   "snippet": "College of the Sequoias: z-Part-Time Adjunct Faculty Pool - Computer Science Salary: $60.60 - $72.51 Hourly Job Type: Part-time Faculty Job Number: 4250-af-CS Closin",
+   "modality_evidence": "description: 'face-to-face'",
+   "has_full_text": true,
+   "region": "West"
   },
   {
    "title": "Full-Time Tenure Track Faculty - Computer Information Systems: Cybersecurity",
@@ -15194,6 +15188,26 @@
    "modality_evidence": "no modality cues in full description",
    "has_full_text": true,
    "region": "West"
+  },
+  {
+   "title": "Adjunct Instructor - Computer Science",
+   "institution": "Fort Valley State University",
+   "location": "Fort Valley, GA, United States, 31030",
+   "state": "GA",
+   "posted": "2025-07-29",
+   "source": "Inside Higher Ed Careers",
+   "sources": [
+    "Inside Higher Ed Careers"
+   ],
+   "url": "https://careers.insidehighered.com/job/3377892/adjunct-instructor-computer-science/",
+   "alt_urls": [],
+   "rank": "Adjunct",
+   "field": "CS",
+   "modality": "On-campus",
+   "snippet": "FORT VALLEY STATE UNIVERSITY (FVSU), a state and land-grant institution of the University System of Georgia, invites applications for the position of",
+   "modality_evidence": "description: 'in-person'",
+   "has_full_text": true,
+   "region": "Southeast"
   },
   {
    "title": "Online Graduate Adjunct Faculty in Sustainable Technology and Computing",
@@ -16666,6 +16680,26 @@
    "modality_evidence": "no modality cues in full description",
    "has_full_text": true,
    "region": "Southeast"
+  },
+  {
+   "title": "Adjunct Pool Electrical & Computer Technology Instructor",
+   "institution": "Muskegon Community College",
+   "location": "Muskegon, Michigan, United States",
+   "state": "MI",
+   "posted": "2022-01-28",
+   "source": "Chronicle of Higher Education Jobs",
+   "sources": [
+    "Chronicle of Higher Education Jobs"
+   ],
+   "url": "https://jobs.chronicle.com/job/439172/adjunct-pool-electrical-and-computer-technology-instructor/",
+   "alt_urls": [],
+   "rank": "Adjunct",
+   "field": "EE",
+   "modality": "On-campus",
+   "snippet": "Muskegon Community College: Job Description Muskegon Community College, an associate degree-granting institution of higher education, is a center for lifelong learning",
+   "modality_evidence": "description: 'In Person'",
+   "has_full_text": true,
+   "region": "Midwest"
   },
   {
    "title": "Adjunct Faculty \u2013 Computer Science",
