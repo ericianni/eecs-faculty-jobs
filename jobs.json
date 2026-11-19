@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-18T08:43:11+00:00",
+ "generated": "2026-11-19T08:58:05+00:00",
  "sources": {
   "Chronicle of Higher Education Jobs": "https://jobs.chronicle.com/jobsrss/",
   "Inside Higher Ed Careers": "https://careers.insidehighered.com/jobsrss/",
@@ -9,10 +9,73 @@
   "University career sites (Workday, UC Recruit, UW Academic HR)": "https://ap.washington.edu/ahr/academic-jobs/",
   "Community submission": "https://ericianni.github.io/eecs-faculty-jobs/#submit"
  },
- "count": 840,
- "scraped_count": 839,
+ "count": 829,
+ "scraped_count": 828,
  "community_count": 1,
  "jobs": [
+  {
+   "title": "Assistant Professor Electrical and Computer Engineering",
+   "institution": "Cleveland State University ",
+   "location": "Cleveland, Ohio",
+   "state": "OH",
+   "posted": "2026-11-18",
+   "source": "Chronicle of Higher Education Jobs",
+   "sources": [
+    "Chronicle of Higher Education Jobs",
+    "Inside Higher Ed Careers"
+   ],
+   "url": "https://jobs.chronicle.com/job/38068111/assistant-professor-electrical-and-computer-engineering/",
+   "alt_urls": [
+    "https://careers.insidehighered.com/job/3577340/assistant-professor-electrical-and-computer-engineering/"
+   ],
+   "rank": "Tenure-track Assistant",
+   "field": "Computer Eng",
+   "modality": "On-campus",
+   "snippet": "Cleveland State University : Cleveland State University Assistant Professor Electrical and Computer Engineering Job Summary: The Department of Electrical and Computer Engineeri...",
+   "modality_evidence": "inferred (research-active/relocation role): 'research program'",
+   "has_full_text": true,
+   "region": "Midwest"
+  },
+  {
+   "title": "Associate Professor/Assistant Professor of Electrical Engineering",
+   "institution": "Christopher Newport University",
+   "location": "Newport News, Virginia",
+   "state": "VA",
+   "posted": "2026-11-18",
+   "source": "Chronicle of Higher Education Jobs",
+   "sources": [
+    "Chronicle of Higher Education Jobs"
+   ],
+   "url": "https://jobs.chronicle.com/job/38067984/associate-professor-assistant-professor-of-electrical-engineering/",
+   "alt_urls": [],
+   "rank": "Tenure-track Assistant",
+   "field": "EE",
+   "modality": "On-campus",
+   "snippet": "Christopher Newport University: The School of Engineering and Computing at CNU invites applications for a tenure track position in Electrical Engineering, effective August 2027.",
+   "modality_evidence": "inferred (research-active/relocation role): 'research lab'",
+   "has_full_text": true,
+   "region": "Southeast"
+  },
+  {
+   "title": "Associate Professor of the Practice in Computer Science, Metropolitan College",
+   "institution": "Boston University",
+   "location": "Boston",
+   "state": "MA",
+   "posted": "2026-11-18",
+   "source": "Inside Higher Ed Careers",
+   "sources": [
+    "Inside Higher Ed Careers"
+   ],
+   "url": "https://careers.insidehighered.com/job/3577280/associate-professor-of-the-practice-in-computer-science-metropolitan-college/",
+   "alt_urls": [],
+   "rank": "Instructor/Lecturer/NTT",
+   "field": "CS",
+   "modality": "On-campus",
+   "snippet": "Boston University: Associate Professor of the Practice in Computer Science, Metropolitan College    Job Description   Associate Professor of the Practice in Computer",
+   "modality_evidence": "description: 'face-to-face'",
+   "has_full_text": true,
+   "region": "Northeast/Mid-Atlantic"
+  },
   {
    "title": "Open Rank Faculty Position in Biostatistics, Data Science & Epidemiology",
    "institution": "Augusta University",
@@ -32,6 +95,46 @@
    "modality_evidence": "no modality cues in full description",
    "has_full_text": true,
    "region": "Southeast"
+  },
+  {
+   "title": "Tenure-Track/Tenured Faculty Position in Electrical Engineering",
+   "institution": "Washington State University",
+   "location": "Pullman, WA",
+   "state": "WA",
+   "posted": "2026-11-18",
+   "source": "Washington State University (Workday)",
+   "sources": [
+    "Washington State University (Workday)"
+   ],
+   "url": "https://wsu.wd5.myworkdayjobs.com/en-US/WSU_Jobs/job/Pullman-WA/Tenure-Track-Tenured-Faculty-Position-in-Electrical-Engineering_R-15485",
+   "alt_urls": [],
+   "rank": "Associate/Full/Tenured",
+   "field": "EE",
+   "snippet": " Online applications must be received before 11:59pm on: January 3, 2027 If a date is not listed above, review the Applicant Instructions below for more details. Available Title(s): 270-NN_FACULTY - Assistant Professor, 280-NN_FACULTY - Associate Professor Business Title: Tenure-Track/Tenured Facult",
+   "modality": "On-campus",
+   "modality_evidence": "description: 'on Campus'",
+   "has_full_text": true,
+   "region": "Pacific Northwest"
+  },
+  {
+   "title": "Teaching Faculty Positions in Artificial Intelligence and Data Sciences",
+   "institution": "Penn State University",
+   "location": "Penn State University Park",
+   "state": "PA",
+   "posted": "2026-11-18",
+   "source": "Penn State University (Workday)",
+   "sources": [
+    "Penn State University (Workday)"
+   ],
+   "url": "https://psu.wd1.myworkdayjobs.com/en-US/PSU_Academic/job/Penn-State-University-Park/Teaching-Faculty-Positions-in-Artificial-Intelligence-and-Data-Sciences_REQ_0000084028-2",
+   "alt_urls": [],
+   "rank": "Instructor/Lecturer/NTT",
+   "field": "CS",
+   "snippet": " APPLICATION INSTRUCTIONS: CURRENT PENN STATE EMPLOYEE (faculty, staff, technical service, or student), please login to Workday to complete the internal application process . Please do not apply here, apply internally through Workday. CURRENT PENN STATE STUDENT (not employed previously at the univer",
+   "modality": "Remote/Online",
+   "modality_evidence": "description: 'Fully remote'",
+   "has_full_text": true,
+   "region": "Northeast/Mid-Atlantic"
   },
   {
    "title": "Assistant Professor (Tenure Track) of Scalable and Agentic AI Systems",
@@ -94,6 +197,46 @@
    "region": "International/Other"
   },
   {
+   "title": "Open-Rank Professor in Quantum Computing",
+   "institution": "University of Connecticut",
+   "location": "Storrs, Connecticut, United States",
+   "state": "CT",
+   "posted": "2026-11-18",
+   "source": "CRA Career Center",
+   "sources": [
+    "CRA Career Center"
+   ],
+   "url": "https://careercenter.cra.org/job/open-rank-professor-in-quantum-computing-storrs-connecticut-2605",
+   "alt_urls": [],
+   "rank": "Tenure-track Assistant",
+   "field": "CS",
+   "snippet": " Open-Rank Professor in Quantum Computing The School of Computing in the College of Engineering at the University of Connecticut (UConn) invites applications for a full-time, nine-month tenure-track or tenured faculty position at the rank of Assistant, Associate, or Full Professor in quantum computi",
+   "modality": "Unknown",
+   "modality_evidence": "no modality cues in full description",
+   "has_full_text": true,
+   "region": "Northeast/Mid-Atlantic"
+  },
+  {
+   "title": "Tenure Track Faculty Positions",
+   "institution": "Toyota Technological Institute at Chicago",
+   "location": "Chicago, Illinois, United States",
+   "state": "IL",
+   "posted": "2026-11-18",
+   "source": "CRA Career Center",
+   "sources": [
+    "CRA Career Center"
+   ],
+   "url": "https://careercenter.cra.org/job/tenure-track-faculty-positions-chicago-illinois-2606",
+   "alt_urls": [],
+   "rank": "Tenure-track Assistant",
+   "field": "CS",
+   "snippet": " Tenure-Track Faculty Positions at the Toyota Technological Institute at Chicago The Toyota Technological Institute at Chicago (TTIC) invites applications for the following faculty positions in computer science: \u25cf tenure-track Assistant Professor \u25cf tenured Associate Professor \u25cf tenured full Professo",
+   "modality": "Unknown",
+   "modality_evidence": "no modality cues in full description",
+   "has_full_text": true,
+   "region": "Midwest"
+  },
+  {
    "title": "Multiple open-rank faculty positions | College of Connected Computing, Vanderbilt University",
    "institution": "College of Connected Computing",
    "location": "Nashville, Tennessee",
@@ -134,6 +277,26 @@
    "region": "Southeast"
   },
   {
+   "title": "Assistant/Associate/Full Professor in SoC - Quantum Computing",
+   "institution": "University of Connecticut",
+   "location": "UConn Storrs",
+   "state": "CT",
+   "posted": "2026-11-17",
+   "source": "Inside Higher Ed Careers",
+   "sources": [
+    "Inside Higher Ed Careers"
+   ],
+   "url": "https://careers.insidehighered.com/job/3576785/assistant-associate-full-professor-in-soc-quantum-computing/",
+   "alt_urls": [],
+   "rank": "Tenure-track Assistant",
+   "field": "CS",
+   "modality": "On-campus",
+   "snippet": "Search #: 499925 Work type: Full-time Location: UConn Storrs Categories: Faculty Tenure Track JOB SUMMARYThe School of Computing in the College of Eng",
+   "modality_evidence": "inferred (research-active/relocation role): 'research program'",
+   "has_full_text": true,
+   "region": "Northeast/Mid-Atlantic"
+  },
+  {
    "title": "Adjunct Instructor - Information Technology",
    "institution": "Fox Valley Technical College",
    "location": "Appleton",
@@ -169,26 +332,6 @@
    "field": "Computer Eng",
    "modality": "On-campus",
    "snippet": "Search #: 499908 Work type: Full-time Location: UConn Storrs Categories: Faculty Tenure Track JOB SUMMARYThe College of Engineering at the University",
-   "modality_evidence": "inferred (research-active/relocation role): 'research program'",
-   "has_full_text": true,
-   "region": "Northeast/Mid-Atlantic"
-  },
-  {
-   "title": "Assistant/Associate/Full Professor in SoC - Quantum Computing",
-   "institution": "University of Connecticut",
-   "location": "UConn Storrs",
-   "state": "CT",
-   "posted": "2026-11-17",
-   "source": "Inside Higher Ed Careers",
-   "sources": [
-    "Inside Higher Ed Careers"
-   ],
-   "url": "https://careers.insidehighered.com/job/3576785/assistant-associate-full-professor-in-soc-quantum-computing/",
-   "alt_urls": [],
-   "rank": "Tenure-track Assistant",
-   "field": "CS",
-   "modality": "On-campus",
-   "snippet": "Search #: 499925 Work type: Full-time Location: UConn Storrs Categories: Faculty Tenure Track JOB SUMMARYThe School of Computing in the College of Eng",
    "modality_evidence": "inferred (research-active/relocation role): 'research program'",
    "has_full_text": true,
    "region": "Northeast/Mid-Atlantic"
@@ -635,26 +778,6 @@
    "modality_evidence": "description: 'on campus'",
    "has_full_text": true,
    "region": "Southwest"
-  },
-  {
-   "title": "Adjunct Faculty, Electronics Technology",
-   "institution": "College of DuPage",
-   "location": "Glen Ellyn",
-   "state": "IL",
-   "posted": "2026-11-14",
-   "source": "Inside Higher Ed Careers",
-   "sources": [
-    "Inside Higher Ed Careers"
-   ],
-   "url": "https://careers.insidehighered.com/job/3575810/adjunct-faculty-electronics-technology/",
-   "alt_urls": [],
-   "rank": "Adjunct",
-   "field": "EE",
-   "modality": "On-campus",
-   "snippet": "Adjunct Faculty, Electronics Technology    Adjunct Faculty, Electronics Technology  College of DuPage believes in the power of teaching and learni",
-   "modality_evidence": "description: 'face-to-face'",
-   "has_full_text": true,
-   "region": "Midwest"
   },
   {
    "title": "Assistant Professor of Education & AI Integration (MDSK) Position #004884",
@@ -2147,26 +2270,6 @@
    "modality_evidence": "no modality cues in full description",
    "has_full_text": true,
    "region": "Northeast/Mid-Atlantic"
-  },
-  {
-   "title": "Adjunct Teaching - Information Systems - IS 590R: AI Applications in Business",
-   "institution": "Brigham Young University",
-   "location": "Provo, UT",
-   "state": "UT",
-   "posted": "2026-11-05",
-   "source": "Brigham Young University (Workday)",
-   "sources": [
-    "Brigham Young University (Workday)"
-   ],
-   "url": "https://byu.wd1.myworkdayjobs.com/en-US/faculty-careers/job/Provo-UT/Adjunct-Teaching---Information-Systems---IS-590R--AI-Applications-in-Business_JR-13633",
-   "alt_urls": [],
-   "rank": "Adjunct",
-   "field": "CS",
-   "snippet": " Job Title: Adjunct Teaching - Information Systems - IS 590R: AI Applications in Business Close Date: November 19, 2026 *NOTE: Last day to apply is Wednesday, November 18, 2026, at 11:59pm (MT) Position Start Date: January 4, 2027 Required Degree: Master's degree in Information Systems, Computer Sci",
-   "modality": "On-campus",
-   "modality_evidence": "description: 'in person'",
-   "has_full_text": true,
-   "region": "West"
   },
   {
    "title": "Computer Science Faculty - Tenured, Tenure-track - Cornell Tech, NYC",
@@ -3676,26 +3779,6 @@
    "modality_evidence": "description: 'on-campus'",
    "has_full_text": true,
    "region": "Southwest"
-  },
-  {
-   "title": "Senior Lecturer of Data Science",
-   "institution": "Coppin State University",
-   "location": "Baltimore, Maryland, United States",
-   "state": "MD",
-   "posted": "2026-10-27",
-   "source": "Chronicle of Higher Education Jobs",
-   "sources": [
-    "Chronicle of Higher Education Jobs"
-   ],
-   "url": "https://jobs.chronicle.com/job/38057216/senior-lecturer-of-data-science/",
-   "alt_urls": [],
-   "rank": "Instructor/Lecturer/NTT",
-   "field": "CS",
-   "modality": "Unknown",
-   "snippet": "Coppin State University: Job Posting: JR102189 Senior Lecturer of Data Science (Open) Department: Accounting & Mgmt Info Systems, JM Position Type: Non-Regular Fixed",
-   "modality_evidence": "no modality cues in full description",
-   "has_full_text": true,
-   "region": "Northeast/Mid-Atlantic"
   },
   {
    "title": "Full Professor in Artificial Intelligence, Data Science, or Controls",
@@ -5610,24 +5693,27 @@
    "region": "Southeast"
   },
   {
-   "title": "Assistant Professor Computing Sciences",
-   "institution": "Coastal Carolina University",
-   "location": "Conway, SC",
-   "state": "SC",
+   "title": "Assistant/Associate/Full Professor (Tenure / Tenure Track), Department of Computer Science",
+   "institution": "University of Cincinnati",
+   "location": "Cincinnati, OH",
+   "state": "OH",
    "posted": "2026-10-17",
    "source": "Inside Higher Ed Careers",
    "sources": [
-    "Inside Higher Ed Careers"
+    "Inside Higher Ed Careers",
+    "CRA Career Center"
    ],
-   "url": "https://careers.insidehighered.com/job/3564106/assistant-professor-computing-sciences/",
-   "alt_urls": [],
+   "url": "https://careers.insidehighered.com/job/3564205/assistant-associate-full-professor-tenure-tenure-track-department-of-computer-science/",
+   "alt_urls": [
+    "https://careercenter.cra.org/job/assistant-associate-full-professor-tenure-tenure-track-department-of-computer-science-cincinnati-ohio-2505"
+   ],
    "rank": "Tenure-track Assistant",
    "field": "CS",
    "modality": "On-campus",
-   "snippet": "Classification Code:UG74Pay Grade:0Subject to Drug/Alcohol Testing Guidelines:NoSubject to Credit Check:NoInternal Title:Assistant Professor Computing",
-   "modality_evidence": "description: 'in-person'",
+   "snippet": "Current UC employees must apply internally via SuccessFactors  Faculty rank and compensation will be based on experience and academic credentials. Ne",
+   "modality_evidence": "inferred (research-active/relocation role): 'research program'",
    "has_full_text": true,
-   "region": "Southeast"
+   "region": "Midwest"
   },
   {
    "title": "Assistant Professor of Computer Science (Data Science & AI)",
@@ -5711,29 +5797,6 @@
    "modality_evidence": "description: 'face-to-face'",
    "has_full_text": true,
    "region": "Northeast/Mid-Atlantic"
-  },
-  {
-   "title": "Assistant/Associate/Full Professor (Tenure / Tenure Track), Department of Computer Science",
-   "institution": "University of Cincinnati",
-   "location": "Cincinnati, Ohio, United States",
-   "state": "OH",
-   "posted": "2026-10-16",
-   "source": "Chronicle of Higher Education Jobs",
-   "sources": [
-    "Chronicle of Higher Education Jobs",
-    "CRA Career Center"
-   ],
-   "url": "https://jobs.chronicle.com/job/38052884/assistant-associate-full-professor-tenure-tenure-track-department-of-computer-science/",
-   "alt_urls": [
-    "https://careercenter.cra.org/job/assistant-associate-full-professor-tenure-tenure-track-department-of-computer-science-cincinnati-ohio-2505"
-   ],
-   "rank": "Tenure-track Assistant",
-   "field": "CS",
-   "modality": "On-campus",
-   "snippet": "University of Cincinnati: Current UC employees must apply internally via SuccessFactors Faculty rank and compensation will be based on experience and academic credentials.",
-   "modality_evidence": "inferred (research-active/relocation role): 'research program'",
-   "has_full_text": true,
-   "region": "Midwest"
   },
   {
    "title": "2027 Computer Science Lecturer",
@@ -6145,26 +6208,6 @@
    "region": "Southeast"
   },
   {
-   "title": "Faculty Positions in Computer and AI Engineering \u2014 Assistant, Associate, and Full Professor - 311930",
-   "institution": "United Arab Emirates University",
-   "location": "United Arab Emirates",
-   "state": "Other/Unknown",
-   "posted": "2026-10-14",
-   "source": "Chronicle of Higher Education Jobs",
-   "sources": [
-    "Chronicle of Higher Education Jobs"
-   ],
-   "url": "https://jobs.chronicle.com/job/38051231/faculty-positions-in-computer-and-ai-engineering-assistant-associate-and-full-professor-311930/",
-   "alt_urls": [],
-   "rank": "Tenure-track Assistant",
-   "field": "CS",
-   "modality": "On-campus",
-   "snippet": "United Arab Emirates University: Job Description Faculty Position in Computer and AI Engineering - All Ranks The College of Computing and Artificial Intelligence (CCAI) at the Unit...",
-   "modality_evidence": "inferred (research-active/relocation role): 'research program'",
-   "has_full_text": true,
-   "region": "International/Other"
-  },
-  {
    "title": "Assistant/Associate/Full Professor - Artificial Intelligence",
    "institution": "Auburn University",
    "location": "Auburn, Alabama, United States",
@@ -6489,26 +6532,6 @@
    "modality_evidence": "description: 'on campus'",
    "has_full_text": true,
    "region": "Southeast"
-  },
-  {
-   "title": "Assistant Professor (TT)- Electrical & Computer Engineering- Power Electronics Devices & Systems",
-   "institution": "University of Massachusetts Amherst",
-   "location": "Massachusetts, United States",
-   "state": "MA",
-   "posted": "2026-10-13",
-   "source": "Chronicle of Higher Education Jobs",
-   "sources": [
-    "Chronicle of Higher Education Jobs"
-   ],
-   "url": "https://jobs.chronicle.com/job/38050834/assistant-professor-tt-electrical-and-computer-engineering-power-electronics-devices-and-systems/",
-   "alt_urls": [],
-   "rank": "Tenure-track Assistant",
-   "field": "Computer Eng",
-   "modality": "Unknown",
-   "snippet": "University of Massachusetts Amherst: The Department of Electrical & Computer Engineering at the University of Massachusetts Amherst invites applications for a tenure-track assistant",
-   "modality_evidence": "no modality cues in full description",
-   "has_full_text": true,
-   "region": "Northeast/Mid-Atlantic"
   },
   {
    "title": "Professor (All Ranks): Microelectronics with a focus on circuit/system design",
@@ -7011,26 +7034,6 @@
    "region": "West"
   },
   {
-   "title": "Assistant Professor of Artificial Intelligence",
-   "institution": "Angelo State University",
-   "location": "San Angelo, TX",
-   "state": "TX",
-   "posted": "2026-10-09",
-   "source": "Inside Higher Ed Careers",
-   "sources": [
-    "Inside Higher Ed Careers"
-   ],
-   "url": "https://careers.insidehighered.com/job/3561077/assistant-professor-of-artificial-intelligence/",
-   "alt_urls": [],
-   "rank": "Tenure-track Assistant",
-   "field": "CS",
-   "modality": "On-campus",
-   "snippet": "Job Title:Assistant Professor of Artificial IntelligencePosition Number:977278, 977301Department:Computer ScienceSalary:Commensurate with qualificatio",
-   "modality_evidence": "description: 'face-to-face'",
-   "has_full_text": true,
-   "region": "Southwest"
-  },
-  {
    "title": "Assistant Teaching Professor - Computer Science",
    "institution": "Universities of Wisconsin (comprehensives)",
    "location": "Green Bay, WI",
@@ -7154,26 +7157,6 @@
    "region": "West"
   },
   {
-   "title": "Adjunct Instructor, Computer Science",
-   "institution": "University of Cincinnati",
-   "location": "Cincinnati, OH",
-   "state": "OH",
-   "posted": "2026-10-08",
-   "source": "Inside Higher Ed Careers",
-   "sources": [
-    "Inside Higher Ed Careers"
-   ],
-   "url": "https://careers.insidehighered.com/job/3560360/adjunct-instructor-computer-science/",
-   "alt_urls": [],
-   "rank": "Adjunct",
-   "field": "CS",
-   "modality": "Unknown",
-   "snippet": "Current UC employees must apply internally via SuccessFactors  You are invited to apply to be included in the general pool of candidates from which q",
-   "modality_evidence": "no modality cues in full description",
-   "has_full_text": true,
-   "region": "Midwest"
-  },
-  {
    "title": "Assistant/Associate Professor - Computer Engineering",
    "institution": "The University of Nebraska\u2013Lincoln",
    "location": "Lincoln, NE",
@@ -7294,26 +7277,6 @@
    "region": "Northeast/Mid-Atlantic"
   },
   {
-   "title": "Assistant/Associate/Full Professor - Computational Biomedicine - Center for Computational Biology",
-   "institution": "UC Berkeley",
-   "location": "Berkeley, CA",
-   "state": "CA",
-   "posted": "2026-10-08",
-   "source": "UC Recruit",
-   "sources": [
-    "UC Recruit"
-   ],
-   "url": "https://aprecruit.berkeley.edu/JPF05568",
-   "alt_urls": [],
-   "rank": "Tenure-track Assistant",
-   "field": "CS",
-   "snippet": "Position overview Position titles: Assistant Professor Associate/Full Professor Salary range: The current salary range for the Assistant Professor positions is $84,100-$132,900 (9-month academic year salary); however, off-scale salary and other components of pay, which would yield compensation that ",
-   "modality": "On-campus",
-   "modality_evidence": "inferred (research-active/relocation role): 'relocation'",
-   "has_full_text": true,
-   "region": "West"
-  },
-  {
    "title": "2026-27 INI Teaching Track and Non-Tenure Track Faculty Positions",
    "institution": "Carnegie Mellon University",
    "location": "Pittsburgh, Pennsylvania, United States",
@@ -7381,13 +7344,10 @@
    "posted": "2026-10-07",
    "source": "Chronicle of Higher Education Jobs",
    "sources": [
-    "Chronicle of Higher Education Jobs",
-    "Inside Higher Ed Careers"
+    "Chronicle of Higher Education Jobs"
    ],
    "url": "https://jobs.chronicle.com/job/38048923/adjunct-instructor-electrical-and-computer-engineering/",
-   "alt_urls": [
-    "https://careers.insidehighered.com/job/3560361/adjunct-instructor-electrical-and-computer-engineering/"
-   ],
+   "alt_urls": [],
    "rank": "Adjunct",
    "field": "Computer Eng",
    "modality": "Unknown",
@@ -8109,24 +8069,24 @@
    "region": "Midwest"
   },
   {
-   "title": "Recruitment of Full-time Faculty Position in Electrical Engineering/Information Technology /Mechanic",
-   "institution": "National Sun Yat-sen University",
-   "location": "Kaohsiung (TW)",
-   "state": "Other/Unknown",
+   "title": "Computer Science Instructor - One Year Full Time Temporary",
+   "institution": "Kern Community College District",
+   "location": "California, United States",
+   "state": "CA",
    "posted": "2026-10-02",
    "source": "Chronicle of Higher Education Jobs",
    "sources": [
     "Chronicle of Higher Education Jobs"
    ],
-   "url": "https://jobs.chronicle.com/job/38046256/recruitment-of-full-time-faculty-position-in-electrical-engineering-information-technology-mechanic/",
+   "url": "https://jobs.chronicle.com/job/38046893/computer-science-instructor-one-year-full-time-temporary/",
    "alt_urls": [],
-   "rank": "Tenure-track Assistant",
-   "field": "EE",
-   "modality": "Unknown",
-   "snippet": "National Sun Yat-sen University: Recruitment of Full-time Faculty Position in Electrical Engineering / Information Technology / Mechanical Engineering Fields at the Department of I...",
-   "modality_evidence": "no modality cues in full description",
+   "rank": "Instructor/Lecturer/NTT",
+   "field": "CS",
+   "modality": "On-campus",
+   "snippet": "Kern Community College District: Computer Science Instructor - One Year Full Time Temporary Kern Community College District Salary: $89,080.98 - $116,884.82 Annually Job",
+   "modality_evidence": "description: 'in-person'",
    "has_full_text": true,
-   "region": "International/Other"
+   "region": "West"
   },
   {
    "title": "Assistant Professor of Computer Science (Mobile Device Forensics)",
@@ -8147,26 +8107,6 @@
    "modality_evidence": "inferred (research-active/relocation role): 'research program'",
    "has_full_text": true,
    "region": "Southwest"
-  },
-  {
-   "title": "Computer Science Instructor - One Year Full Time Temporary",
-   "institution": "Kern Community College District",
-   "location": "California, United States",
-   "state": "CA",
-   "posted": "2026-10-02",
-   "source": "Chronicle of Higher Education Jobs",
-   "sources": [
-    "Chronicle of Higher Education Jobs"
-   ],
-   "url": "https://jobs.chronicle.com/job/38046893/computer-science-instructor-one-year-full-time-temporary/",
-   "alt_urls": [],
-   "rank": "Instructor/Lecturer/NTT",
-   "field": "CS",
-   "modality": "On-campus",
-   "snippet": "Kern Community College District: Computer Science Instructor - One Year Full Time Temporary Kern Community College District Salary: $89,080.98 - $116,884.82 Annually Job",
-   "modality_evidence": "description: 'in-person'",
-   "has_full_text": true,
-   "region": "West"
   },
   {
    "title": "Assistant Professor of Petroleum Engineering (Artificial Intelligence)",
@@ -8418,26 +8358,6 @@
    "modality_evidence": "inferred (research-active/relocation role): 'research program'",
    "has_full_text": true,
    "region": "West"
-  },
-  {
-   "title": "Assistant Professor, Mathematics & Computer Science Tenure-Track, UC Blue Ash College",
-   "institution": "University of Cincinnati",
-   "location": "Cincinnati, OH",
-   "state": "OH",
-   "posted": "2026-10-01",
-   "source": "Inside Higher Ed Careers",
-   "sources": [
-    "Inside Higher Ed Careers"
-   ],
-   "url": "https://careers.insidehighered.com/job/3557555/assistant-professor-mathematics-and-computer-science-tenure-track-uc-blue-ash-college/",
-   "alt_urls": [],
-   "rank": "Tenure-track Assistant",
-   "field": "CS",
-   "modality": "On-campus",
-   "snippet": "Current UC employees must apply internally via SuccessFactors  Faculty rank and compensation will be based on experience and academic credentials. Ne",
-   "modality_evidence": "description: 'in-person'",
-   "has_full_text": true,
-   "region": "Midwest"
   },
   {
    "title": "Adjunct Instructor - Business Information Technology",
@@ -8803,26 +8723,6 @@
    "field": "CS",
    "modality": "Unknown",
    "snippet": "genevacollege: Geneva College\u00a0invites applications for a tenure track faculty position in the Department of Computer Science & Cybersecurity. The position begins...",
-   "modality_evidence": "no modality cues in full description",
-   "has_full_text": true,
-   "region": "Northeast/Mid-Atlantic"
-  },
-  {
-   "title": "Tenure-Track Professor in Computer Science",
-   "institution": "Harvard John A. Paulson School of Engineering and Applied Sciences",
-   "location": "Allston, Massachusetts",
-   "state": "MA",
-   "posted": "2026-09-28",
-   "source": "Chronicle of Higher Education Jobs",
-   "sources": [
-    "Chronicle of Higher Education Jobs"
-   ],
-   "url": "https://jobs.chronicle.com/job/38044361/tenure-track-professor-in-computer-science/",
-   "alt_urls": [],
-   "rank": "Tenure-track Assistant",
-   "field": "CS",
-   "modality": "Unknown",
-   "snippet": "Harvard John A. Paulson School of Engineering and Applied Sciences: The Harvard John A. Paulson School of Engineering and Applied Sciences (SEAS) seeks applicants for a tenure-track position in Computer Science.",
    "modality_evidence": "no modality cues in full description",
    "has_full_text": true,
    "region": "Northeast/Mid-Atlantic"
@@ -10409,6 +10309,26 @@
    "region": "West"
   },
   {
+   "title": "Assistant Professor, Tenure-Track, AI",
+   "institution": "University of Washington (Information School)",
+   "location": "Seattle UW Campus ",
+   "state": "WA",
+   "posted": "2026-09-10",
+   "source": "UW Academic HR",
+   "sources": [
+    "UW Academic HR"
+   ],
+   "url": "https://ap.washington.edu/ahr/position-details/?job_id=190340",
+   "alt_urls": [],
+   "rank": "Tenure-track Assistant",
+   "field": "CS",
+   "snippet": " document.documentElement.classList.remove(\"no-js\"); Position Details - Academic Personnel & Faculty {\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/ap.washington.edu\\/ahr\\/position-details\\/\",\"url\":\"https:\\/\\/ap.washington.edu\\/ahr\\/position-details\\/\",\"name\":\"Posit",
+   "modality": "Unknown",
+   "modality_evidence": "no modality cues in full description",
+   "has_full_text": true,
+   "region": "Pacific Northwest"
+  },
+  {
    "title": "UTK, EECS 7 Tenure Track Faculty Positions Comp. Science, Comp Eng. and Electrical Eng.",
    "institution": "University of Tennessee",
    "location": "Knoxville, Tennessee, United States",
@@ -11316,106 +11236,6 @@
    "modality_evidence": "inferred (research-active/relocation role): 'research program'",
    "has_full_text": true,
    "region": "Northeast/Mid-Atlantic"
-  },
-  {
-   "title": "Computer Science - Director of Cyber Innovation Hub - Associate or Full Professor - 530324",
-   "institution": "The University of Alabama",
-   "location": "Tuscaloosa, AL",
-   "state": "AL",
-   "posted": "2026-08-22",
-   "source": "Inside Higher Ed Careers",
-   "sources": [
-    "Inside Higher Ed Careers"
-   ],
-   "url": "https://careers.insidehighered.com/job/3543516/computer-science-director-of-cyber-innovation-hub-associate-or-full-professor-530324/",
-   "alt_urls": [],
-   "rank": "Associate/Full/Tenured",
-   "field": "CS",
-   "modality": "On-campus",
-   "snippet": "Department/Organization 214241 - Computer ScienceRank Associate/Full ProfessorPosition Summary The Department of Computer Science (CS) and the Lee J.",
-   "modality_evidence": "description: 'on campus'",
-   "has_full_text": true,
-   "region": "Southeast"
-  },
-  {
-   "title": "Electrical and Computer Engineering - Full Professor - 530362",
-   "institution": "The University of Alabama",
-   "location": "Tuscaloosa, AL",
-   "state": "AL",
-   "posted": "2026-08-22",
-   "source": "Inside Higher Ed Careers",
-   "sources": [
-    "Inside Higher Ed Careers"
-   ],
-   "url": "https://careers.insidehighered.com/job/3543527/electrical-and-computer-engineering-full-professor-530362/",
-   "alt_urls": [],
-   "rank": "Associate/Full/Tenured",
-   "field": "Computer Eng",
-   "modality": "On-campus",
-   "snippet": "Department/Organization 214251 - Electrical and Computer EngRank ProfessorPosition Summary The Department of Electrical and Computer Engineering (ECE)",
-   "modality_evidence": "inferred (research-active/relocation role): 'research program'",
-   "has_full_text": true,
-   "region": "Southeast"
-  },
-  {
-   "title": "Electrical and Computer Engineering - Associate Professor - 530361",
-   "institution": "The University of Alabama",
-   "location": "Tuscaloosa, AL",
-   "state": "AL",
-   "posted": "2026-08-22",
-   "source": "Inside Higher Ed Careers",
-   "sources": [
-    "Inside Higher Ed Careers"
-   ],
-   "url": "https://careers.insidehighered.com/job/3543522/electrical-and-computer-engineering-associate-professor-530361/",
-   "alt_urls": [],
-   "rank": "Associate/Full/Tenured",
-   "field": "Computer Eng",
-   "modality": "On-campus",
-   "snippet": "Department/Organization 214251 - Electrical and Computer EngRank Associate ProfessorPosition Summary The Department of Electrical and Computer Enginee",
-   "modality_evidence": "inferred (research-active/relocation role): 'research program'",
-   "has_full_text": true,
-   "region": "Southeast"
-  },
-  {
-   "title": "Electrical and Computer Engineering - Assistant Professor - 530360",
-   "institution": "The University of Alabama",
-   "location": "Tuscaloosa, AL",
-   "state": "AL",
-   "posted": "2026-08-22",
-   "source": "Inside Higher Ed Careers",
-   "sources": [
-    "Inside Higher Ed Careers"
-   ],
-   "url": "https://careers.insidehighered.com/job/3543523/electrical-and-computer-engineering-assistant-professor-530360/",
-   "alt_urls": [],
-   "rank": "Tenure-track Assistant",
-   "field": "Computer Eng",
-   "modality": "On-campus",
-   "snippet": "Department/Organization 214251 - Electrical and Computer EngRank Assistant ProfessorPosition Summary The Department of Electrical and Computer Enginee",
-   "modality_evidence": "inferred (research-active/relocation role): 'research program'",
-   "has_full_text": true,
-   "region": "Southeast"
-  },
-  {
-   "title": "Electrical and Computer Engineering - Renewable Contract Teaching Assistant Professor - 530364",
-   "institution": "The University of Alabama",
-   "location": "Tuscaloosa, AL",
-   "state": "AL",
-   "posted": "2026-08-22",
-   "source": "Inside Higher Ed Careers",
-   "sources": [
-    "Inside Higher Ed Careers"
-   ],
-   "url": "https://careers.insidehighered.com/job/3543517/electrical-and-computer-engineering-renewable-contract-teaching-assistant-professor-530364/",
-   "alt_urls": [],
-   "rank": "Instructor/Lecturer/NTT",
-   "field": "Computer Eng",
-   "modality": "On-campus",
-   "snippet": "Department/Organization 214251 - Electrical and Computer EngRank Teaching Assistant ProfessorPosition Summary The Department of Electrical and Compute",
-   "modality_evidence": "description: 'in person'",
-   "has_full_text": true,
-   "region": "Southeast"
   },
   {
    "title": "Tenure-Track Assistant Professor, Computer Science & Information Technology",
@@ -12747,26 +12567,6 @@
    "region": "Southeast"
   },
   {
-   "title": "Lecturer of Data Science and Analytics",
-   "institution": "Kennesaw State University",
-   "location": "Kennesaw",
-   "state": "GA",
-   "posted": "2026-07-10",
-   "source": "Inside Higher Ed Careers",
-   "sources": [
-    "Inside Higher Ed Careers"
-   ],
-   "url": "https://careers.insidehighered.com/job/3526705/lecturer-of-data-science-and-analytics/",
-   "alt_urls": [],
-   "rank": "Instructor/Lecturer/NTT",
-   "field": "CS",
-   "modality": "On-campus",
-   "snippet": "Lecturer of Data Science and Analytics Job ID: 300368 Location: Kennesaw, Georgia Full/Part Time: Full Time Regular/Temporary: Regular Ab",
-   "modality_evidence": "description: 'on campus'",
-   "has_full_text": true,
-   "region": "Southeast"
-  },
-  {
    "title": "Open Rank Professor of Data Science and Analytics",
    "institution": "Kennesaw State University",
    "location": "Kennesaw",
@@ -12967,6 +12767,26 @@
    "region": "Southeast"
   },
   {
+   "title": "Lecturer of Data Science and Analytics",
+   "institution": "Kennesaw State University",
+   "location": "Kennesaw, Georgia",
+   "state": "GA",
+   "posted": "2026-07-04",
+   "source": "Inside Higher Ed Careers",
+   "sources": [
+    "Inside Higher Ed Careers"
+   ],
+   "url": "https://careers.insidehighered.com/job/3525277/lecturer-of-data-science-and-analytics/",
+   "alt_urls": [],
+   "rank": "Instructor/Lecturer/NTT",
+   "field": "CS",
+   "modality": "On-campus",
+   "snippet": "Job Title: Lecturer of Data Science and Analytics  Location: Kennesaw, Georgia  Regular/Temporary: Regular  Full/Part Time: Full-Time  Job ID: 300368",
+   "modality_evidence": "description: 'on campus'",
+   "has_full_text": true,
+   "region": "Southeast"
+  },
+  {
    "title": "Computer Science Associate (Part-time) Instructor Pool 2026 - 2027",
    "institution": "MiraCosta College",
    "location": "Cardiff, California",
@@ -13117,13 +12937,10 @@
    "posted": "2026-06-18",
    "source": "Chronicle of Higher Education Jobs",
    "sources": [
-    "Chronicle of Higher Education Jobs",
-    "Inside Higher Ed Careers"
+    "Chronicle of Higher Education Jobs"
    ],
    "url": "https://jobs.chronicle.com/job/38003883/computer-science-part-time-adjunct-faculty/",
-   "alt_urls": [
-    "https://careers.insidehighered.com/job/3519764/computer-science-part-time-adjunct-faculty/"
-   ],
+   "alt_urls": [],
    "rank": "Adjunct",
    "field": "CS",
    "modality": "Unknown",
@@ -14219,26 +14036,6 @@
    "region": "Southwest"
   },
   {
-   "title": "Visiting Assistant Professor - Electrical and Computer Engineering",
-   "institution": "University at Albany, SUNY",
-   "location": "Albany, New York, United States",
-   "state": "NY",
-   "posted": "2026-02-25",
-   "source": "Chronicle of Higher Education Jobs",
-   "sources": [
-    "Chronicle of Higher Education Jobs"
-   ],
-   "url": "https://jobs.chronicle.com/job/37955553/visiting-assistant-professor-electrical-and-computer-engineering/",
-   "alt_urls": [],
-   "rank": "Instructor/Lecturer/NTT",
-   "field": "Computer Eng",
-   "modality": "On-campus",
-   "snippet": "University at Albany, SUNY: About University at Albany: Established in 1844 and designated a University Center of the State University of New York in 1962, the University at",
-   "modality_evidence": "inferred (research-active/relocation role): 'research program'",
-   "has_full_text": true,
-   "region": "Northeast/Mid-Atlantic"
-  },
-  {
    "title": "Full-Time Tenure Track Faculty - Computer Information Systems: Cybersecurity",
    "institution": "City Colleges of Chicago",
    "location": "Chicago, Illinois, United States",
@@ -14843,26 +14640,6 @@
    "modality_evidence": "no modality cues in full description",
    "has_full_text": true,
    "region": "West"
-  },
-  {
-   "title": "Visiting Assistant Professor - Computer Science",
-   "institution": "University at Albany, SUNY",
-   "location": "Albany, New York, United States",
-   "state": "NY",
-   "posted": "2025-11-18",
-   "source": "Chronicle of Higher Education Jobs",
-   "sources": [
-    "Chronicle of Higher Education Jobs"
-   ],
-   "url": "https://jobs.chronicle.com/job/37917619/visiting-assistant-professor-computer-science/",
-   "alt_urls": [],
-   "rank": "Instructor/Lecturer/NTT",
-   "field": "CS",
-   "modality": "On-campus",
-   "snippet": "University at Albany, SUNY: About University at Albany: Established in 1844 and designated a University Center of the State University of New York in 1962, the University at",
-   "modality_evidence": "inferred (research-active/relocation role): 'research program'",
-   "has_full_text": true,
-   "region": "Northeast/Mid-Atlantic"
   },
   {
    "title": "Part Time Instructor of Data Science",
