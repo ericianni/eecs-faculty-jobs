@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-26T09:40:34+00:00",
+ "generated": "2026-11-27T09:49:29+00:00",
  "sources": {
   "Chronicle of Higher Education Jobs": "https://jobs.chronicle.com/jobsrss/",
   "Inside Higher Ed Careers": "https://careers.insidehighered.com/jobsrss/",
@@ -9,10 +9,70 @@
   "University career sites (Workday, UC Recruit, UW Academic HR)": "https://ap.washington.edu/ahr/academic-jobs/",
   "Community submission": "https://ericianni.github.io/eecs-faculty-jobs/#submit"
  },
- "count": 850,
- "scraped_count": 849,
+ "count": 849,
+ "scraped_count": 848,
  "community_count": 1,
  "jobs": [
+  {
+   "title": "Faculty & Research Positions at the College of Engineering & Advanced Computing, Alfaisal University",
+   "institution": "Alfaisal University",
+   "location": "Saudi Arabia (SA)",
+   "state": "Other/Unknown",
+   "posted": "2026-11-26",
+   "source": "Chronicle of Higher Education Jobs",
+   "sources": [
+    "Chronicle of Higher Education Jobs"
+   ],
+   "url": "https://jobs.chronicle.com/job/38071406/faculty-and-research-positions-at-the-college-of-engineering-and-advanced-computing-alfaisal-university/",
+   "alt_urls": [],
+   "rank": "Instructor/Lecturer/NTT",
+   "field": "CS",
+   "modality": "On-campus",
+   "snippet": "Alfaisal University: Faculty Positions in the College of Engineering (CoE) Alfaisal University, Saudi Arabia. Apply at: https://jobs.alfaisal.edu/site/coe",
+   "modality_evidence": "inferred (research-active/relocation role): 'research program'",
+   "has_full_text": true,
+   "region": "International/Other"
+  },
+  {
+   "title": "Faculty Position in Cybersecurity",
+   "institution": "University of Delaware",
+   "location": "Delaware, United States",
+   "state": "DE",
+   "posted": "2026-11-26",
+   "source": "Chronicle of Higher Education Jobs",
+   "sources": [
+    "Chronicle of Higher Education Jobs"
+   ],
+   "url": "https://jobs.chronicle.com/job/38071407/faculty-position-in-cybersecurity/",
+   "alt_urls": [],
+   "rank": "Instructor/Lecturer/NTT",
+   "field": "CS",
+   "modality": "Unknown",
+   "snippet": "University of Delaware: University of Delaware Equal Employment Opportunity Statement The University of Delaware is an Equal Opportunity Employer which encourages",
+   "modality_evidence": "no modality cues in full description",
+   "has_full_text": true,
+   "region": "Northeast/Mid-Atlantic"
+  },
+  {
+   "title": "Assistant Professor \u2013 Computer Science at the University of Colorado Denver, Hyderabad",
+   "institution": "Emeritus",
+   "location": "Hyderabad, Andhra Pradesh (IN)",
+   "state": "Other/Unknown",
+   "posted": "2026-11-26",
+   "source": "Chronicle of Higher Education Jobs",
+   "sources": [
+    "Chronicle of Higher Education Jobs"
+   ],
+   "url": "https://jobs.chronicle.com/job/38071460/assistant-professor-computer-science-at-the-university-of-colorado-denver-hyderabad/",
+   "alt_urls": [],
+   "rank": "Tenure-track Assistant",
+   "field": "CS",
+   "modality": "Unknown",
+   "snippet": "Emeritus: UC Denver Hyderabad, India is seeking an Assistant Professor of Computer Science to teach on its Bachelors and Masters degree programs.",
+   "modality_evidence": "no modality cues in full description",
+   "has_full_text": true,
+   "region": "International/Other"
+  },
   {
    "title": "Computer Science, Mathematics and Science Adjunct Professor",
    "institution": "St. John's University",
@@ -7997,26 +8057,6 @@
    "region": "West"
   },
   {
-   "title": "Computer Science Faculty - Tenured, Tenure-track - Ithaca, NY",
-   "institution": "Cornell University/Cornell Ann S. Bowers College of Computing and Information Science",
-   "location": "Ithaca, New York, United States",
-   "state": "NY",
-   "posted": "2026-10-12",
-   "source": "CRA Career Center",
-   "sources": [
-    "CRA Career Center"
-   ],
-   "url": "https://careercenter.cra.org/job/computer-science-faculty-tenured-tenure-track-ithaca-ny-ithaca-new-york-2493",
-   "alt_urls": [],
-   "rank": "Associate/Full/Tenured",
-   "field": "CS",
-   "snippet": " The Cornell University Department of Computer Science (CS) in the Cornell Bowers College of Computing and Information Science (Bowers) has multiple faculty positions available at its Ithaca campus (tenured and tenure-track). Cornell CS is ranked among the top computer science departments in the cou",
-   "modality": "On-campus",
-   "modality_evidence": "inferred (research-active/relocation role): 'research program'",
-   "has_full_text": true,
-   "region": "Northeast/Mid-Atlantic"
-  },
-  {
    "title": "Assistant Professor of Computer Science",
    "institution": "University of Memphis Department of Computer Science",
    "location": "Memphis, Tennessee, United States",
@@ -9689,46 +9729,6 @@
    "modality_evidence": "inferred (research-active/relocation role): 'relocation'",
    "has_full_text": true,
    "region": "West"
-  },
-  {
-   "title": "Assistant Professor of Computer Science",
-   "institution": "Bowdoin College",
-   "location": "Maine, United States",
-   "state": "ME",
-   "posted": "2026-09-28",
-   "source": "Chronicle of Higher Education Jobs",
-   "sources": [
-    "Chronicle of Higher Education Jobs"
-   ],
-   "url": "https://jobs.chronicle.com/job/38044594/assistant-professor-of-computer-science/",
-   "alt_urls": [],
-   "rank": "Tenure-track Assistant",
-   "field": "CS",
-   "modality": "Unknown",
-   "snippet": "Bowdoin College: Assistant Professor of Computer Science Bowdoin College Posting Number: F00312JP Department: Computer Science Position Summary: Bowdoin",
-   "modality_evidence": "no modality cues in full description",
-   "has_full_text": true,
-   "region": "Northeast/Mid-Atlantic"
-  },
-  {
-   "title": "Tenure-Track Faculty in Computer Science",
-   "institution": "genevacollege",
-   "location": "Pennsylvania, United States",
-   "state": "PA",
-   "posted": "2026-09-28",
-   "source": "Chronicle of Higher Education Jobs",
-   "sources": [
-    "Chronicle of Higher Education Jobs"
-   ],
-   "url": "https://jobs.chronicle.com/job/38044280/tenure-track-faculty-in-computer-science/",
-   "alt_urls": [],
-   "rank": "Tenure-track Assistant",
-   "field": "CS",
-   "modality": "Unknown",
-   "snippet": "genevacollege: Geneva College\u00a0invites applications for a tenure track faculty position in the Department of Computer Science & Cybersecurity. The position begins...",
-   "modality_evidence": "no modality cues in full description",
-   "has_full_text": true,
-   "region": "Northeast/Mid-Atlantic"
   },
   {
    "title": "Tenure-track Assistant/Associate Professor in Computer Engineering",
@@ -13566,19 +13566,19 @@
   {
    "title": "Computer Science Part-time Adjunct Faculty",
    "institution": "Oakton College",
-   "location": "Des Plaines, Illinois, United States",
+   "location": "Des Plaines / Skokie, IL",
    "state": "IL",
-   "posted": "2026-06-18",
-   "source": "Chronicle of Higher Education Jobs",
+   "posted": "2026-06-19",
+   "source": "Inside Higher Ed Careers",
    "sources": [
-    "Chronicle of Higher Education Jobs"
+    "Inside Higher Ed Careers"
    ],
-   "url": "https://jobs.chronicle.com/job/38003883/computer-science-part-time-adjunct-faculty/",
+   "url": "https://careers.insidehighered.com/job/3519764/computer-science-part-time-adjunct-faculty/",
    "alt_urls": [],
    "rank": "Adjunct",
    "field": "CS",
    "modality": "Unknown",
-   "snippet": "Oakton College: About Oakton College : Educate. Empower. Transform At Oakton College, we know education changes lives - and that starts with the people who make",
+   "snippet": "Category:: Adjunct Faculty Subscribe::  Department:: Division of STEM Locations:: Des Plaines / Skokie, IL Posted:: Jun 18, 2026 Closes:: Open Until F",
    "modality_evidence": "no modality cues in full description",
    "has_full_text": true,
    "region": "Midwest"
@@ -15154,26 +15154,6 @@
    "modality_evidence": "no modality cues in full description",
    "has_full_text": true,
    "region": "Midwest"
-  },
-  {
-   "title": "Adjunct Faculty/Computer Information Systems (CIS)",
-   "institution": "Westchester Community College",
-   "location": "Valhalla, NY",
-   "state": "NY",
-   "posted": "2025-11-21",
-   "source": "Inside Higher Ed Careers",
-   "sources": [
-    "Inside Higher Ed Careers"
-   ],
-   "url": "https://careers.insidehighered.com/job/3432635/adjunct-faculty-computer-information-systems-cis-/",
-   "alt_urls": [],
-   "rank": "Adjunct",
-   "field": "CS",
-   "modality": "Unknown",
-   "snippet": "Category:: Adjunct Positions - Teaching Faculty Subscribe::  Department:: Computer Information Technologies/School of Business and Pro Locations:: Val",
-   "modality_evidence": "no modality cues in full description",
-   "has_full_text": true,
-   "region": "Northeast/Mid-Atlantic"
   },
   {
    "title": "Part Time Instructor of Data Science",
